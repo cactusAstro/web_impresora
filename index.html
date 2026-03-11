@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Gestión de Impresoras</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+        }
+
+        header {
+            background: rgb(50, 115, 117);
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 95%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .filtros {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        input,
+        select {
+            padding: 10px;
+            min-width: 220px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background: rgb(50, 115, 117);
+            color: black;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        button {
+            padding: 6px 10px;
+            background: green;
+            font-weight: bolder;
+            color: white;
+            margin: 2px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .info {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .contador {
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .sin-resultados {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Panel de Gestión de Impresoras de Red</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="filtros">
+            <input type="text" id="buscar" placeholder="Buscar impresora..." onkeyup="aplicarFiltros()">
+
+            <select id="filtroEdificio" onchange="aplicarFiltros()">
+                <option value="">Todos los edificios</option>
+            </select>
+
+            <select id="filtroUbicacion" onchange="aplicarFiltros()">
+                <option value="">Todas las ubicaciones</option>
+            </select>
+
+            <select id="filtroMarca" onchange="aplicarFiltros()">
+                <option value="">Todas las marcas</option>
+            </select>
+
+            <select id="ordenar" onchange="aplicarFiltros()">
+                <option value="">Sin ordenar</option>
+                <option value="ubicacion-asc">Ubicación A-Z</option>
+                <option value="ubicacion-desc">Ubicación Z-A</option>
+                <option value="modelo-asc">Modelo A-Z</option>
+                <option value="modelo-desc">Modelo Z-A</option>
+                <option value="edificio-asc">Edificio A-Z</option>
+                <option value="edificio-desc">Edificio Z-A</option>
+                <option value="marca-asc">Marca A-Z</option>
+                <option value="marca-desc">Marca Z-A</option>
+            </select>
+
+            <select id="soloIP" onchange="aplicarFiltros()">
+                <option value="">Todas</option>
+                <option value="con-ip">Solo con IP</option>
+                <option value="sin-ip">Solo sin IP</option>
+            </select>
+        </div>
+
+        <p class="info">
+            Puedes buscar por <b>edificio</b>, <b>ubicación</b>, <b>marca</b> o <b>modelo</b>.
+            Para elegir un lugar exacto como <b>Teruel centro</b>, usa el desplegable de <b>ubicación</b>.
+        </p>
+
+        <div class="contador" id="contador">Resultados: 0</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Edificio</th>
+                    <th>Ubicación</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>IP</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="tabla"></tbody>
+        </table>
+
+    </div>
+
+    <script src="impresoras.js"></script>
+
+    <script>
+        function renderizarTabla(lista) {
+            const tabla = document.getElementById("tabla");
+            const contador = document.getElementById("contador");
+
+            tabla.innerHTML = "";
+
+            if (lista.length === 0) {
+                tabla.innerHTML = `
+                    <tr>
+                        <td colspan="7" class="sin-resultados">No se encontraron impresoras.</td>
+                    </tr>
+                `;
+            } else {
+                lista.forEach(p => {
+                    tabla.innerHTML += `
+                        <tr>
+                            <td>${p.ID ?? ""}</td>
+                            <td>${p.EDIFICIO ?? ""}</td>
+                            <td>${p.UBICACION ?? ""}</td>
+                            <td>${p.MARCA ?? ""}</td>
+                            <td>${p.MODELO ?? ""}</td>
+                            <td>${p["IP-PC"] ?? ""}</td>
+                            <td>
+                                <button onclick="abrir('${p["IP-PC"] ?? ""}')">Abrir</button>
+                            </td>
+                        </tr>
+                    `;
+                });
+            }
+
+            contador.textContent = "Resultados: " + lista.length;
+        }
+
+        function abrir(ip) {
+            if (ip && ip.trim() !== "") {
+                window.open("http://" + ip, "_blank");
+            } else {
+                alert("Esta impresora no tiene IP registrada");
+            }
+        }
+
+        function cargarFiltros() {
+            const selectEdificio = document.getElementById("filtroEdificio");
+            const selectUbicacion = document.getElementById("filtroUbicacion");
+            const selectMarca = document.getElementById("filtroMarca");
+
+            const edificios = [...new Set(impresoras.map(p => p.EDIFICIO).filter(Boolean))].sort();
+            const ubicaciones = [...new Set(impresoras.map(p => p.UBICACION).filter(Boolean))].sort();
+            const marcas = [...new Set(impresoras.map(p => p.MARCA).filter(Boolean))].sort();
+
+            edificios.forEach(edificio => {
+                selectEdificio.innerHTML += `<option value="${edificio}">${edificio}</option>`;
+            });
+
+            ubicaciones.forEach(ubicacion => {
+                selectUbicacion.innerHTML += `<option value="${ubicacion}">${ubicacion}</option>`;
+            });
+
+            marcas.forEach(marca => {
+                selectMarca.innerHTML += `<option value="${marca}">${marca}</option>`;
+            });
+        }
+
+        function aplicarFiltros() {
+            const texto = document.getElementById("buscar").value.toLowerCase().trim();
+            const edificioSeleccionado = document.getElementById("filtroEdificio").value;
+            const ubicacionSeleccionada = document.getElementById("filtroUbicacion").value;
+            const marcaSeleccionada = document.getElementById("filtroMarca").value;
+            const orden = document.getElementById("ordenar").value;
+            const soloIP = document.getElementById("soloIP").value;
+
+            let resultado = impresoras.filter(p => {
+                const ubicacion = String(p.UBICACION ?? "");
+                const edificio = String(p.EDIFICIO ?? "");
+                const modelo = String(p.MODELO ?? "");
+                const marca = String(p.MARCA ?? "");
+                const ip = String(p["IP-PC"] ?? "").trim();
+
+                const coincideTexto =
+                    texto === "" ||
+                    ubicacion.toLowerCase().includes(texto) ||
+                    edificio.toLowerCase().includes(texto) ||
+                    modelo.toLowerCase().includes(texto) ||
+                    marca.toLowerCase().includes(texto);
+
+                const coincideEdificio =
+                    edificioSeleccionado === "" || edificio === edificioSeleccionado;
+
+                const coincideUbicacion =
+                    ubicacionSeleccionada === "" || ubicacion === ubicacionSeleccionada;
+
+                const coincideMarca =
+                    marcaSeleccionada === "" || marca === marcaSeleccionada;
+
+                const tieneIP = ip !== "";
+
+                const coincideIP =
+                    soloIP === "" ||
+                    (soloIP === "con-ip" && tieneIP) ||
+                    (soloIP === "sin-ip" && !tieneIP);
+
+                return coincideTexto && coincideEdificio && coincideUbicacion && coincideMarca && coincideIP;
+            });
+
+            if (orden === "ubicacion-asc") {
+                resultado.sort((a, b) => String(a.UBICACION ?? "").localeCompare(String(b.UBICACION ?? "")));
+            } else if (orden === "ubicacion-desc") {
+                resultado.sort((a, b) => String(b.UBICACION ?? "").localeCompare(String(a.UBICACION ?? "")));
+            } else if (orden === "modelo-asc") {
+                resultado.sort((a, b) => String(a.MODELO ?? "").localeCompare(String(b.MODELO ?? "")));
+            } else if (orden === "modelo-desc") {
+                resultado.sort((a, b) => String(b.MODELO ?? "").localeCompare(String(a.MODELO ?? "")));
+            } else if (orden === "edificio-asc") {
+                resultado.sort((a, b) => String(a.EDIFICIO ?? "").localeCompare(String(b.EDIFICIO ?? "")));
+            } else if (orden === "edificio-desc") {
+                resultado.sort((a, b) => String(b.EDIFICIO ?? "").localeCompare(String(a.EDIFICIO ?? "")));
+            } else if (orden === "marca-asc") {
+                resultado.sort((a, b) => String(a.MARCA ?? "").localeCompare(String(b.MARCA ?? "")));
+            } else if (orden === "marca-desc") {
+                resultado.sort((a, b) => String(b.MARCA ?? "").localeCompare(String(a.MARCA ?? "")));
+            }
+
+            renderizarTabla(resultado);
+        }
+
+        cargarFiltros();
+        renderizarTabla(impresoras);
+    </script>
+
+</body>
+
+</html>
