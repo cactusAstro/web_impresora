@@ -5,7 +5,8 @@ const impresoras = [
     "UBICACION": "INFORMATICA",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS X 1440i",
-    "IP-PC": "10.35.232.81"
+    "IP-PC": "10.35.232.81",
+    "SERIAL": "4UX53980"
   },
   {
     "ID": 8,
@@ -13,7 +14,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "CANON",
     "MODELO": "iR-ADV527",
-    "IP-PC": "10.35.232.44"
+    "IP-PC": "10.35.232.44",
+    "SERIAL": null
   },
   {
     "ID": 9,
@@ -21,7 +23,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "FARM-2"
+    "IP-PC": "FARM-2",
+    "SERIAL": null
   },
   {
     "ID": 10,
@@ -29,7 +32,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S621",
-    "IP-PC": "FARM-2"
+    "IP-PC": "FARM-2",
+    "SERIAL": null
   },
   {
     "ID": 11,
@@ -37,7 +41,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "RRXX-1"
+    "IP-PC": "RRXX-1",
+    "SERIAL": "ZDGSB8GKAA00BKX"
   },
   {
     "ID": 13,
@@ -45,7 +50,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "RRXX-9"
+    "IP-PC": "RRXX-9",
+    "SERIAL": "ZDGSB8GKAA007WM"
   },
   {
     "ID": 14,
@@ -53,7 +59,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "RRXX-32"
+    "IP-PC": "RRXX-32",
+    "SERIAL": null
   },
   {
     "ID": 15,
@@ -61,7 +68,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "RRXX-33"
+    "IP-PC": "RRXX-33",
+    "SERIAL": null
   },
   {
     "ID": 17,
@@ -69,7 +77,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "RRXX-2"
+    "IP-PC": "RRXX-2",
+    "SERIAL": null
   },
   {
     "ID": 19,
@@ -77,7 +86,8 @@ const impresoras = [
     "UBICACION": "CITACIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "ADMC-2"
+    "IP-PC": "ADMC-2",
+    "SERIAL": "ZDGSB8GKAA00ADB"
   },
   {
     "ID": 20,
@@ -85,7 +95,8 @@ const impresoras = [
     "UBICACION": "CITACIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "ADMC-4"
+    "IP-PC": "ADMC-4",
+    "SERIAL": "ZDGSB8GKAA004XP"
   },
   {
     "ID": 21,
@@ -93,7 +104,8 @@ const impresoras = [
     "UBICACION": "CITACIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "RRXX-10"
+    "IP-PC": "RRXX-10",
+    "SERIAL": "ZDGSB8GKAA00AZB"
   },
   {
     "ID": 22,
@@ -101,7 +113,8 @@ const impresoras = [
     "UBICACION": "CITACONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.232.94"
+    "IP-PC": "10.35.232.94",
+    "SERIAL": "ZDGSB8GKAA008MK"
   },
   {
     "ID": 23,
@@ -109,7 +122,8 @@ const impresoras = [
     "UBICACION": "CITACIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "ADMC-3"
+    "IP-PC": "ADMC-3",
+    "SERIAL": "ZDGSB8GKAA00B0X"
   },
   {
     "ID": 25,
@@ -117,7 +131,8 @@ const impresoras = [
     "UBICACION": "CITACIONES",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.233.82"
+    "IP-PC": "10.35.233.82",
+    "SERIAL": "RZR17036"
   },
   {
     "ID": 26,
@@ -125,7 +140,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.20.108"
+    "IP-PC": "10.35.20.108",
+    "SERIAL": "CNB3N5GJHM"
   },
   {
     "ID": 27,
@@ -133,7 +149,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.20.107"
+    "IP-PC": "10.35.20.107",
+    "SERIAL": "CNB3N5GJHT"
   },
   {
     "ID": 28,
@@ -141,7 +158,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "PEDC-1"
+    "IP-PC": "PEDC-1",
+    "SERIAL": "CNB3N5GJH7"
   },
   {
     "ID": 29,
@@ -149,7 +167,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "PEDC-2"
+    "IP-PC": "PEDC-2",
+    "SERIAL": null
   },
   {
     "ID": 30,
@@ -157,7 +176,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPNEUC02"
+    "IP-PC": "TEAEPNEUC02",
+    "SERIAL": "ZDGSB8GKAA0089R"
   },
   {
     "ID": 31,
@@ -165,7 +185,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPRESC01"
+    "IP-PC": "TEAEPRESC01",
+    "SERIAL": null
   },
   {
     "ID": 32,
@@ -173,7 +194,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPANEC01"
+    "IP-PC": "TEAEPANEC01",
+    "SERIAL": "CNB3N5GJH9"
   },
   {
     "ID": 33,
@@ -181,7 +203,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "DIGC-1"
+    "IP-PC": "DIGC-1",
+    "SERIAL": null
   },
   {
     "ID": 34,
@@ -189,7 +212,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "EDDC-1"
+    "IP-PC": "EDDC-1",
+    "SERIAL": null
   },
   {
     "ID": 35,
@@ -197,7 +221,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "EDDC-3"
+    "IP-PC": "EDDC-3",
+    "SERIAL": null
   },
   {
     "ID": 36,
@@ -205,7 +230,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPENDC01"
+    "IP-PC": "TEAEPENDC01",
+    "SERIAL": "CNB3N5GJHH"
   },
   {
     "ID": 37,
@@ -213,7 +239,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPMINC01"
+    "IP-PC": "TEAEPMINC01",
+    "SERIAL": null
   },
   {
     "ID": 38,
@@ -221,7 +248,8 @@ const impresoras = [
     "UBICACION": "SALA DE JUNTAS - URGENCIAS",
     "MARCA": "HP",
     "MODELO": "LASERJET 4515",
-    "IP-PC": "TEAEPURGN09"
+    "IP-PC": "TEAEPURGN09",
+    "SERIAL": null
   },
   {
     "ID": 39,
@@ -229,7 +257,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.232.90"
+    "IP-PC": "10.35.232.90",
+    "SERIAL": "CNB1R5KZTB"
   },
   {
     "ID": 40,
@@ -237,7 +266,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "CANON",
     "MODELO": "iR-ADV 527",
-    "IP-PC": "10.35.232.44"
+    "IP-PC": "10.35.232.44",
+    "SERIAL": "23A20385"
   },
   {
     "ID": 42,
@@ -245,7 +275,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "TEAEPURG02"
+    "IP-PC": "TEAEPURG02",
+    "SERIAL": null
   },
   {
     "ID": 43,
@@ -253,7 +284,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS ADMISIÓN",
     "MARCA": "ZEBRA",
     "MODELO": "LP-2824Z",
-    "IP-PC": "TEAEPURGN11"
+    "IP-PC": "TEAEPURGN11",
+    "SERIAL": null
   },
   {
     "ID": 45,
@@ -261,7 +293,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS ADMISIÓN",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S621",
-    "IP-PC": "TEAEPURGN10"
+    "IP-PC": "TEAEPURGN10",
+    "SERIAL": "JMBB042394"
   },
   {
     "ID": 46,
@@ -269,7 +302,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.232.93"
+    "IP-PC": "10.35.232.93",
+    "SERIAL": "RZR30190"
   },
   {
     "ID": 47,
@@ -277,7 +311,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPURGE02"
+    "IP-PC": "TEAEPURGE02",
+    "SERIAL": null
   },
   {
     "ID": 48,
@@ -285,7 +320,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "RICOH",
     "MODELO": "AFICIO SP6330N",
-    "IP-PC": "TEAEPURG18"
+    "IP-PC": "TEAEPURG18",
+    "SERIAL": null
   },
   {
     "ID": 49,
@@ -293,7 +329,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S621",
-    "IP-PC": "TEAEPURGN18"
+    "IP-PC": "TEAEPURGN18",
+    "SERIAL": "JMBB052335"
   },
   {
     "ID": 50,
@@ -301,7 +338,8 @@ const impresoras = [
     "UBICACION": "A. PACIENTE",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.232.88"
+    "IP-PC": "10.35.232.88",
+    "SERIAL": "RZR27184"
   },
   {
     "ID": 53,
@@ -309,7 +347,8 @@ const impresoras = [
     "UBICACION": "TRABAJO SOCIAL",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.233.117"
+    "IP-PC": "10.35.233.117",
+    "SERIAL": "RZR27182"
   },
   {
     "ID": 54,
@@ -317,7 +356,8 @@ const impresoras = [
     "UBICACION": "AMDISIÓN DE PACIENTES",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S621",
-    "IP-PC": "TEAEPADMP04"
+    "IP-PC": "TEAEPADMP04",
+    "SERIAL": "JMBB042279"
   },
   {
     "ID": 55,
@@ -325,7 +365,8 @@ const impresoras = [
     "UBICACION": "AMDISIÓN DE PACIENTES",
     "MARCA": "ZEBRA",
     "MODELO": "LP-2824Z",
-    "IP-PC": "TEAEPADMP04"
+    "IP-PC": "TEAEPADMP04",
+    "SERIAL": null
   },
   {
     "ID": 57,
@@ -333,7 +374,8 @@ const impresoras = [
     "UBICACION": "BIBLIOTECA",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M404",
-    "IP-PC": "TEAEPBIBL03"
+    "IP-PC": "TEAEPBIBL03",
+    "SERIAL": "PHCL541996"
   },
   {
     "ID": 59,
@@ -341,7 +383,8 @@ const impresoras = [
     "UBICACION": "ARCHIVOS",
     "MARCA": "CANON",
     "MODELO": "iR-ADV 400",
-    "IP-PC": "10.35.232.102"
+    "IP-PC": "10.35.232.102",
+    "SERIAL": "QLC23018"
   },
   {
     "ID": 60,
@@ -349,7 +392,8 @@ const impresoras = [
     "UBICACION": "CITACIONES",
     "MARCA": "CITOH",
     "MODELO": "S4",
-    "IP-PC": "TEAEPADMC05"
+    "IP-PC": "TEAEPADMC05",
+    "SERIAL": "4312X00473"
   },
   {
     "ID": 61,
@@ -357,7 +401,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPUROC01"
+    "IP-PC": "TEAEPUROC01",
+    "SERIAL": "CNB3N5GJHM"
   },
   {
     "ID": 62,
@@ -365,7 +410,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S700",
-    "IP-PC": "ENFE-1"
+    "IP-PC": "ENFE-1",
+    "SERIAL": "JNAA016677"
   },
   {
     "ID": 63,
@@ -373,7 +419,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPCEXC01"
+    "IP-PC": "TEAEPCEXC01",
+    "SERIAL": null
   },
   {
     "ID": 64,
@@ -381,7 +428,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "EPL-6200",
-    "IP-PC": "TEAEPOFTC05"
+    "IP-PC": "TEAEPOFTC05",
+    "SERIAL": null
   },
   {
     "ID": 65,
@@ -389,7 +437,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "XEROX",
     "MODELO": "PHASER 6022",
-    "IP-PC": "OCTOPUSPC"
+    "IP-PC": "OCTOPUSPC",
+    "SERIAL": null
   },
   {
     "ID": 66,
@@ -397,7 +446,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "10.35.232.87"
+    "IP-PC": "10.35.232.87",
+    "SERIAL": null
   },
   {
     "ID": 67,
@@ -405,7 +455,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPOFTC01"
+    "IP-PC": "TEAEPOFTC01",
+    "SERIAL": null
   },
   {
     "ID": 68,
@@ -413,7 +464,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPOFTC03"
+    "IP-PC": "TEAEPOFTC03",
+    "SERIAL": null
   },
   {
     "ID": 69,
@@ -421,7 +473,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPOFTC04"
+    "IP-PC": "TEAEPOFTC04",
+    "SERIAL": null
   },
   {
     "ID": 70,
@@ -429,7 +482,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "OFTC-6"
+    "IP-PC": "OFTC-6",
+    "SERIAL": "CNB3N5GJHP"
   },
   {
     "ID": 71,
@@ -437,7 +491,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "COLOR LASERJET CP1525",
-    "IP-PC": "RETINO"
+    "IP-PC": "RETINO",
+    "SERIAL": null
   },
   {
     "ID": 72,
@@ -445,7 +500,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPORLC01"
+    "IP-PC": "TEAEPORLC01",
+    "SERIAL": "CNB3N5GJH6"
   },
   {
     "ID": 73,
@@ -453,7 +509,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPORLC02"
+    "IP-PC": "TEAEPORLC02",
+    "SERIAL": null
   },
   {
     "ID": 74,
@@ -461,7 +518,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "OBSC-2"
+    "IP-PC": "OBSC-2",
+    "SERIAL": "ZDGSB8GKAA0088W"
   },
   {
     "ID": 75,
@@ -469,7 +527,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "GINC-3"
+    "IP-PC": "GINC-3",
+    "SERIAL": null
   },
   {
     "ID": 76,
@@ -477,7 +536,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "COFC-1"
+    "IP-PC": "COFC-1",
+    "SERIAL": "CNB3N5GJH0"
   },
   {
     "ID": 77,
@@ -485,7 +545,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "GINC-1"
+    "IP-PC": "GINC-1",
+    "SERIAL": null
   },
   {
     "ID": 78,
@@ -493,7 +554,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "GINC-2"
+    "IP-PC": "GINC-2",
+    "SERIAL": "CNB1SBB85C"
   },
   {
     "ID": 79,
@@ -501,7 +563,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "ONCE-1"
+    "IP-PC": "ONCE-1",
+    "SERIAL": null
   },
   {
     "ID": 80,
@@ -509,7 +572,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "ONCH-2"
+    "IP-PC": "ONCH-2",
+    "SERIAL": "CNB3N5GJH8"
   },
   {
     "ID": 82,
@@ -517,7 +581,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "CANON",
     "MODELO": "iR1643i",
-    "IP-PC": "10.35.20.4"
+    "IP-PC": "10.35.20.4",
+    "SERIAL": "34X11979"
   },
   {
     "ID": 83,
@@ -525,7 +590,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPNEFC01"
+    "IP-PC": "TEAEPNEFC01",
+    "SERIAL": "CNB1SBB7ZL"
   },
   {
     "ID": 84,
@@ -533,7 +599,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPALEC02"
+    "IP-PC": "TEAEPALEC02",
+    "SERIAL": "CNB3N5GJHX"
   },
   {
     "ID": 85,
@@ -541,7 +608,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPALEC03"
+    "IP-PC": "TEAEPALEC03",
+    "SERIAL": null
   },
   {
     "ID": 86,
@@ -549,7 +617,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "CARC-G1"
+    "IP-PC": "CARC-G1",
+    "SERIAL": "CNB3N5GJGN"
   },
   {
     "ID": 87,
@@ -557,7 +626,8 @@ const impresoras = [
     "UBICACION": "SECRETARÍA PEDIATRÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPPEDH01"
+    "IP-PC": "TEAEPPEDH01",
+    "SERIAL": "ZDGSB8GKAA008EF"
   },
   {
     "ID": 90,
@@ -565,7 +635,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "EEG"
+    "IP-PC": "EEG",
+    "SERIAL": null
   },
   {
     "ID": 92,
@@ -573,7 +644,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPCIRC01"
+    "IP-PC": "TEAEPCIRC01",
+    "SERIAL": "CNB3N5GJHB"
   },
   {
     "ID": 93,
@@ -581,7 +653,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "CIRC-2"
+    "IP-PC": "CIRC-2",
+    "SERIAL": null
   },
   {
     "ID": 94,
@@ -589,7 +662,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPDERC01"
+    "IP-PC": "TEAEPDERC01",
+    "SERIAL": "CNB3N5GJHK"
   },
   {
     "ID": 95,
@@ -597,7 +671,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPREUC01"
+    "IP-PC": "TEAEPREUC01",
+    "SERIAL": "CNB3N5GJHQ"
   },
   {
     "ID": 96,
@@ -605,7 +680,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-7050DN",
-    "IP-PC": "10.35.232.95"
+    "IP-PC": "10.35.232.95",
+    "SERIAL": null
   },
   {
     "ID": 97,
@@ -613,7 +689,8 @@ const impresoras = [
     "UBICACION": "PREVENTIVA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPPRLH02"
+    "IP-PC": "TEAEPPRLH02",
+    "SERIAL": "CNBW7IY035"
   },
   {
     "ID": 98,
@@ -621,7 +698,8 @@ const impresoras = [
     "UBICACION": "NOMINAS",
     "MARCA": "HP",
     "MODELO": "LASERJET E50145DN",
-    "IP-PC": "10.35.125.70"
+    "IP-PC": "10.35.125.70",
+    "SERIAL": "PHCBT5T0Q5"
   },
   {
     "ID": 99,
@@ -629,7 +707,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "BROTHER",
     "MODELO": "HL-L9310CDW",
-    "IP-PC": "10.35.125.63"
+    "IP-PC": "10.35.125.63",
+    "SERIAL": null
   },
   {
     "ID": 100,
@@ -637,7 +716,8 @@ const impresoras = [
     "UBICACION": "SUMINISTROS",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "10.35.125.64"
+    "IP-PC": "10.35.125.64",
+    "SERIAL": null
   },
   {
     "ID": 101,
@@ -645,7 +725,8 @@ const impresoras = [
     "UBICACION": "SUMINISTROS",
     "MARCA": "RICOH",
     "MODELO": "AFICIO SP6330N",
-    "IP-PC": "10.35.125.65"
+    "IP-PC": "10.35.125.65",
+    "SERIAL": null
   },
   {
     "ID": 102,
@@ -653,7 +734,8 @@ const impresoras = [
     "UBICACION": "FACTURACIÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "10.35.125.77"
+    "IP-PC": "10.35.125.77",
+    "SERIAL": null
   },
   {
     "ID": 103,
@@ -661,7 +743,8 @@ const impresoras = [
     "UBICACION": "GERENCIA",
     "MARCA": "KYOCERA",
     "MODELO": "KM-2050",
-    "IP-PC": "10.35.125.67"
+    "IP-PC": "10.35.125.67",
+    "SERIAL": null
   },
   {
     "ID": 104,
@@ -669,7 +752,8 @@ const impresoras = [
     "UBICACION": "GERENCIA",
     "MARCA": "CANON",
     "MODELO": "iR-ADV 6555",
-    "IP-PC": "10.35.125.68"
+    "IP-PC": "10.35.125.68",
+    "SERIAL": null
   },
   {
     "ID": 106,
@@ -677,7 +761,8 @@ const impresoras = [
     "UBICACION": "SUMINISTROS",
     "MARCA": "HP",
     "MODELO": "LASERJET 4200",
-    "IP-PC": "10.35.125.71"
+    "IP-PC": "10.35.125.71",
+    "SERIAL": null
   },
   {
     "ID": 107,
@@ -685,7 +770,8 @@ const impresoras = [
     "UBICACION": "PERSONAL",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.125.72"
+    "IP-PC": "10.35.125.72",
+    "SERIAL": "ZDGSB8GKAA007RR"
   },
   {
     "ID": 108,
@@ -693,7 +779,8 @@ const impresoras = [
     "UBICACION": "CONTABILIDAD",
     "MARCA": "HP",
     "MODELO": "LASERJET 4050",
-    "IP-PC": "10.35.125.74"
+    "IP-PC": "10.35.125.74",
+    "SERIAL": null
   },
   {
     "ID": 109,
@@ -701,7 +788,8 @@ const impresoras = [
     "UBICACION": "MIR",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TEAEPMIRH01"
+    "IP-PC": "TEAEPMIRH01",
+    "SERIAL": null
   },
   {
     "ID": 110,
@@ -709,7 +797,8 @@ const impresoras = [
     "UBICACION": "RIESGOS LABORALES",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "PRLH-4"
+    "IP-PC": "PRLH-4",
+    "SERIAL": null
   },
   {
     "ID": 111,
@@ -717,7 +806,8 @@ const impresoras = [
     "UBICACION": "RIESGOS LABORALES",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.20.20"
+    "IP-PC": "10.35.20.20",
+    "SERIAL": "RZR27175"
   },
   {
     "ID": 114,
@@ -725,7 +815,8 @@ const impresoras = [
     "UBICACION": "BIBLIOTECA",
     "MARCA": "HP",
     "MODELO": "LASERJET PRO 1536MFP",
-    "IP-PC": "TEAEPBIBL01"
+    "IP-PC": "TEAEPBIBL01",
+    "SERIAL": null
   },
   {
     "ID": 115,
@@ -733,7 +824,8 @@ const impresoras = [
     "UBICACION": "AMDISIÓN DE PACIENTES",
     "MARCA": "BROTHER",
     "MODELO": "MFC-L2700",
-    "IP-PC": "TEAEPADMP06"
+    "IP-PC": "TEAEPADMP06",
+    "SERIAL": null
   },
   {
     "ID": 116,
@@ -741,7 +833,8 @@ const impresoras = [
     "UBICACION": "CARDIOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "10.35.20.10"
+    "IP-PC": "10.35.20.10",
+    "SERIAL": null
   },
   {
     "ID": 117,
@@ -749,7 +842,8 @@ const impresoras = [
     "UBICACION": "PRUEBAS CARDIOLOGÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "CARP-5"
+    "IP-PC": "CARP-5",
+    "SERIAL": "ZDGSB8GKAA007PB"
   },
   {
     "ID": 118,
@@ -757,7 +851,8 @@ const impresoras = [
     "UBICACION": "CARDIOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "CARP-1"
+    "IP-PC": "CARP-1",
+    "SERIAL": null
   },
   {
     "ID": 119,
@@ -765,7 +860,8 @@ const impresoras = [
     "UBICACION": "CARDIOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "CARP-3"
+    "IP-PC": "CARP-3",
+    "SERIAL": null
   },
   {
     "ID": 120,
@@ -773,7 +869,8 @@ const impresoras = [
     "UBICACION": "PRUEBAS FUNCIONALES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "PFUE-1"
+    "IP-PC": "PFUE-1",
+    "SERIAL": "ZDGSB8GKAA007GE"
   },
   {
     "ID": 121,
@@ -781,7 +878,8 @@ const impresoras = [
     "UBICACION": "PRUEBAS FUNCIONALES",
     "MARCA": "HP",
     "MODELO": "DESKJET 1010",
-    "IP-PC": "H. HISPANIA"
+    "IP-PC": "H. HISPANIA",
+    "SERIAL": null
   },
   {
     "ID": 122,
@@ -789,7 +887,8 @@ const impresoras = [
     "UBICACION": "PRUEBAS FUNCIONALES",
     "MARCA": "HP",
     "MODELO": "DESKJET 1010",
-    "IP-PC": "H. HISPANIA"
+    "IP-PC": "H. HISPANIA",
+    "SERIAL": null
   },
   {
     "ID": 123,
@@ -797,7 +896,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPREHC02"
+    "IP-PC": "TEAEPREHC02",
+    "SERIAL": null
   },
   {
     "ID": 125,
@@ -805,7 +905,8 @@ const impresoras = [
     "UBICACION": "CONTROL REHABILITACIÓN",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPREHE02"
+    "IP-PC": "TEAEPREHE02",
+    "SERIAL": "ZDGSB8GKAA007ZZ"
   },
   {
     "ID": 126,
@@ -813,7 +914,8 @@ const impresoras = [
     "UBICACION": "MANTENIMIENTO",
     "MARCA": "CANON",
     "MODELO": "iR-ADV C5550",
-    "IP-PC": "10.35.20.171"
+    "IP-PC": "10.35.20.171",
+    "SERIAL": "XME05339"
   },
   {
     "ID": 128,
@@ -821,7 +923,8 @@ const impresoras = [
     "UBICACION": "ALMACÉN",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M404",
-    "IP-PC": "TEAEPALMG01"
+    "IP-PC": "TEAEPALMG01",
+    "SERIAL": null
   },
   {
     "ID": 130,
@@ -829,7 +932,8 @@ const impresoras = [
     "UBICACION": "ARCHIVOS",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "10.35.232.86"
+    "IP-PC": "10.35.232.86",
+    "SERIAL": null
   },
   {
     "ID": 131,
@@ -837,7 +941,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "CANON",
     "MODELO": "iR2025",
-    "IP-PC": "10.35.232.85"
+    "IP-PC": "10.35.232.85",
+    "SERIAL": "NZU08110"
   },
   {
     "ID": 134,
@@ -845,7 +950,8 @@ const impresoras = [
     "UBICACION": "MANTENIMIENTO",
     "MARCA": "HP",
     "MODELO": "DESIGNJET T120",
-    "IP-PC": "10.35.20.172"
+    "IP-PC": "10.35.20.172",
+    "SERIAL": null
   },
   {
     "ID": 135,
@@ -853,7 +959,8 @@ const impresoras = [
     "UBICACION": "LAVANDERIA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPLAVA01"
+    "IP-PC": "TEAEPLAVA01",
+    "SERIAL": null
   },
   {
     "ID": 136,
@@ -861,7 +968,8 @@ const impresoras = [
     "UBICACION": "SALA MEDICOS UCC",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.20.75"
+    "IP-PC": "10.35.20.75",
+    "SERIAL": "ZDGSB8GKAA0082K"
   },
   {
     "ID": 139,
@@ -869,7 +977,8 @@ const impresoras = [
     "UBICACION": "SALA DE MÉDICOS CUARTA PLANTA ESPECIALIZADA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.20.64"
+    "IP-PC": "10.35.20.64",
+    "SERIAL": "ZDGSBJFM300044F"
   },
   {
     "ID": 141,
@@ -877,7 +986,8 @@ const impresoras = [
     "UBICACION": "PSIQUIATRIA",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "TEAEPPSQH03"
+    "IP-PC": "TEAEPPSQH03",
+    "SERIAL": null
   },
   {
     "ID": 143,
@@ -885,7 +995,8 @@ const impresoras = [
     "UBICACION": "UNIDAD DEL DOLOR",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPUDOC02"
+    "IP-PC": "TEAEPUDOC02",
+    "SERIAL": "ZDGSB8GKAA00A9V"
   },
   {
     "ID": 144,
@@ -893,7 +1004,8 @@ const impresoras = [
     "UBICACION": "MEDICINA INTERNA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPMINH02"
+    "IP-PC": "TEAEPMINH02",
+    "SERIAL": "ZDGSB8GKAA008FD"
   },
   {
     "ID": 145,
@@ -901,7 +1013,8 @@ const impresoras = [
     "UBICACION": "MEDICINA INTERNA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPMINH01"
+    "IP-PC": "TEAEPMINH01",
+    "SERIAL": "ZDGSB8GKAA008HL"
   },
   {
     "ID": 146,
@@ -909,7 +1022,8 @@ const impresoras = [
     "UBICACION": "MEDICINA INTERNA",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M404",
-    "IP-PC": "TEAEPMINH04"
+    "IP-PC": "TEAEPMINH04",
+    "SERIAL": null
   },
   {
     "ID": 147,
@@ -917,7 +1031,8 @@ const impresoras = [
     "UBICACION": "MEDICINA INTERNA",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M404",
-    "IP-PC": "TEAEPMINH07"
+    "IP-PC": "TEAEPMINH07",
+    "SERIAL": null
   },
   {
     "ID": 148,
@@ -925,7 +1040,8 @@ const impresoras = [
     "UBICACION": "NEFROLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPNEFH05"
+    "IP-PC": "TEAEPNEFH05",
+    "SERIAL": null
   },
   {
     "ID": 149,
@@ -933,7 +1049,8 @@ const impresoras = [
     "UBICACION": "NEFROLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET PRO 1536MFP",
-    "IP-PC": "TEAEPNEFH03"
+    "IP-PC": "TEAEPNEFH03",
+    "SERIAL": null
   },
   {
     "ID": 150,
@@ -941,7 +1058,8 @@ const impresoras = [
     "UBICACION": "CIRUGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TEAEPCIRH03"
+    "IP-PC": "TEAEPCIRH03",
+    "SERIAL": null
   },
   {
     "ID": 151,
@@ -949,7 +1067,8 @@ const impresoras = [
     "UBICACION": "CIRUGÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPCIRH02"
+    "IP-PC": "TEAEPCIRH02",
+    "SERIAL": null
   },
   {
     "ID": 152,
@@ -957,7 +1076,8 @@ const impresoras = [
     "UBICACION": "CIRUGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "TEAEPCIRH01"
+    "IP-PC": "TEAEPCIRH01",
+    "SERIAL": null
   },
   {
     "ID": 153,
@@ -965,7 +1085,8 @@ const impresoras = [
     "UBICACION": "CIRUGÍA - DIGESTIVO",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPCIRE02"
+    "IP-PC": "TEAEPCIRE02",
+    "SERIAL": "CNB1R793N8"
   },
   {
     "ID": 154,
@@ -973,7 +1094,8 @@ const impresoras = [
     "UBICACION": "UROLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPUROH04"
+    "IP-PC": "TEAEPUROH04",
+    "SERIAL": "CNB1S6L7L8"
   },
   {
     "ID": 156,
@@ -981,7 +1103,8 @@ const impresoras = [
     "UBICACION": "UROLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TEAEPUROH01"
+    "IP-PC": "TEAEPUROH01",
+    "SERIAL": null
   },
   {
     "ID": 157,
@@ -989,7 +1112,8 @@ const impresoras = [
     "UBICACION": "TRAUMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "10.35.232.111"
+    "IP-PC": "10.35.232.111",
+    "SERIAL": null
   },
   {
     "ID": 159,
@@ -997,7 +1121,8 @@ const impresoras = [
     "UBICACION": "PREVENTIVA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPPREV01"
+    "IP-PC": "TEAEPPREV01",
+    "SERIAL": "ZDGSB8GKAA00B4F"
   },
   {
     "ID": 160,
@@ -1005,7 +1130,8 @@ const impresoras = [
     "UBICACION": "PREVENTIVA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPPREV02"
+    "IP-PC": "TEAEPPREV02",
+    "SERIAL": "CNBW7437H5"
   },
   {
     "ID": 161,
@@ -1013,7 +1139,8 @@ const impresoras = [
     "UBICACION": "PREVENTIVA",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TEAEPPREV04"
+    "IP-PC": "TEAEPPREV04",
+    "SERIAL": "RJ8Q359707"
   },
   {
     "ID": 162,
@@ -1021,7 +1148,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS X 1440i",
-    "IP-PC": "10.35.232.82"
+    "IP-PC": "10.35.232.82",
+    "SERIAL": "4JN03550"
   },
   {
     "ID": 164,
@@ -1029,7 +1157,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TEAEPUCIH07"
+    "IP-PC": "TEAEPUCIH07",
+    "SERIAL": null
   },
   {
     "ID": 165,
@@ -1037,7 +1166,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "EPSON",
     "MODELO": "M313A",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 166,
@@ -1045,7 +1175,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "EPSON",
     "MODELO": "M313A",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 167,
@@ -1053,7 +1184,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M401",
-    "IP-PC": "10.35.20.145"
+    "IP-PC": "10.35.20.145",
+    "SERIAL": null
   },
   {
     "ID": 168,
@@ -1061,7 +1193,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPUCIH03"
+    "IP-PC": "TEAEPUCIH03",
+    "SERIAL": null
   },
   {
     "ID": 169,
@@ -1069,7 +1202,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPUCIH04"
+    "IP-PC": "TEAEPUCIH04",
+    "SERIAL": "CNB3NN5GJHD"
   },
   {
     "ID": 170,
@@ -1077,7 +1211,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "CANON",
     "MODELO": "iR-ADV 6555",
-    "IP-PC": "10.35.232.97"
+    "IP-PC": "10.35.232.97",
+    "SERIAL": "SMF03004"
   },
   {
     "ID": 171,
@@ -1085,7 +1220,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "CANON",
     "MODELO": "iR-ADV C256",
-    "IP-PC": "10.35.232.84"
+    "IP-PC": "10.35.232.84",
+    "SERIAL": "2FL04481"
   },
   {
     "ID": 173,
@@ -1093,7 +1229,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPDIRE03"
+    "IP-PC": "TEAEPDIRE03",
+    "SERIAL": null
   },
   {
     "ID": 174,
@@ -1101,7 +1238,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TEAEPDIRE01"
+    "IP-PC": "TEAEPDIRE01",
+    "SERIAL": null
   },
   {
     "ID": 177,
@@ -1109,7 +1247,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPDIRM01"
+    "IP-PC": "TEAEPDIRM01",
+    "SERIAL": null
   },
   {
     "ID": 178,
@@ -1117,7 +1256,8 @@ const impresoras = [
     "UBICACION": "CARDIOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPCARH01"
+    "IP-PC": "TEAEPCARH01",
+    "SERIAL": null
   },
   {
     "ID": 179,
@@ -1125,7 +1265,8 @@ const impresoras = [
     "UBICACION": "GINECOLOGÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TOCH-1"
+    "IP-PC": "TOCH-1",
+    "SERIAL": "E63659D7J916726"
   },
   {
     "ID": 180,
@@ -1133,7 +1274,8 @@ const impresoras = [
     "UBICACION": "GINECOLOGÍA",
     "MARCA": "EPSON",
     "MODELO": "ACULASER AL-M2000",
-    "IP-PC": "TEAEPTOCE02"
+    "IP-PC": "TEAEPTOCE02",
+    "SERIAL": null
   },
   {
     "ID": 181,
@@ -1141,7 +1283,8 @@ const impresoras = [
     "UBICACION": "GINECOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPTOCH03"
+    "IP-PC": "TEAEPTOCH03",
+    "SERIAL": "CNB1R3J14L"
   },
   {
     "ID": 182,
@@ -1149,7 +1292,8 @@ const impresoras = [
     "UBICACION": "ANESTESIA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPANEQ02"
+    "IP-PC": "TEAEPANEQ02",
+    "SERIAL": null
   },
   {
     "ID": 183,
@@ -1157,7 +1301,8 @@ const impresoras = [
     "UBICACION": "ANESTESIA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPANEQ01"
+    "IP-PC": "TEAEPANEQ01",
+    "SERIAL": null
   },
   {
     "ID": 184,
@@ -1165,7 +1310,8 @@ const impresoras = [
     "UBICACION": "PASILLO QUIRÓFANOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "10.35.232.125"
+    "IP-PC": "10.35.232.125",
+    "SERIAL": "VNCQDCF00Y"
   },
   {
     "ID": 185,
@@ -1173,7 +1319,8 @@ const impresoras = [
     "UBICACION": "CONTROL PARITORIOS",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPPARI01"
+    "IP-PC": "TEAEPPARI01",
+    "SERIAL": "ZDGSB8GKAA00B3M"
   },
   {
     "ID": 187,
@@ -1181,7 +1328,8 @@ const impresoras = [
     "UBICACION": "PEDIATRÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPPEDH05"
+    "IP-PC": "TEAEPPEDH05",
+    "SERIAL": null
   },
   {
     "ID": 188,
@@ -1189,7 +1337,8 @@ const impresoras = [
     "UBICACION": "PEDIATRÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPPEDH03"
+    "IP-PC": "TEAEPPEDH03",
+    "SERIAL": "ZDGSB8GKAA0087B"
   },
   {
     "ID": 189,
@@ -1197,7 +1346,8 @@ const impresoras = [
     "UBICACION": "PEDIATRÍA",
     "MARCA": "HP",
     "MODELO": "DESKJET 2050A",
-    "IP-PC": "TEAEPPEDH02"
+    "IP-PC": "TEAEPPEDH02",
+    "SERIAL": null
   },
   {
     "ID": 190,
@@ -1205,7 +1355,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "10.35.232.83"
+    "IP-PC": "10.35.232.83",
+    "SERIAL": null
   },
   {
     "ID": 192,
@@ -1213,7 +1364,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2035",
-    "IP-PC": "TEAEPLABO21"
+    "IP-PC": "TEAEPLABO21",
+    "SERIAL": null
   },
   {
     "ID": 194,
@@ -1221,7 +1373,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "TEAEPLABO02"
+    "IP-PC": "TEAEPLABO02",
+    "SERIAL": null
   },
   {
     "ID": 195,
@@ -1229,7 +1382,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2035",
-    "IP-PC": "TEAEPLABO16"
+    "IP-PC": "TEAEPLABO16",
+    "SERIAL": null
   },
   {
     "ID": 196,
@@ -1237,7 +1391,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 197,
@@ -1245,7 +1400,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TEAEPLABO06"
+    "IP-PC": "TEAEPLABO06",
+    "SERIAL": null
   },
   {
     "ID": 198,
@@ -1253,7 +1409,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "LEXMARK",
     "MODELO": "E360DN",
-    "IP-PC": "BIOMERIEUX"
+    "IP-PC": "BIOMERIEUX",
+    "SERIAL": null
   },
   {
     "ID": 199,
@@ -1261,7 +1418,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "OFFICEJET PRO 8210",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 200,
@@ -1269,7 +1427,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET 1160",
-    "IP-PC": "TEAEPLABO11"
+    "IP-PC": "TEAEPLABO11",
+    "SERIAL": null
   },
   {
     "ID": 201,
@@ -1277,7 +1436,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2035",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 202,
@@ -1285,7 +1445,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "BROTHER",
     "MODELO": "HL-5350DN",
-    "IP-PC": "TEAEPLABO09"
+    "IP-PC": "TEAEPLABO09",
+    "SERIAL": null
   },
   {
     "ID": 203,
@@ -1293,7 +1454,8 @@ const impresoras = [
     "UBICACION": "SECRETARÍA LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO03"
+    "IP-PC": "TEAEPLABO03",
+    "SERIAL": null
   },
   {
     "ID": 204,
@@ -1301,7 +1463,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPHEMH03"
+    "IP-PC": "TEAEPHEMH03",
+    "SERIAL": "ZDGSB8GKAA007SX"
   },
   {
     "ID": 205,
@@ -1309,7 +1472,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M402",
-    "IP-PC": "10.35.232.119"
+    "IP-PC": "10.35.232.119",
+    "SERIAL": null
   },
   {
     "ID": 206,
@@ -1317,7 +1481,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPHEMH04"
+    "IP-PC": "TEAEPHEMH04",
+    "SERIAL": "CNB1R5LHWQ"
   },
   {
     "ID": 207,
@@ -1325,7 +1490,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2035",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 208,
@@ -1333,7 +1499,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 209,
@@ -1341,7 +1508,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2035",
-    "IP-PC": "TEAEPHEMH05"
+    "IP-PC": "TEAEPHEMH05",
+    "SERIAL": null
   },
   {
     "ID": 210,
@@ -1349,7 +1517,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "IZASA"
+    "IP-PC": "IZASA",
+    "SERIAL": null
   },
   {
     "ID": 211,
@@ -1357,7 +1526,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "CITIZEN",
     "MODELO": "CL-E720",
-    "IP-PC": "TEAEPHEMH08"
+    "IP-PC": "TEAEPHEMH08",
+    "SERIAL": "RF1220Z0068"
   },
   {
     "ID": 212,
@@ -1365,7 +1535,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-67LA",
-    "IP-PC": "TEAEPHEMH08"
+    "IP-PC": "TEAEPHEMH08",
+    "SERIAL": null
   },
   {
     "ID": 213,
@@ -1373,7 +1544,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPHEMH07"
+    "IP-PC": "TEAEPHEMH07",
+    "SERIAL": "ZDGSB8GKAA0080E"
   },
   {
     "ID": 214,
@@ -1381,7 +1553,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "CITIZEN",
     "MODELO": "CL-E720",
-    "IP-PC": "TEAEPHEMH07"
+    "IP-PC": "TEAEPHEMH07",
+    "SERIAL": "RF122140247"
   },
   {
     "ID": 216,
@@ -1389,7 +1562,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L6011",
-    "IP-PC": "TEAEPLABO19"
+    "IP-PC": "TEAEPLABO19",
+    "SERIAL": null
   },
   {
     "ID": 217,
@@ -1397,7 +1571,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GX430T",
-    "IP-PC": "10.35.232.103"
+    "IP-PC": "10.35.232.103",
+    "SERIAL": null
   },
   {
     "ID": 218,
@@ -1405,7 +1580,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GX430T",
-    "IP-PC": "APAT"
+    "IP-PC": "APAT",
+    "SERIAL": null
   },
   {
     "ID": 219,
@@ -1413,7 +1589,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GX430T",
-    "IP-PC": "APAT"
+    "IP-PC": "APAT",
+    "SERIAL": null
   },
   {
     "ID": 220,
@@ -1421,7 +1598,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GX430T",
-    "IP-PC": "APAT"
+    "IP-PC": "APAT",
+    "SERIAL": null
   },
   {
     "ID": 221,
@@ -1429,7 +1607,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GX430T",
-    "IP-PC": "APAT"
+    "IP-PC": "APAT",
+    "SERIAL": null
   },
   {
     "ID": 222,
@@ -1437,7 +1616,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GX430T",
-    "IP-PC": "APAT"
+    "IP-PC": "APAT",
+    "SERIAL": null
   },
   {
     "ID": 223,
@@ -1445,7 +1625,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "HP",
     "MODELO": "OFFICEJET PRO 8210",
-    "IP-PC": "TEAEPAPAT02"
+    "IP-PC": "TEAEPAPAT02",
+    "SERIAL": null
   },
   {
     "ID": 224,
@@ -1453,7 +1634,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "HP",
     "MODELO": "OFFICEJET PRO 6100",
-    "IP-PC": "APAT-4"
+    "IP-PC": "APAT-4",
+    "SERIAL": null
   },
   {
     "ID": 225,
@@ -1461,7 +1643,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "172.26.188.12 APAT-1"
+    "IP-PC": "172.26.188.12 APAT-1",
+    "SERIAL": "ZDGSB8GKAA008DM"
   },
   {
     "ID": 227,
@@ -1469,7 +1652,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN",
     "MARCA": "CANON",
     "MODELO": "iR-ADV 6555",
-    "IP-PC": "10.35.239.134"
+    "IP-PC": "10.35.239.134",
+    "SERIAL": null
   },
   {
     "ID": 231,
@@ -1477,7 +1661,8 @@ const impresoras = [
     "UBICACION": "CONTROL SEGUNDA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPSJCO04"
+    "IP-PC": "TEAEPSJCO04",
+    "SERIAL": "ZDGSB8GKAA00ACV"
   },
   {
     "ID": 233,
@@ -1485,7 +1670,8 @@ const impresoras = [
     "UBICACION": "SUPERVISORA PRIMERA PLANTA",
     "MARCA": "LEXMARK",
     "MODELO": "MS312DN",
-    "IP-PC": "TEAEPSJSU01"
+    "IP-PC": "TEAEPSJSU01",
+    "SERIAL": null
   },
   {
     "ID": 234,
@@ -1493,7 +1679,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.21.206"
+    "IP-PC": "10.35.21.206",
+    "SERIAL": "CNB1P830RH"
   },
   {
     "ID": 235,
@@ -1501,7 +1688,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TEAEPSJRX01"
+    "IP-PC": "TEAEPSJRX01",
+    "SERIAL": null
   },
   {
     "ID": 237,
@@ -1509,7 +1697,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MÉDICA PRIMERA PLANTA",
     "MARCA": "LEXMARK",
     "MODELO": "MS312DN",
-    "IP-PC": "10.35.21.209"
+    "IP-PC": "10.35.21.209",
+    "SERIAL": null
   },
   {
     "ID": 238,
@@ -1517,7 +1706,8 @@ const impresoras = [
     "UBICACION": "TRABAJO SOCIAL",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TEAEPSJTS01"
+    "IP-PC": "TEAEPSJTS01",
+    "SERIAL": null
   },
   {
     "ID": 239,
@@ -1525,7 +1715,8 @@ const impresoras = [
     "UBICACION": "TÉCNICO DE GESTIÓN",
     "MARCA": "LEXMARK",
     "MODELO": "MS312DN",
-    "IP-PC": "TEAEPSJAD01"
+    "IP-PC": "TEAEPSJAD01",
+    "SERIAL": null
   },
   {
     "ID": 241,
@@ -1533,7 +1724,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN UME",
     "MARCA": "CANON",
     "MODELO": "iR2022",
-    "IP-PC": "10.35.239.248"
+    "IP-PC": "10.35.239.248",
+    "SERIAL": null
   },
   {
     "ID": 242,
@@ -1541,7 +1733,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN",
     "MARCA": "CANON",
     "MODELO": "iR2625",
-    "IP-PC": "10.35.239.253"
+    "IP-PC": "10.35.239.253",
+    "SERIAL": null
   },
   {
     "ID": 243,
@@ -1549,7 +1742,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET 4100",
-    "IP-PC": "10.35.239.232"
+    "IP-PC": "10.35.239.232",
+    "SERIAL": null
   },
   {
     "ID": 244,
@@ -1557,7 +1751,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN",
     "MARCA": "EPSON",
     "MODELO": "ACULASER AL-M2000",
-    "IP-PC": "TEAEPJDAD01"
+    "IP-PC": "TEAEPJDAD01",
+    "SERIAL": null
   },
   {
     "ID": 245,
@@ -1565,7 +1760,8 @@ const impresoras = [
     "UBICACION": "CONSULTA ULE",
     "MARCA": "EPSON",
     "MODELO": "ACULASER AL-M2000",
-    "IP-PC": "TEAEPJDLC06"
+    "IP-PC": "TEAEPJDLC06",
+    "SERIAL": null
   },
   {
     "ID": 248,
@@ -1573,7 +1769,8 @@ const impresoras = [
     "UBICACION": "CONSULTA ULE",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPJDLC03"
+    "IP-PC": "TEAEPJDLC03",
+    "SERIAL": "ZDGSB8GKAA007XF"
   },
   {
     "ID": 250,
@@ -1581,7 +1778,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA",
     "MARCA": "HP",
     "MODELO": "OFFICEJET 5610",
-    "IP-PC": "EFSJ-3"
+    "IP-PC": "EFSJ-3",
+    "SERIAL": null
   },
   {
     "ID": 251,
@@ -1589,7 +1787,8 @@ const impresoras = [
     "UBICACION": "CONTROL ULE PRIMERA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1022",
-    "IP-PC": "TEAEPJDLC02"
+    "IP-PC": "TEAEPJDLC02",
+    "SERIAL": null
   },
   {
     "ID": 253,
@@ -1597,7 +1796,8 @@ const impresoras = [
     "UBICACION": "CONSULTA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1022",
-    "IP-PC": "COSJ-2"
+    "IP-PC": "COSJ-2",
+    "SERIAL": null
   },
   {
     "ID": 254,
@@ -1605,7 +1805,8 @@ const impresoras = [
     "UBICACION": "CONSULTA PSICOLOGÍA",
     "MARCA": "HP",
     "MODELO": "DESKJET 5550",
-    "IP-PC": "TEAEPJDLC07"
+    "IP-PC": "TEAEPJDLC07",
+    "SERIAL": null
   },
   {
     "ID": 255,
@@ -1613,7 +1814,8 @@ const impresoras = [
     "UBICACION": "TERAPIA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TESJ-1"
+    "IP-PC": "TESJ-1",
+    "SERIAL": null
   },
   {
     "ID": 256,
@@ -1621,7 +1823,8 @@ const impresoras = [
     "UBICACION": "TERAPIA",
     "MARCA": "EPSON",
     "MODELO": "EPL-6200",
-    "IP-PC": "TESJ-2"
+    "IP-PC": "TESJ-2",
+    "SERIAL": null
   },
   {
     "ID": 257,
@@ -1629,7 +1832,8 @@ const impresoras = [
     "UBICACION": "PSIQUIATRÍA",
     "MARCA": "EPSON",
     "MODELO": "STYLUS COLOR",
-    "IP-PC": "PSSJ-1"
+    "IP-PC": "PSSJ-1",
+    "SERIAL": null
   },
   {
     "ID": 259,
@@ -1637,7 +1841,8 @@ const impresoras = [
     "UBICACION": "TRABAJO SOCIAL ULE",
     "MARCA": "HP",
     "MODELO": "LASERJET 1022",
-    "IP-PC": "TSSJ-1"
+    "IP-PC": "TSSJ-1",
+    "SERIAL": null
   },
   {
     "ID": 260,
@@ -1645,7 +1850,8 @@ const impresoras = [
     "UBICACION": "CONTOL ULE",
     "MARCA": "HP",
     "MODELO": "LASERJET 1022",
-    "IP-PC": "CESJ-1"
+    "IP-PC": "CESJ-1",
+    "SERIAL": null
   },
   {
     "ID": 261,
@@ -1653,7 +1859,8 @@ const impresoras = [
     "UBICACION": "TERAPIA UME",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPJDMT01"
+    "IP-PC": "TEAEPJDMT01",
+    "SERIAL": null
   },
   {
     "ID": 262,
@@ -1661,7 +1868,8 @@ const impresoras = [
     "UBICACION": "TERAPIA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TESJ-4"
+    "IP-PC": "TESJ-4",
+    "SERIAL": null
   },
   {
     "ID": 263,
@@ -1669,7 +1877,8 @@ const impresoras = [
     "UBICACION": "PSICOLOGÍA UME",
     "MARCA": "HP",
     "MODELO": "LASERJET 1022",
-    "IP-PC": "PSSJ-2"
+    "IP-PC": "PSSJ-2",
+    "SERIAL": null
   },
   {
     "ID": 264,
@@ -1677,7 +1886,8 @@ const impresoras = [
     "UBICACION": "TRABAJO SOCIAL UME",
     "MARCA": "EPSON",
     "MODELO": "ACULASER AL-M2000",
-    "IP-PC": "TEAEPJDLT02"
+    "IP-PC": "TEAEPJDLT02",
+    "SERIAL": null
   },
   {
     "ID": 265,
@@ -1685,7 +1895,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - COORDINADOR DOCENCIA",
     "MARCA": "HP",
     "MODELO": "COLOR LASERJET 2600",
-    "IP-PC": "TE00PCS3815"
+    "IP-PC": "TE00PCS3815",
+    "SERIAL": null
   },
   {
     "ID": 267,
@@ -1693,7 +1904,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - PASILLO",
     "MARCA": "CANON",
     "MODELO": "iR-ADV 4825",
-    "IP-PC": "10.35.128.243"
+    "IP-PC": "10.35.128.243",
+    "SERIAL": null
   },
   {
     "ID": 268,
@@ -1701,7 +1913,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.21.17"
+    "IP-PC": "10.35.21.17",
+    "SERIAL": null
   },
   {
     "ID": 269,
@@ -1709,7 +1922,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - FARMACIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE00MCS1008"
+    "IP-PC": "TE00MCS1008",
+    "SERIAL": "CNB1R5LH90"
   },
   {
     "ID": 271,
@@ -1717,7 +1931,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - TARJETA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TE00PCS3845"
+    "IP-PC": "TE00PCS3845",
+    "SERIAL": null
   },
   {
     "ID": 272,
@@ -1725,7 +1940,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL INFANTO JUVENIL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1545"
+    "IP-PC": "TE28PCS1545",
+    "SERIAL": "CNB1R5LH95"
   },
   {
     "ID": 274,
@@ -1733,7 +1949,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.21.3"
+    "IP-PC": "10.35.21.3",
+    "SERIAL": null
   },
   {
     "ID": 275,
@@ -1741,7 +1958,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "KYOCERA",
     "MODELO": "KM-2050",
-    "IP-PC": "10.35.128.140"
+    "IP-PC": "10.35.128.140",
+    "SERIAL": null
   },
   {
     "ID": 276,
@@ -1749,7 +1967,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE28PCA1002"
+    "IP-PC": "TE28PCA1002",
+    "SERIAL": null
   },
   {
     "ID": 277,
@@ -1757,7 +1976,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE28PCA1003"
+    "IP-PC": "TE28PCA1003",
+    "SERIAL": null
   },
   {
     "ID": 278,
@@ -1765,7 +1985,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE28PCA1001"
+    "IP-PC": "TE28PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 279,
@@ -1773,7 +1994,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS0101"
+    "IP-PC": "TE28PCS0101",
+    "SERIAL": "ZDGSB8GKAA004VK "
   },
   {
     "ID": 280,
@@ -1781,7 +2003,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 5",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS0103"
+    "IP-PC": "TE28PCS0103",
+    "SERIAL": "ZDGSB8GKAA004PZ "
   },
   {
     "ID": 281,
@@ -1789,7 +2012,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS 1 - ADICCIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1502"
+    "IP-PC": "TE28PCS1502",
+    "SERIAL": "ZDGSB8GKAA0046J "
   },
   {
     "ID": 282,
@@ -1797,7 +2021,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 3",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1505"
+    "IP-PC": "TE28PCS1505",
+    "SERIAL": "ZDGSB8GKAA00ASP "
   },
   {
     "ID": 283,
@@ -1805,7 +2030,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 11",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1523"
+    "IP-PC": "TE28PCS1523",
+    "SERIAL": "ZDGSB8GKAA00B1Y "
   },
   {
     "ID": 284,
@@ -1813,7 +2039,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 15",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1510"
+    "IP-PC": "TE28PCS1510",
+    "SERIAL": "ZDGSB8GKAA004RJ "
   },
   {
     "ID": 285,
@@ -1821,7 +2048,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS 2 - ADICCIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1511"
+    "IP-PC": "TE28PCS1511",
+    "SERIAL": "ZDGSB8GKAA00C9Z "
   },
   {
     "ID": 286,
@@ -1829,7 +2057,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS 4 - ADICCIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1512"
+    "IP-PC": "TE28PCS1512",
+    "SERIAL": "ZDGSB8GKAA00AVV"
   },
   {
     "ID": 287,
@@ -1837,7 +2066,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 21",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1514"
+    "IP-PC": "TE28PCS1514",
+    "SERIAL": "CNB1R5LHX0"
   },
   {
     "ID": 288,
@@ -1845,7 +2075,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS 3 - ADICCIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1509"
+    "IP-PC": "TE28PCS1509",
+    "SERIAL": "ZDGSB8GKAA00BGB "
   },
   {
     "ID": 289,
@@ -1853,7 +2084,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS ENFERMERÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1515"
+    "IP-PC": "TE28PCS1515",
+    "SERIAL": "ZDGSB8GKAA00CBJ "
   },
   {
     "ID": 290,
@@ -1861,7 +2093,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 26",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1541"
+    "IP-PC": "TE28PCS1541",
+    "SERIAL": "ZDGSB8GKAA00ARE "
   },
   {
     "ID": 291,
@@ -1869,7 +2102,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 24",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1516"
+    "IP-PC": "TE28PCS1516",
+    "SERIAL": "ZDGSB8GKAA0027A "
   },
   {
     "ID": 292,
@@ -1877,7 +2111,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 29",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1517"
+    "IP-PC": "TE28PCS1517",
+    "SERIAL": "ZDGSB8GKAA005YK "
   },
   {
     "ID": 293,
@@ -1885,7 +2120,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 27",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1518"
+    "IP-PC": "TE28PCS1518",
+    "SERIAL": "ZDGSB8GKAA004YN "
   },
   {
     "ID": 294,
@@ -1893,7 +2129,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 25",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1519"
+    "IP-PC": "TE28PCS1519",
+    "SERIAL": "ZDGSB8GKAA00BDH "
   },
   {
     "ID": 295,
@@ -1901,7 +2138,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 17",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1520"
+    "IP-PC": "TE28PCS1520",
+    "SERIAL": "ZDGSB8GKAA0050R "
   },
   {
     "ID": 296,
@@ -1909,7 +2147,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 7",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1521"
+    "IP-PC": "TE28PCS1521",
+    "SERIAL": "ZDGSB8GKAA00B2T "
   },
   {
     "ID": 297,
@@ -1917,7 +2156,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 6",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1528"
+    "IP-PC": "TE28PCS1528",
+    "SERIAL": "ZDGSB8GKAA004BH "
   },
   {
     "ID": 298,
@@ -1925,7 +2165,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 19",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1529"
+    "IP-PC": "TE28PCS1529",
+    "SERIAL": "ZDGSB8GKAA002BX "
   },
   {
     "ID": 299,
@@ -1933,7 +2174,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 9",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1530"
+    "IP-PC": "TE28PCS1530",
+    "SERIAL": "ZDGSB8GKAA004LM"
   },
   {
     "ID": 300,
@@ -1941,7 +2183,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE13PCA1006"
+    "IP-PC": "TE13PCA1006",
+    "SERIAL": null
   },
   {
     "ID": 301,
@@ -1949,7 +2192,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE13PCA1009"
+    "IP-PC": "TE13PCA1009",
+    "SERIAL": null
   },
   {
     "ID": 302,
@@ -1957,7 +2201,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE13PCA1004"
+    "IP-PC": "TE13PCA1004",
+    "SERIAL": null
   },
   {
     "ID": 303,
@@ -1965,7 +2210,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE13PCA1008 - CAMBIO"
+    "IP-PC": "TE13PCA1008 - CAMBIO",
+    "SERIAL": null
   },
   {
     "ID": 304,
@@ -1973,7 +2219,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.238.6"
+    "IP-PC": "10.35.238.6",
+    "SERIAL": "ZDGSB8GKAA007FJ "
   },
   {
     "ID": 305,
@@ -1981,7 +2228,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "-"
+    "IP-PC": "-",
+    "SERIAL": "ZDGSB8GKAA002CY "
   },
   {
     "ID": 306,
@@ -1989,7 +2237,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "-"
+    "IP-PC": "-",
+    "SERIAL": "ZDGSB8GKAA008JJ "
   },
   {
     "ID": 307,
@@ -1997,7 +2246,8 @@ const impresoras = [
     "UBICACION": "CONSULTA ENFERMERÍA PLANTA CERO",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1033"
+    "IP-PC": "TE13PCS1033",
+    "SERIAL": "ZDGSB8GKAA0099A "
   },
   {
     "ID": 308,
@@ -2005,7 +2255,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 2 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1000"
+    "IP-PC": "TE13PCS1000",
+    "SERIAL": "ZDGSB8GKAA008RA "
   },
   {
     "ID": 309,
@@ -2013,7 +2264,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 22",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1001"
+    "IP-PC": "TE13PCS1001",
+    "SERIAL": "ZDGSB8GKAA002HZ "
   },
   {
     "ID": 310,
@@ -2021,7 +2273,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 12 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1002"
+    "IP-PC": "TE13PCS1002",
+    "SERIAL": "ZDGSB8GKAA008KE "
   },
   {
     "ID": 311,
@@ -2029,7 +2282,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 4 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1003"
+    "IP-PC": "TE13PCS1003",
+    "SERIAL": "ZDGSB8GKAA002MP "
   },
   {
     "ID": 312,
@@ -2037,7 +2291,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 18",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1004"
+    "IP-PC": "TE13PCS1004",
+    "SERIAL": "ZDGSB8GKAA008TW "
   },
   {
     "ID": 313,
@@ -2045,7 +2300,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 13",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1005"
+    "IP-PC": "TE13PCS1005",
+    "SERIAL": "ZDGSB8GKAA00C6M "
   },
   {
     "ID": 314,
@@ -2053,7 +2309,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 20",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1006"
+    "IP-PC": "TE13PCS1006",
+    "SERIAL": "ZDGSB8GKAA008SB "
   },
   {
     "ID": 315,
@@ -2061,7 +2318,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 6 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1007"
+    "IP-PC": "TE13PCS1007",
+    "SERIAL": "ZDGSB8GKAA00CAL "
   },
   {
     "ID": 316,
@@ -2069,7 +2327,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 14",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1008"
+    "IP-PC": "TE13PCS1008",
+    "SERIAL": "ZDGSB8GKAA007HP "
   },
   {
     "ID": 317,
@@ -2077,7 +2336,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 36",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1009"
+    "IP-PC": "TE13PCS1009",
+    "SERIAL": "ZDGSB8GKAA00C8D "
   },
   {
     "ID": 318,
@@ -2085,7 +2345,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 9 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1010"
+    "IP-PC": "TE13PCS1010",
+    "SERIAL": "ZDGSB8GKAA002FF "
   },
   {
     "ID": 319,
@@ -2093,7 +2354,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 10 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1011"
+    "IP-PC": "TE13PCS1011",
+    "SERIAL": "ZDGSB8GKAA0025H "
   },
   {
     "ID": 320,
@@ -2101,7 +2363,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 21",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1012"
+    "IP-PC": "TE13PCS1012",
+    "SERIAL": "ZDGSB8GKAA008LP "
   },
   {
     "ID": 321,
@@ -2109,7 +2372,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 11 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1013"
+    "IP-PC": "TE13PCS1013",
+    "SERIAL": "ZDGSB8GKAA0092J "
   },
   {
     "ID": 322,
@@ -2117,7 +2381,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 17",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1014"
+    "IP-PC": "TE13PCS1014",
+    "SERIAL": "ZDGSB8GKAA008XY "
   },
   {
     "ID": 323,
@@ -2125,7 +2390,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 15",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1015"
+    "IP-PC": "TE13PCS1015",
+    "SERIAL": "ZDGSB8GKAA007MN "
   },
   {
     "ID": 324,
@@ -2133,7 +2399,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 32",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1016"
+    "IP-PC": "TE13PCS1016",
+    "SERIAL": "ZDGSB8GKAA0093E "
   },
   {
     "ID": 325,
@@ -2141,7 +2408,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 3 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1017"
+    "IP-PC": "TE13PCS1017",
+    "SERIAL": "ZDGSB8GKAA0028B "
   },
   {
     "ID": 327,
@@ -2149,7 +2417,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "CANON",
     "MODELO": "iR2200",
-    "IP-PC": "10.35.238.7"
+    "IP-PC": "10.35.238.7",
+    "SERIAL": null
   },
   {
     "ID": 329,
@@ -2157,7 +2426,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN PLANTA CERO",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.238.9"
+    "IP-PC": "10.35.238.9",
+    "SERIAL": null
   },
   {
     "ID": 330,
@@ -2165,7 +2435,8 @@ const impresoras = [
     "UBICACION": "ALBARRACIN",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.236.69"
+    "IP-PC": "10.35.236.69",
+    "SERIAL": null
   },
   {
     "ID": 332,
@@ -2173,7 +2444,8 @@ const impresoras = [
     "UBICACION": "ALBARRACIN",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE01PCS1001"
+    "IP-PC": "TE01PCS1001",
+    "SERIAL": "CNB1PBK16L"
   },
   {
     "ID": 333,
@@ -2181,7 +2453,8 @@ const impresoras = [
     "UBICACION": "ALBARRACIN",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE01PCS1002"
+    "IP-PC": "TE01PCS1002",
+    "SERIAL": "CNB1PBK16G"
   },
   {
     "ID": 334,
@@ -2189,7 +2462,8 @@ const impresoras = [
     "UBICACION": "ALBARRACIN",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE01PCS1004"
+    "IP-PC": "TE01PCS1004",
+    "SERIAL": "CNB1PBK16K"
   },
   {
     "ID": 335,
@@ -2197,7 +2471,8 @@ const impresoras = [
     "UBICACION": "ALBARRACIN",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE01PCS1003"
+    "IP-PC": "TE01PCS1003",
+    "SERIAL": "CNB1PBK16D"
   },
   {
     "ID": 336,
@@ -2205,7 +2480,8 @@ const impresoras = [
     "UBICACION": "VILLAR DEL COBO",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE01PCS1005"
+    "IP-PC": "TE01PCS1005",
+    "SERIAL": "RJ8Q359703"
   },
   {
     "ID": 337,
@@ -2213,7 +2489,8 @@ const impresoras = [
     "UBICACION": "GRIEGOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0115"
+    "IP-PC": "TE01PCS0115",
+    "SERIAL": null
   },
   {
     "ID": 338,
@@ -2221,7 +2498,8 @@ const impresoras = [
     "UBICACION": "GUADALAVIAR",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE01PCS9907"
+    "IP-PC": "TE01PCS9907",
+    "SERIAL": "RJ8Q367659"
   },
   {
     "ID": 339,
@@ -2229,7 +2507,8 @@ const impresoras = [
     "UBICACION": "ORIHUELA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE01PCS0114"
+    "IP-PC": "TE01PCS0114",
+    "SERIAL": null
   },
   {
     "ID": 340,
@@ -2237,7 +2516,8 @@ const impresoras = [
     "UBICACION": "FRIAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0102"
+    "IP-PC": "TE01PCS0102",
+    "SERIAL": null
   },
   {
     "ID": 341,
@@ -2245,7 +2525,8 @@ const impresoras = [
     "UBICACION": "BRONCHALES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0109"
+    "IP-PC": "TE01PCS0109",
+    "SERIAL": null
   },
   {
     "ID": 342,
@@ -2253,7 +2534,8 @@ const impresoras = [
     "UBICACION": "ROYUELA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0108"
+    "IP-PC": "TE01PCS0108",
+    "SERIAL": null
   },
   {
     "ID": 343,
@@ -2261,7 +2543,8 @@ const impresoras = [
     "UBICACION": "MONTERDE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0108"
+    "IP-PC": "TE01PCS0108",
+    "SERIAL": null
   },
   {
     "ID": 344,
@@ -2269,7 +2552,8 @@ const impresoras = [
     "UBICACION": "NOGUERA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0118"
+    "IP-PC": "TE01PCS0118",
+    "SERIAL": null
   },
   {
     "ID": 345,
@@ -2277,7 +2561,8 @@ const impresoras = [
     "UBICACION": "VALDECUENCA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0112"
+    "IP-PC": "TE01PCS0112",
+    "SERIAL": null
   },
   {
     "ID": 346,
@@ -2285,7 +2570,8 @@ const impresoras = [
     "UBICACION": "MOSCARDON",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0113"
+    "IP-PC": "TE01PCS0113",
+    "SERIAL": null
   },
   {
     "ID": 347,
@@ -2293,7 +2579,8 @@ const impresoras = [
     "UBICACION": "JABALOYAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS3199"
+    "IP-PC": "TE01PCS3199",
+    "SERIAL": null
   },
   {
     "ID": 348,
@@ -2301,7 +2588,8 @@ const impresoras = [
     "UBICACION": "TERRIENTE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0104"
+    "IP-PC": "TE01PCS0104",
+    "SERIAL": null
   },
   {
     "ID": 349,
@@ -2309,7 +2597,8 @@ const impresoras = [
     "UBICACION": "TRAMACASTILLA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0111"
+    "IP-PC": "TE01PCS0111",
+    "SERIAL": null
   },
   {
     "ID": 350,
@@ -2317,7 +2606,8 @@ const impresoras = [
     "UBICACION": "CALOMARDE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0117"
+    "IP-PC": "TE01PCS0117",
+    "SERIAL": null
   },
   {
     "ID": 351,
@@ -2325,7 +2615,8 @@ const impresoras = [
     "UBICACION": "TORRES DE ALBARRACÍN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01MCS1008"
+    "IP-PC": "TE01MCS1008",
+    "SERIAL": null
   },
   {
     "ID": 352,
@@ -2333,7 +2624,8 @@ const impresoras = [
     "UBICACION": "EL VALLECILLO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01PCS0119"
+    "IP-PC": "TE01PCS0119",
+    "SERIAL": null
   },
   {
     "ID": 353,
@@ -2341,7 +2633,8 @@ const impresoras = [
     "UBICACION": "EL VILLAREJO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01MCS0001"
+    "IP-PC": "TE01MCS0001",
+    "SERIAL": null
   },
   {
     "ID": 354,
@@ -2349,7 +2642,8 @@ const impresoras = [
     "UBICACION": "SALDON",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01MCS0002"
+    "IP-PC": "TE01MCS0002",
+    "SERIAL": null
   },
   {
     "ID": 355,
@@ -2357,7 +2651,8 @@ const impresoras = [
     "UBICACION": "TORIL",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE01MCS0003"
+    "IP-PC": "TE01MCS0003",
+    "SERIAL": null
   },
   {
     "ID": 356,
@@ -2365,7 +2660,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE05PCS1001"
+    "IP-PC": "TE05PCS1001",
+    "SERIAL": "CNB1PBG0P3"
   },
   {
     "ID": 357,
@@ -2373,7 +2669,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE05PCS1002"
+    "IP-PC": "TE05PCS1002",
+    "SERIAL": "CNB1PBG0P0"
   },
   {
     "ID": 358,
@@ -2381,7 +2678,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE05PCS1003"
+    "IP-PC": "TE05PCS1003",
+    "SERIAL": "CNB1PBG0P2"
   },
   {
     "ID": 359,
@@ -2389,7 +2687,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE05PCS1006"
+    "IP-PC": "TE05PCS1006",
+    "SERIAL": "CNB1Q7Q1PZ"
   },
   {
     "ID": 360,
@@ -2397,7 +2696,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.236.98"
+    "IP-PC": "10.35.236.98",
+    "SERIAL": null
   },
   {
     "ID": 361,
@@ -2405,7 +2705,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "KYOCERA",
     "MODELO": "KM-2050",
-    "IP-PC": "10.35.236.120"
+    "IP-PC": "10.35.236.120",
+    "SERIAL": null
   },
   {
     "ID": 362,
@@ -2413,7 +2714,8 @@ const impresoras = [
     "UBICACION": "PANCRUDO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05PCS0601"
+    "IP-PC": "TE05PCS0601",
+    "SERIAL": null
   },
   {
     "ID": 363,
@@ -2421,7 +2723,8 @@ const impresoras = [
     "UBICACION": "ALPEÑES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05PCS0008"
+    "IP-PC": "TE05PCS0008",
+    "SERIAL": null
   },
   {
     "ID": 364,
@@ -2429,7 +2732,8 @@ const impresoras = [
     "UBICACION": "ARGENTE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05PCS0007"
+    "IP-PC": "TE05PCS0007",
+    "SERIAL": null
   },
   {
     "ID": 365,
@@ -2437,7 +2741,8 @@ const impresoras = [
     "UBICACION": "CAMAÑAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05PCS0009"
+    "IP-PC": "TE05PCS0009",
+    "SERIAL": null
   },
   {
     "ID": 366,
@@ -2445,7 +2750,8 @@ const impresoras = [
     "UBICACION": "PERALEJOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0104"
+    "IP-PC": "TE05MCS0104",
+    "SERIAL": null
   },
   {
     "ID": 367,
@@ -2453,7 +2759,8 @@ const impresoras = [
     "UBICACION": "CAÑADA VELLIDA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0105"
+    "IP-PC": "TE05MCS0105",
+    "SERIAL": null
   },
   {
     "ID": 368,
@@ -2461,7 +2768,8 @@ const impresoras = [
     "UBICACION": "CUEVAS PORTALRUBIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0109"
+    "IP-PC": "TE05MCS0109",
+    "SERIAL": null
   },
   {
     "ID": 369,
@@ -2469,7 +2777,8 @@ const impresoras = [
     "UBICACION": "ESCORIHUELA",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS MF272DW",
-    "IP-PC": "DHCP"
+    "IP-PC": "DHCP",
+    "SERIAL": null
   },
   {
     "ID": 370,
@@ -2477,7 +2786,8 @@ const impresoras = [
     "UBICACION": "FUENTES CALIENTES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0107"
+    "IP-PC": "TE05MCS0107",
+    "SERIAL": null
   },
   {
     "ID": 371,
@@ -2485,7 +2795,8 @@ const impresoras = [
     "UBICACION": "LIDON",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0108"
+    "IP-PC": "TE05MCS0108",
+    "SERIAL": null
   },
   {
     "ID": 372,
@@ -2493,7 +2804,8 @@ const impresoras = [
     "UBICACION": "ORRIOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0110"
+    "IP-PC": "TE05MCS0110",
+    "SERIAL": null
   },
   {
     "ID": 373,
@@ -2501,7 +2813,8 @@ const impresoras = [
     "UBICACION": "PERALEJOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0106"
+    "IP-PC": "TE05MCS0106",
+    "SERIAL": null
   },
   {
     "ID": 374,
@@ -2509,7 +2822,8 @@ const impresoras = [
     "UBICACION": "PERALES DEL ALFAMBRA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05PCS0016"
+    "IP-PC": "TE05PCS0016",
+    "SERIAL": null
   },
   {
     "ID": 375,
@@ -2517,7 +2831,8 @@ const impresoras = [
     "UBICACION": "PORTALRUBIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0106"
+    "IP-PC": "TE05MCS0106",
+    "SERIAL": null
   },
   {
     "ID": 376,
@@ -2525,7 +2840,8 @@ const impresoras = [
     "UBICACION": "RILLO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0107"
+    "IP-PC": "TE05MCS0107",
+    "SERIAL": null
   },
   {
     "ID": 377,
@@ -2533,7 +2849,8 @@ const impresoras = [
     "UBICACION": "SON DEL PUERTO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0109"
+    "IP-PC": "TE05MCS0109",
+    "SERIAL": null
   },
   {
     "ID": 378,
@@ -2541,7 +2858,8 @@ const impresoras = [
     "UBICACION": "VILLALBA ALTA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05PCS0003"
+    "IP-PC": "TE05PCS0003",
+    "SERIAL": null
   },
   {
     "ID": 379,
@@ -2549,7 +2867,8 @@ const impresoras = [
     "UBICACION": "VISIEDO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05MCS0108"
+    "IP-PC": "TE05MCS0108",
+    "SERIAL": null
   },
   {
     "ID": 380,
@@ -2557,7 +2876,8 @@ const impresoras = [
     "UBICACION": "ALIAGA",
     "MARCA": "CANON",
     "MODELO": "iR1643i",
-    "IP-PC": "10.35.238.200"
+    "IP-PC": "10.35.238.200",
+    "SERIAL": null
   },
   {
     "ID": 381,
@@ -2565,7 +2885,8 @@ const impresoras = [
     "UBICACION": "ALIAGA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE06PCS1001"
+    "IP-PC": "TE06PCS1001",
+    "SERIAL": "CNB1N5Q8XR"
   },
   {
     "ID": 382,
@@ -2573,7 +2894,8 @@ const impresoras = [
     "UBICACION": "ALIAGA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE06PCS1003"
+    "IP-PC": "TE06PCS1003",
+    "SERIAL": "CNB2N5H4Q"
   },
   {
     "ID": 383,
@@ -2581,7 +2903,8 @@ const impresoras = [
     "UBICACION": "ALIAGA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE06PCS1000"
+    "IP-PC": "TE06PCS1000",
+    "SERIAL": "CNB2N58H51"
   },
   {
     "ID": 384,
@@ -2589,7 +2912,8 @@ const impresoras = [
     "UBICACION": "AGUILAR DE ALFAMBRA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1001"
+    "IP-PC": "TE06MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 385,
@@ -2597,7 +2921,8 @@ const impresoras = [
     "UBICACION": "ABABUJ",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1001"
+    "IP-PC": "TE06MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 386,
@@ -2605,7 +2930,8 @@ const impresoras = [
     "UBICACION": "CAMARILLAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1001"
+    "IP-PC": "TE06MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 387,
@@ -2613,7 +2939,8 @@ const impresoras = [
     "UBICACION": "CUEVAS DE ALMUDEN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1001"
+    "IP-PC": "TE06MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 388,
@@ -2621,7 +2948,8 @@ const impresoras = [
     "UBICACION": "GALVE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1001"
+    "IP-PC": "TE06MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 389,
@@ -2629,7 +2957,8 @@ const impresoras = [
     "UBICACION": "HINOJOSA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1002"
+    "IP-PC": "TE06MCS1002",
+    "SERIAL": null
   },
   {
     "ID": 390,
@@ -2637,7 +2966,8 @@ const impresoras = [
     "UBICACION": "JARQUE DE LA VAL",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1002"
+    "IP-PC": "TE06MCS1002",
+    "SERIAL": null
   },
   {
     "ID": 391,
@@ -2645,7 +2975,8 @@ const impresoras = [
     "UBICACION": "MEZQUITA DE JARRQUE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE06MCS1002"
+    "IP-PC": "TE06MCS1002",
+    "SERIAL": null
   },
   {
     "ID": 393,
@@ -2653,7 +2984,8 @@ const impresoras = [
     "UBICACION": "BAGUENA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE08PCS1001"
+    "IP-PC": "TE08PCS1001",
+    "SERIAL": "CNB1PBK16T"
   },
   {
     "ID": 394,
@@ -2661,7 +2993,8 @@ const impresoras = [
     "UBICACION": "BAGUENA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE08PCS1003"
+    "IP-PC": "TE08PCS1003",
+    "SERIAL": "CNB1PBK16V"
   },
   {
     "ID": 395,
@@ -2669,7 +3002,8 @@ const impresoras = [
     "UBICACION": "BURBAGUENA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE08MCS1001"
+    "IP-PC": "TE08MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 396,
@@ -2677,7 +3011,8 @@ const impresoras = [
     "UBICACION": "ANENTO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE08MCS1001"
+    "IP-PC": "TE08MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 397,
@@ -2685,7 +3020,8 @@ const impresoras = [
     "UBICACION": "CUCALON",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE08MCS1001"
+    "IP-PC": "TE08MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 398,
@@ -2693,7 +3029,8 @@ const impresoras = [
     "UBICACION": "FERRERUELA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE08MCS1002"
+    "IP-PC": "TE08MCS1002",
+    "SERIAL": null
   },
   {
     "ID": 399,
@@ -2701,7 +3038,8 @@ const impresoras = [
     "UBICACION": "SAN MARTIN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE08MCS1002"
+    "IP-PC": "TE08MCS1002",
+    "SERIAL": null
   },
   {
     "ID": 400,
@@ -2709,7 +3047,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.236.198"
+    "IP-PC": "10.35.236.198",
+    "SERIAL": null
   },
   {
     "ID": 402,
@@ -2717,7 +3056,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1001"
+    "IP-PC": "TE10PCS1001",
+    "SERIAL": "CNB3N5GJDN "
   },
   {
     "ID": 403,
@@ -2725,7 +3065,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1002"
+    "IP-PC": "TE10PCS1002",
+    "SERIAL": "CNB3N5GJDL "
   },
   {
     "ID": 404,
@@ -2733,7 +3074,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1006"
+    "IP-PC": "TE10PCS1006",
+    "SERIAL": "CNB3N5GJDD "
   },
   {
     "ID": 405,
@@ -2741,7 +3083,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1005"
+    "IP-PC": "TE10PCS1005",
+    "SERIAL": "CNB3N5GJDS "
   },
   {
     "ID": 406,
@@ -2749,7 +3092,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1007"
+    "IP-PC": "TE10PCS1007",
+    "SERIAL": "CNB3N5GJDM "
   },
   {
     "ID": 407,
@@ -2757,7 +3101,8 @@ const impresoras = [
     "UBICACION": "FUENTES CLARAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10PCS1011"
+    "IP-PC": "TE10PCS1011",
+    "SERIAL": null
   },
   {
     "ID": 408,
@@ -2765,7 +3110,8 @@ const impresoras = [
     "UBICACION": "EL POYO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10PCS0005"
+    "IP-PC": "TE10PCS0005",
+    "SERIAL": null
   },
   {
     "ID": 409,
@@ -2773,7 +3119,8 @@ const impresoras = [
     "UBICACION": "BARRACHINA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0117"
+    "IP-PC": "TE10MCS0117",
+    "SERIAL": null
   },
   {
     "ID": 410,
@@ -2781,7 +3128,8 @@ const impresoras = [
     "UBICACION": "BELLO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0118"
+    "IP-PC": "TE10MCS0118",
+    "SERIAL": null
   },
   {
     "ID": 411,
@@ -2789,7 +3137,8 @@ const impresoras = [
     "UBICACION": "ODÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0118"
+    "IP-PC": "TE10MCS0118",
+    "SERIAL": null
   },
   {
     "ID": 412,
@@ -2797,7 +3146,8 @@ const impresoras = [
     "UBICACION": "CASTEJÓN DE TORNOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0101"
+    "IP-PC": "TE10MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 413,
@@ -2805,7 +3155,8 @@ const impresoras = [
     "UBICACION": "CUTANDA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0101"
+    "IP-PC": "TE10MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 415,
@@ -2813,7 +3164,8 @@ const impresoras = [
     "UBICACION": "LUCO DE JILOCA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TE10MCS0116"
+    "IP-PC": "TE10MCS0116",
+    "SERIAL": null
   },
   {
     "ID": 416,
@@ -2821,7 +3173,8 @@ const impresoras = [
     "UBICACION": "TORNOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0101"
+    "IP-PC": "TE10MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 417,
@@ -2829,7 +3182,8 @@ const impresoras = [
     "UBICACION": "TORRALBA LOS SISONES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0116"
+    "IP-PC": "TE10MCS0116",
+    "SERIAL": null
   },
   {
     "ID": 418,
@@ -2837,7 +3191,8 @@ const impresoras = [
     "UBICACION": "OLALLA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0119"
+    "IP-PC": "TE10MCS0119",
+    "SERIAL": null
   },
   {
     "ID": 419,
@@ -2845,7 +3200,8 @@ const impresoras = [
     "UBICACION": "TORRE LOS NEGROS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS0118"
+    "IP-PC": "TE10MCS0118",
+    "SERIAL": null
   },
   {
     "ID": 420,
@@ -2853,7 +3209,8 @@ const impresoras = [
     "UBICACION": "NAVARRETE",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE10MCS1006"
+    "IP-PC": "TE10MCS1006",
+    "SERIAL": "RJ8Q367662"
   },
   {
     "ID": 421,
@@ -2861,7 +3218,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.237.2"
+    "IP-PC": "10.35.237.2",
+    "SERIAL": null
   },
   {
     "ID": 422,
@@ -2869,7 +3227,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE14PCS1001"
+    "IP-PC": "TE14PCS1001",
+    "SERIAL": "CNB2N58H52"
   },
   {
     "ID": 423,
@@ -2877,7 +3236,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE14PCS1004"
+    "IP-PC": "TE14PCS1004",
+    "SERIAL": "CNB2N58GYB"
   },
   {
     "ID": 424,
@@ -2885,7 +3245,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE14PCS1003"
+    "IP-PC": "TE14PCS1003",
+    "SERIAL": "CNB2N58GY9"
   },
   {
     "ID": 425,
@@ -2893,7 +3254,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE14PCS1002"
+    "IP-PC": "TE14PCS1002",
+    "SERIAL": null
   },
   {
     "ID": 426,
@@ -2901,7 +3263,8 @@ const impresoras = [
     "UBICACION": "ALLEPUZ",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE14PCS0105"
+    "IP-PC": "TE14PCS0105",
+    "SERIAL": null
   },
   {
     "ID": 427,
@@ -2909,7 +3272,8 @@ const impresoras = [
     "UBICACION": "VILLARROYA DE LOS PINARES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE14PCS0106"
+    "IP-PC": "TE14PCS0106",
+    "SERIAL": null
   },
   {
     "ID": 428,
@@ -2917,7 +3281,8 @@ const impresoras = [
     "UBICACION": "MIRAVETE",
     "MARCA": "HP",
     "MODELO": "LASERJET M109W",
-    "IP-PC": "TE14PCS0102"
+    "IP-PC": "TE14PCS0102",
+    "SERIAL": null
   },
   {
     "ID": 429,
@@ -2925,7 +3290,8 @@ const impresoras = [
     "UBICACION": "JORCAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE14MCS0100"
+    "IP-PC": "TE14MCS0100",
+    "SERIAL": null
   },
   {
     "ID": 430,
@@ -2933,7 +3299,8 @@ const impresoras = [
     "UBICACION": "EL POBO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE14MCS0100"
+    "IP-PC": "TE14MCS0100",
+    "SERIAL": null
   },
   {
     "ID": 431,
@@ -2941,7 +3308,8 @@ const impresoras = [
     "UBICACION": "EL CASTELLAR",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE14MCS0100"
+    "IP-PC": "TE14MCS0100",
+    "SERIAL": null
   },
   {
     "ID": 432,
@@ -2949,7 +3317,8 @@ const impresoras = [
     "UBICACION": "MONTEAGUDO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE14MCS0102"
+    "IP-PC": "TE14MCS0102",
+    "SERIAL": null
   },
   {
     "ID": 433,
@@ -2957,7 +3326,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.237.34"
+    "IP-PC": "10.35.237.34",
+    "SERIAL": null
   },
   {
     "ID": 434,
@@ -2965,7 +3335,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE15PCS1001"
+    "IP-PC": "TE15PCS1001",
+    "SERIAL": "CNB1Q7Q1BV"
   },
   {
     "ID": 435,
@@ -2973,7 +3344,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE15PCS1006"
+    "IP-PC": "TE15PCS1006",
+    "SERIAL": "CNB1Q7Q18M"
   },
   {
     "ID": 436,
@@ -2981,7 +3353,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE15PCS1012"
+    "IP-PC": "TE15PCS1012",
+    "SERIAL": "CNB1Q7Q197"
   },
   {
     "ID": 437,
@@ -2989,7 +3362,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE15PCS1000"
+    "IP-PC": "TE15PCS1000",
+    "SERIAL": "CNB1Q7Q18Q"
   },
   {
     "ID": 438,
@@ -2997,7 +3371,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "EPSON",
     "MODELO": "EPL-6200",
-    "IP-PC": "TE15PCS1007"
+    "IP-PC": "TE15PCS1007",
+    "SERIAL": null
   },
   {
     "ID": 439,
@@ -3005,7 +3380,8 @@ const impresoras = [
     "UBICACION": "GEA DE ALBARRACÍN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE15PCS1010"
+    "IP-PC": "TE15PCS1010",
+    "SERIAL": null
   },
   {
     "ID": 440,
@@ -3013,15 +3389,17 @@ const impresoras = [
     "UBICACION": "VILLARQUEMADO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE15PCS1009"
+    "IP-PC": "TE15PCS1009",
+    "SERIAL": null
   },
   {
     "ID": 441,
-    "EDIFICIO": "MONREAL",
+    "EDIFICIO": "MONREAL ",
     "UBICACION": "MONREAL",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.22.148"
+    "IP-PC": "10.35.22.148",
+    "SERIAL": null
   },
   {
     "ID": 442,
@@ -3029,7 +3407,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS1001"
+    "IP-PC": "TE18PCS1001",
+    "SERIAL": "CNB3N5GJG0 "
   },
   {
     "ID": 443,
@@ -3037,7 +3416,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS1002"
+    "IP-PC": "TE18PCS1002",
+    "SERIAL": "CNB3N5GJ26 "
   },
   {
     "ID": 444,
@@ -3045,7 +3425,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS1005"
+    "IP-PC": "TE18PCS1005",
+    "SERIAL": "CNB3N5GJ27 "
   },
   {
     "ID": 445,
@@ -3053,7 +3434,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS1006"
+    "IP-PC": "TE18PCS1006",
+    "SERIAL": "CNB3N5GJG5 "
   },
   {
     "ID": 446,
@@ -3061,7 +3443,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS1008"
+    "IP-PC": "TE18PCS1008",
+    "SERIAL": "CNB3N5GJG4 "
   },
   {
     "ID": 447,
@@ -3069,7 +3452,8 @@ const impresoras = [
     "UBICACION": "CAMINREAL",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18PCS1010"
+    "IP-PC": "TE18PCS1010",
+    "SERIAL": null
   },
   {
     "ID": 448,
@@ -3077,7 +3461,8 @@ const impresoras = [
     "UBICACION": "TORRIJO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18PCS1011"
+    "IP-PC": "TE18PCS1011",
+    "SERIAL": null
   },
   {
     "ID": 449,
@@ -3085,7 +3470,8 @@ const impresoras = [
     "UBICACION": "VILLAR DEL SALZ",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18PCS0023"
+    "IP-PC": "TE18PCS0023",
+    "SERIAL": null
   },
   {
     "ID": 450,
@@ -3093,7 +3479,8 @@ const impresoras = [
     "UBICACION": "BAÑÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18PCS0024"
+    "IP-PC": "TE18PCS0024",
+    "SERIAL": null
   },
   {
     "ID": 451,
@@ -3101,7 +3488,8 @@ const impresoras = [
     "UBICACION": "OJOS NEGROS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE18PCS1012"
+    "IP-PC": "TE18PCS1012",
+    "SERIAL": null
   },
   {
     "ID": 452,
@@ -3109,7 +3497,8 @@ const impresoras = [
     "UBICACION": "MINAS OJOS NEGROS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18MCS0107"
+    "IP-PC": "TE18MCS0107",
+    "SERIAL": null
   },
   {
     "ID": 453,
@@ -3117,7 +3506,8 @@ const impresoras = [
     "UBICACION": "VILLAFRANCA DEL CAMPO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18MCS0101"
+    "IP-PC": "TE18MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 454,
@@ -3125,7 +3515,8 @@ const impresoras = [
     "UBICACION": "BLANCAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE18MCS0110"
+    "IP-PC": "TE18MCS0110",
+    "SERIAL": null
   },
   {
     "ID": 455,
@@ -3133,7 +3524,8 @@ const impresoras = [
     "UBICACION": "BUEÑA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18MCS1008"
+    "IP-PC": "TE18MCS1008",
+    "SERIAL": null
   },
   {
     "ID": 456,
@@ -3141,7 +3533,8 @@ const impresoras = [
     "UBICACION": "COSA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18MCS0101"
+    "IP-PC": "TE18MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 457,
@@ -3149,7 +3542,8 @@ const impresoras = [
     "UBICACION": "POZUEL DEL CAMPO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18MCS0107"
+    "IP-PC": "TE18MCS0107",
+    "SERIAL": null
   },
   {
     "ID": 458,
@@ -3157,7 +3551,8 @@ const impresoras = [
     "UBICACION": "RUBIELOS DE LA CÉRIDA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE18MCS0101"
+    "IP-PC": "TE18MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 459,
@@ -3165,7 +3560,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.22.164"
+    "IP-PC": "10.35.22.164",
+    "SERIAL": null
   },
   {
     "ID": 460,
@@ -3173,7 +3569,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCA1001"
+    "IP-PC": "TE19PCA1001",
+    "SERIAL": "CNB3N5GJ2C "
   },
   {
     "ID": 461,
@@ -3181,7 +3578,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1001"
+    "IP-PC": "TE19PCS1001",
+    "SERIAL": "CNB3N4RBGZ "
   },
   {
     "ID": 462,
@@ -3189,7 +3587,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1003"
+    "IP-PC": "TE19PCS1003",
+    "SERIAL": "CNB3N4RBGX "
   },
   {
     "ID": 463,
@@ -3197,7 +3596,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1010"
+    "IP-PC": "TE19PCS1010",
+    "SERIAL": "CNB3N5GJ3L "
   },
   {
     "ID": 464,
@@ -3205,7 +3605,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1007"
+    "IP-PC": "TE19PCS1007",
+    "SERIAL": "CNB3N4RBHL "
   },
   {
     "ID": 465,
@@ -3213,7 +3614,8 @@ const impresoras = [
     "UBICACION": "ALCALA DE LA SELVA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE19PCS0104"
+    "IP-PC": "TE19PCS0104",
+    "SERIAL": null
   },
   {
     "ID": 466,
@@ -3221,7 +3623,8 @@ const impresoras = [
     "UBICACION": "CABRA MORA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE19MCS0105"
+    "IP-PC": "TE19MCS0105",
+    "SERIAL": null
   },
   {
     "ID": 467,
@@ -3229,7 +3632,8 @@ const impresoras = [
     "UBICACION": "NOGUERUELAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10PCS0106"
+    "IP-PC": "TE10PCS0106",
+    "SERIAL": null
   },
   {
     "ID": 468,
@@ -3237,7 +3641,8 @@ const impresoras = [
     "UBICACION": "RUBIELOS DE MORA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10PCS0107"
+    "IP-PC": "TE10PCS0107",
+    "SERIAL": null
   },
   {
     "ID": 469,
@@ -3245,7 +3650,8 @@ const impresoras = [
     "UBICACION": "FUENTES DE RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10PCS0112"
+    "IP-PC": "TE10PCS0112",
+    "SERIAL": null
   },
   {
     "ID": 470,
@@ -3253,7 +3659,8 @@ const impresoras = [
     "UBICACION": "GUDAR",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10PCS0110"
+    "IP-PC": "TE10PCS0110",
+    "SERIAL": null
   },
   {
     "ID": 471,
@@ -3261,7 +3668,8 @@ const impresoras = [
     "UBICACION": "VALBONA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10PCS0103"
+    "IP-PC": "TE10PCS0103",
+    "SERIAL": null
   },
   {
     "ID": 472,
@@ -3269,7 +3677,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.237.195"
+    "IP-PC": "10.35.237.195",
+    "SERIAL": null
   },
   {
     "ID": 473,
@@ -3277,7 +3686,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE20PCS0102"
+    "IP-PC": "TE20PCS0102",
+    "SERIAL": "CNB1Q7Q19B"
   },
   {
     "ID": 474,
@@ -3285,7 +3695,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE20PCS0101"
+    "IP-PC": "TE20PCS0101",
+    "SERIAL": "CNB1Q7Q1Q2"
   },
   {
     "ID": 475,
@@ -3293,7 +3704,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE20PCS0106"
+    "IP-PC": "TE20PCS0106",
+    "SERIAL": "CNB1Q7Q1BQ"
   },
   {
     "ID": 476,
@@ -3301,7 +3713,8 @@ const impresoras = [
     "UBICACION": "PUERTOMINGALVO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE20PCS1006"
+    "IP-PC": "TE20PCS1006",
+    "SERIAL": null
   },
   {
     "ID": 477,
@@ -3309,7 +3722,8 @@ const impresoras = [
     "UBICACION": "LINARES DE MORA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE20PCS0105"
+    "IP-PC": "TE20PCS0105",
+    "SERIAL": null
   },
   {
     "ID": 478,
@@ -3317,7 +3731,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.237.226"
+    "IP-PC": "10.35.237.226",
+    "SERIAL": null
   },
   {
     "ID": 479,
@@ -3325,7 +3740,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE22PCS1001"
+    "IP-PC": "TE22PCS1001",
+    "SERIAL": "CNB1PBK16N"
   },
   {
     "ID": 480,
@@ -3333,7 +3749,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE22PCS1002"
+    "IP-PC": "TE22PCS1002",
+    "SERIAL": "CNB1PBK170"
   },
   {
     "ID": 481,
@@ -3341,7 +3758,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE22PCS1004"
+    "IP-PC": "TE22PCS1004",
+    "SERIAL": "CNB1P8K1J0"
   },
   {
     "ID": 482,
@@ -3349,7 +3767,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE22PCS1003"
+    "IP-PC": "TE22PCS1003",
+    "SERIAL": "CNB1P3Y0BK"
   },
   {
     "ID": 483,
@@ -3357,7 +3776,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE22PCS1005"
+    "IP-PC": "TE22PCS1005",
+    "SERIAL": "CNB1PBK16S"
   },
   {
     "ID": 484,
@@ -3365,7 +3785,8 @@ const impresoras = [
     "UBICACION": "ALBA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE22PCS0106"
+    "IP-PC": "TE22PCS0106",
+    "SERIAL": null
   },
   {
     "ID": 485,
@@ -3373,7 +3794,8 @@ const impresoras = [
     "UBICACION": "TORREMOCHA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE22PCS0602"
+    "IP-PC": "TE22PCS0602",
+    "SERIAL": null
   },
   {
     "ID": 486,
@@ -3381,7 +3803,8 @@ const impresoras = [
     "UBICACION": "POZONDÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE22MCS0100"
+    "IP-PC": "TE22MCS0100",
+    "SERIAL": null
   },
   {
     "ID": 487,
@@ -3389,7 +3812,8 @@ const impresoras = [
     "UBICACION": "RODENAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE22MCS0101"
+    "IP-PC": "TE22MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 488,
@@ -3397,7 +3821,8 @@ const impresoras = [
     "UBICACION": "PERACENSE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE22MCS0101"
+    "IP-PC": "TE22MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 489,
@@ -3405,7 +3830,8 @@ const impresoras = [
     "UBICACION": "SINGRA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE22MCS0103"
+    "IP-PC": "TE22MCS0103",
+    "SERIAL": null
   },
   {
     "ID": 490,
@@ -3413,7 +3839,8 @@ const impresoras = [
     "UBICACION": "TORRELACARCEL",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE22MCS0103"
+    "IP-PC": "TE22MCS0103",
+    "SERIAL": null
   },
   {
     "ID": 491,
@@ -3421,7 +3848,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.238.66"
+    "IP-PC": "10.35.238.66",
+    "SERIAL": null
   },
   {
     "ID": 492,
@@ -3429,7 +3857,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE23PCS1005"
+    "IP-PC": "TE23PCS1005",
+    "SERIAL": "CNB1PBK16W"
   },
   {
     "ID": 493,
@@ -3437,7 +3866,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE23PCS1002"
+    "IP-PC": "TE23PCS1002",
+    "SERIAL": "CNB1PNK16Q"
   },
   {
     "ID": 494,
@@ -3445,7 +3875,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE23PCS1008"
+    "IP-PC": "TE23PCS1008",
+    "SERIAL": "CNB1PBK16J"
   },
   {
     "ID": 495,
@@ -3453,7 +3884,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE23PCS1001"
+    "IP-PC": "TE23PCS1001",
+    "SERIAL": "CNB1PBK16P"
   },
   {
     "ID": 496,
@@ -3461,7 +3893,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE23PCS1007"
+    "IP-PC": "TE23PCS1007",
+    "SERIAL": "CNB1PBK16R"
   },
   {
     "ID": 497,
@@ -3469,7 +3902,8 @@ const impresoras = [
     "UBICACION": "SAN AGUSTIN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS0001"
+    "IP-PC": "TE23PCS0001",
+    "SERIAL": null
   },
   {
     "ID": 498,
@@ -3477,7 +3911,8 @@ const impresoras = [
     "UBICACION": "MANZANERA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS0102"
+    "IP-PC": "TE23PCS0102",
+    "SERIAL": null
   },
   {
     "ID": 499,
@@ -3485,7 +3920,8 @@ const impresoras = [
     "UBICACION": "OLBA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS0103"
+    "IP-PC": "TE23PCS0103",
+    "SERIAL": null
   },
   {
     "ID": 500,
@@ -3493,7 +3929,8 @@ const impresoras = [
     "UBICACION": "TORRIJAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS0104"
+    "IP-PC": "TE23PCS0104",
+    "SERIAL": null
   },
   {
     "ID": 501,
@@ -3501,7 +3938,8 @@ const impresoras = [
     "UBICACION": "ARCOS DE LAS SALINAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE23PCS1012"
+    "IP-PC": "TE23PCS1012",
+    "SERIAL": null
   },
   {
     "ID": 502,
@@ -3509,7 +3947,8 @@ const impresoras = [
     "UBICACION": "LOS PERTEGACES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS0109"
+    "IP-PC": "TE23PCS0109",
+    "SERIAL": null
   },
   {
     "ID": 503,
@@ -3517,7 +3956,8 @@ const impresoras = [
     "UBICACION": "LOS VILLANUEVA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS0110"
+    "IP-PC": "TE23PCS0110",
+    "SERIAL": null
   },
   {
     "ID": 504,
@@ -3525,7 +3965,8 @@ const impresoras = [
     "UBICACION": "ALBENTOSA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS1013"
+    "IP-PC": "TE23PCS1013",
+    "SERIAL": null
   },
   {
     "ID": 505,
@@ -3533,7 +3974,8 @@ const impresoras = [
     "UBICACION": "LOS CEREZOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23PCS0605"
+    "IP-PC": "TE23PCS0605",
+    "SERIAL": null
   },
   {
     "ID": 506,
@@ -3541,7 +3983,8 @@ const impresoras = [
     "UBICACION": "ARCOS DE LAS SALINAS",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE23PCS1011"
+    "IP-PC": "TE23PCS1011",
+    "SERIAL": "RJ8Q359611"
   },
   {
     "ID": 507,
@@ -3549,7 +3992,8 @@ const impresoras = [
     "UBICACION": "VENTA DEL AIRE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE23MCS0114"
+    "IP-PC": "TE23MCS0114",
+    "SERIAL": null
   },
   {
     "ID": 508,
@@ -3557,7 +4001,8 @@ const impresoras = [
     "UBICACION": "CONCUD",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0115"
+    "IP-PC": "TE24PCS0115",
+    "SERIAL": null
   },
   {
     "ID": 509,
@@ -3565,7 +4010,8 @@ const impresoras = [
     "UBICACION": "CORBALAN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0119"
+    "IP-PC": "TE24PCS0119",
+    "SERIAL": null
   },
   {
     "ID": 510,
@@ -3573,7 +4019,8 @@ const impresoras = [
     "UBICACION": "CAUDE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0004"
+    "IP-PC": "TE24PCS0004",
+    "SERIAL": null
   },
   {
     "ID": 511,
@@ -3581,7 +4028,8 @@ const impresoras = [
     "UBICACION": "CELADAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0005"
+    "IP-PC": "TE24PCS0005",
+    "SERIAL": null
   },
   {
     "ID": 512,
@@ -3589,7 +4037,8 @@ const impresoras = [
     "UBICACION": "CUEVAS LABRADAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0007"
+    "IP-PC": "TE24PCS0007",
+    "SERIAL": null
   },
   {
     "ID": 513,
@@ -3597,7 +4046,8 @@ const impresoras = [
     "UBICACION": "LA PUEBLA DE VALVERDE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0003"
+    "IP-PC": "TE24PCS0003",
+    "SERIAL": null
   },
   {
     "ID": 514,
@@ -3605,7 +4055,8 @@ const impresoras = [
     "UBICACION": "FORMICHE ALTO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE13PCS0019"
+    "IP-PC": "TE13PCS0019",
+    "SERIAL": null
   },
   {
     "ID": 515,
@@ -3613,7 +4064,8 @@ const impresoras = [
     "UBICACION": "SAN BLAS",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE24MCS1002"
+    "IP-PC": "TE24MCS1002",
+    "SERIAL": "RJ8Q359203"
   },
   {
     "ID": 516,
@@ -3621,7 +4073,8 @@ const impresoras = [
     "UBICACION": "VALDECEBRO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE13PCS0405"
+    "IP-PC": "TE13PCS0405",
+    "SERIAL": null
   },
   {
     "ID": 517,
@@ -3629,7 +4082,8 @@ const impresoras = [
     "UBICACION": "VILLASPESA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE28PCS0112"
+    "IP-PC": "TE28PCS0112",
+    "SERIAL": null
   },
   {
     "ID": 518,
@@ -3637,7 +4091,8 @@ const impresoras = [
     "UBICACION": "EL CAMPILLO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24MCS0002"
+    "IP-PC": "TE24MCS0002",
+    "SERIAL": null
   },
   {
     "ID": 519,
@@ -3645,7 +4100,8 @@ const impresoras = [
     "UBICACION": "RUBIALES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE13PCS0100"
+    "IP-PC": "TE13PCS0100",
+    "SERIAL": null
   },
   {
     "ID": 520,
@@ -3653,7 +4109,8 @@ const impresoras = [
     "UBICACION": "VILLALBA BAJA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24MCS0001"
+    "IP-PC": "TE24MCS0001",
+    "SERIAL": null
   },
   {
     "ID": 521,
@@ -3661,7 +4118,8 @@ const impresoras = [
     "UBICACION": "BEZAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0008"
+    "IP-PC": "TE24PCS0008",
+    "SERIAL": null
   },
   {
     "ID": 522,
@@ -3669,7 +4127,8 @@ const impresoras = [
     "UBICACION": "TORTAJADA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24MCS0001"
+    "IP-PC": "TE24MCS0001",
+    "SERIAL": null
   },
   {
     "ID": 523,
@@ -3677,7 +4136,8 @@ const impresoras = [
     "UBICACION": "CASTRALVO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24MCS0003"
+    "IP-PC": "TE24MCS0003",
+    "SERIAL": "CNBW7437FV"
   },
   {
     "ID": 524,
@@ -3685,7 +4145,8 @@ const impresoras = [
     "UBICACION": "ALDEHUELA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24MCS0003"
+    "IP-PC": "TE24MCS0003",
+    "SERIAL": null
   },
   {
     "ID": 525,
@@ -3693,7 +4154,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.22.180"
+    "IP-PC": "10.35.22.180",
+    "SERIAL": null
   },
   {
     "ID": 526,
@@ -3701,7 +4163,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.22.178"
+    "IP-PC": "10.35.22.178",
+    "SERIAL": "CNB3N5GJ8J "
   },
   {
     "ID": 527,
@@ -3709,7 +4172,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1001"
+    "IP-PC": "TE25PCS1001",
+    "SERIAL": "CNB3N5GJ8L "
   },
   {
     "ID": 528,
@@ -3717,7 +4181,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1002"
+    "IP-PC": "TE25PCS1002",
+    "SERIAL": "CNB3N5GJ7N "
   },
   {
     "ID": 529,
@@ -3725,7 +4190,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1003"
+    "IP-PC": "TE25PCS1003",
+    "SERIAL": "CNB3N5GJ8V "
   },
   {
     "ID": 530,
@@ -3733,7 +4199,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1004"
+    "IP-PC": "TE25PCS1004",
+    "SERIAL": "CNB3N5GJ8N "
   },
   {
     "ID": 531,
@@ -3741,7 +4208,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1009"
+    "IP-PC": "TE25PCS1009",
+    "SERIAL": "CNB3N5GJ8G "
   },
   {
     "ID": 532,
@@ -3749,7 +4217,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1008"
+    "IP-PC": "TE25PCS1008",
+    "SERIAL": "CNB3N5GJ8P "
   },
   {
     "ID": 533,
@@ -3757,7 +4226,8 @@ const impresoras = [
     "UBICACION": "CAÑIZAR",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25PCS0010"
+    "IP-PC": "TE25PCS0010",
+    "SERIAL": null
   },
   {
     "ID": 534,
@@ -3765,7 +4235,8 @@ const impresoras = [
     "UBICACION": "CASTEL DE CABRA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25PCS0016"
+    "IP-PC": "TE25PCS0016",
+    "SERIAL": null
   },
   {
     "ID": 535,
@@ -3773,7 +4244,8 @@ const impresoras = [
     "UBICACION": "ESCUCHA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE25PCS1018"
+    "IP-PC": "TE25PCS1018",
+    "SERIAL": null
   },
   {
     "ID": 536,
@@ -3781,7 +4253,8 @@ const impresoras = [
     "UBICACION": "MONTALBAN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25PCS0016"
+    "IP-PC": "TE25PCS0016",
+    "SERIAL": null
   },
   {
     "ID": 537,
@@ -3789,7 +4262,8 @@ const impresoras = [
     "UBICACION": "MARTIN DEL RIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25PCS0030"
+    "IP-PC": "TE25PCS0030",
+    "SERIAL": null
   },
   {
     "ID": 538,
@@ -3797,7 +4271,8 @@ const impresoras = [
     "UBICACION": "PALOMAR",
     "MARCA": "CANON",
     "MODELO": "MF810",
-    "IP-PC": "TE25MCS0609"
+    "IP-PC": "TE25MCS0609",
+    "SERIAL": null
   },
   {
     "ID": 539,
@@ -3805,7 +4280,8 @@ const impresoras = [
     "UBICACION": "FUENFERRADA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS0101"
+    "IP-PC": "TE25MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 540,
@@ -3813,7 +4289,8 @@ const impresoras = [
     "UBICACION": "LA HOZ",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS0107"
+    "IP-PC": "TE25MCS0107",
+    "SERIAL": null
   },
   {
     "ID": 541,
@@ -3821,7 +4298,8 @@ const impresoras = [
     "UBICACION": "SALCEDILLO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS0101"
+    "IP-PC": "TE25MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 542,
@@ -3829,7 +4307,8 @@ const impresoras = [
     "UBICACION": "SEGURA DE BAÑOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS0107"
+    "IP-PC": "TE25MCS0107",
+    "SERIAL": null
   },
   {
     "ID": 543,
@@ -3837,7 +4316,8 @@ const impresoras = [
     "UBICACION": "TORRE DE LAS ARCAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS0107"
+    "IP-PC": "TE25MCS0107",
+    "SERIAL": null
   },
   {
     "ID": 544,
@@ -3845,7 +4325,8 @@ const impresoras = [
     "UBICACION": "VILLANUEVA DEL REBOLLAR",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS0101"
+    "IP-PC": "TE25MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 545,
@@ -3853,7 +4334,8 @@ const impresoras = [
     "UBICACION": "VIVEL DEL RIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS0101"
+    "IP-PC": "TE25MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 546,
@@ -3861,7 +4343,8 @@ const impresoras = [
     "UBICACION": "VILLEL",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.238.162"
+    "IP-PC": "10.35.238.162",
+    "SERIAL": null
   },
   {
     "ID": 548,
@@ -3869,7 +4352,8 @@ const impresoras = [
     "UBICACION": "VILLEL",
     "MARCA": "RICOH",
     "MODELO": "AFICIO MP2000",
-    "IP-PC": "10.35.238.189"
+    "IP-PC": "10.35.238.189",
+    "SERIAL": null
   },
   {
     "ID": 549,
@@ -3877,7 +4361,8 @@ const impresoras = [
     "UBICACION": "VILLEL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE27PCS1001"
+    "IP-PC": "TE27PCS1001",
+    "SERIAL": "CNB1Q7Q18R"
   },
   {
     "ID": 550,
@@ -3885,7 +4370,8 @@ const impresoras = [
     "UBICACION": "VILLEL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE27PCS1002"
+    "IP-PC": "TE27PCS1002",
+    "SERIAL": "CNB1Q7Q1Q3"
   },
   {
     "ID": 551,
@@ -3893,7 +4379,8 @@ const impresoras = [
     "UBICACION": "EL CUERVO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE27PCS1005"
+    "IP-PC": "TE27PCS1005",
+    "SERIAL": null
   },
   {
     "ID": 552,
@@ -3901,7 +4388,8 @@ const impresoras = [
     "UBICACION": "VILLASTAR",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27PCS0102"
+    "IP-PC": "TE27PCS0102",
+    "SERIAL": null
   },
   {
     "ID": 553,
@@ -3909,7 +4397,8 @@ const impresoras = [
     "UBICACION": "CAMARENA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0101"
+    "IP-PC": "TE27MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 554,
@@ -3917,7 +4406,8 @@ const impresoras = [
     "UBICACION": "CASCANTE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0102"
+    "IP-PC": "TE27MCS0102",
+    "SERIAL": null
   },
   {
     "ID": 555,
@@ -3925,7 +4415,8 @@ const impresoras = [
     "UBICACION": "CUBLA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0101"
+    "IP-PC": "TE27MCS0101",
+    "SERIAL": null
   },
   {
     "ID": 556,
@@ -3933,7 +4424,8 @@ const impresoras = [
     "UBICACION": "LIBROS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE27MCS0102"
+    "IP-PC": "TE27MCS0102",
+    "SERIAL": null
   },
   {
     "ID": 557,
@@ -3941,7 +4433,8 @@ const impresoras = [
     "UBICACION": "RIODEVA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE27MCS0102"
+    "IP-PC": "TE27MCS0102",
+    "SERIAL": null
   },
   {
     "ID": 558,
@@ -3949,7 +4442,8 @@ const impresoras = [
     "UBICACION": "TORMÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0103"
+    "IP-PC": "TE27MCS0103",
+    "SERIAL": null
   },
   {
     "ID": 559,
@@ -3957,7 +4451,8 @@ const impresoras = [
     "UBICACION": "TRAMACASTIEL",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0103"
+    "IP-PC": "TE27MCS0103",
+    "SERIAL": null
   },
   {
     "ID": 560,
@@ -3965,7 +4460,8 @@ const impresoras = [
     "UBICACION": "VALACLOCHE",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0103"
+    "IP-PC": "TE27MCS0103",
+    "SERIAL": null
   },
   {
     "ID": 561,
@@ -3973,7 +4469,8 @@ const impresoras = [
     "UBICACION": "VEGUILLAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0103"
+    "IP-PC": "TE27MCS0103",
+    "SERIAL": null
   },
   {
     "ID": 563,
@@ -3981,7 +4478,8 @@ const impresoras = [
     "UBICACION": "FACTURACIÓN",
     "MARCA": "BROTHER",
     "MODELO": "MFC-L5750DW",
-    "IP-PC": "10.35.125.78"
+    "IP-PC": "10.35.125.78",
+    "SERIAL": null
   },
   {
     "ID": 564,
@@ -3989,7 +4487,8 @@ const impresoras = [
     "UBICACION": "SECRETARIA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.125.75"
+    "IP-PC": "10.35.125.75",
+    "SERIAL": null
   },
   {
     "ID": 565,
@@ -3997,7 +4496,8 @@ const impresoras = [
     "UBICACION": "SECRETARIA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPDIRG04"
+    "IP-PC": "TEAEPDIRG04",
+    "SERIAL": null
   },
   {
     "ID": 566,
@@ -4005,7 +4505,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "EPSON",
     "MODELO": "STYLUS OFFICE DX305F",
-    "IP-PC": "TEAEPDIRG01"
+    "IP-PC": "TEAEPDIRG01",
+    "SERIAL": null
   },
   {
     "ID": 567,
@@ -4013,7 +4514,8 @@ const impresoras = [
     "UBICACION": "CONTABILIDAD",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TEAEPCONT01"
+    "IP-PC": "TEAEPCONT01",
+    "SERIAL": "RJ8Q357754"
   },
   {
     "ID": 568,
@@ -4021,7 +4523,8 @@ const impresoras = [
     "UBICACION": "CONTABILIDAD",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TEAEPCONT03"
+    "IP-PC": "TEAEPCONT03",
+    "SERIAL": "RJ8Q357759"
   },
   {
     "ID": 569,
@@ -4029,7 +4532,8 @@ const impresoras = [
     "UBICACION": "CONTABILIDAD",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TEAEPCONT04"
+    "IP-PC": "TEAEPCONT04",
+    "SERIAL": "RJ8Q357756"
   },
   {
     "ID": 570,
@@ -4037,7 +4541,8 @@ const impresoras = [
     "UBICACION": "CONTABILIDAD",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPCONT02"
+    "IP-PC": "TEAEPCONT02",
+    "SERIAL": null
   },
   {
     "ID": 571,
@@ -4045,7 +4550,8 @@ const impresoras = [
     "UBICACION": "PERSONAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPPERS06"
+    "IP-PC": "TEAEPPERS06",
+    "SERIAL": "CNB1QCR2VG"
   },
   {
     "ID": 572,
@@ -4053,7 +4559,17 @@ const impresoras = [
     "UBICACION": "PERSONAL",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TEAEPPERS08"
+    "IP-PC": "TEAEPPERS08",
+    "SERIAL": null
+  },
+  {
+    "ID": 573,
+    "EDIFICIO": "GERENCIA",
+    "UBICACION": "REGISTRO",
+    "MARCA": "BROTHER",
+    "MODELO": "HL-5250DN",
+    "IP-PC": null,
+    "SERIAL": null
   },
   {
     "ID": 574,
@@ -4061,7 +4577,8 @@ const impresoras = [
     "UBICACION": "SUMINISTROS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPSUMI04"
+    "IP-PC": "TEAEPSUMI04",
+    "SERIAL": "CNB15365V1"
   },
   {
     "ID": 576,
@@ -4069,7 +4586,8 @@ const impresoras = [
     "UBICACION": "SUMINISTROS",
     "MARCA": "ZEBRA",
     "MODELO": "S4M",
-    "IP-PC": "MANT-2"
+    "IP-PC": "MANT-2",
+    "SERIAL": null
   },
   {
     "ID": 577,
@@ -4077,7 +4595,8 @@ const impresoras = [
     "UBICACION": "TECNICO AP",
     "MARCA": "HP",
     "MODELO": "LASERJET P2035",
-    "IP-PC": "TECNICO-AP"
+    "IP-PC": "TECNICO-AP",
+    "SERIAL": null
   },
   {
     "ID": 582,
@@ -4085,7 +4604,8 @@ const impresoras = [
     "UBICACION": "COCINA",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S700C",
-    "IP-PC": "COCI-2"
+    "IP-PC": "COCI-2",
+    "SERIAL": "JNAC005021"
   },
   {
     "ID": 583,
@@ -4093,7 +4613,8 @@ const impresoras = [
     "UBICACION": "COCINA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "COCI-2"
+    "IP-PC": "COCI-2",
+    "SERIAL": null
   },
   {
     "ID": 584,
@@ -4101,7 +4622,8 @@ const impresoras = [
     "UBICACION": "ALOBRAS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE27MCS0103"
+    "IP-PC": "TE27MCS0103",
+    "SERIAL": null
   },
   {
     "ID": 585,
@@ -4109,7 +4631,8 @@ const impresoras = [
     "UBICACION": "ALBARRACIN",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE01PCA1001"
+    "IP-PC": "TE01PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 586,
@@ -4117,7 +4640,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE05PCA1001"
+    "IP-PC": "TE05PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 587,
@@ -4125,7 +4649,8 @@ const impresoras = [
     "UBICACION": "ALIAGA",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE06PCA1001"
+    "IP-PC": "TE06PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 588,
@@ -4133,7 +4658,8 @@ const impresoras = [
     "UBICACION": "BAGUENA",
     "MARCA": "EPSON",
     "MODELO": "TM-T20II",
-    "IP-PC": "TE08PCA1001"
+    "IP-PC": "TE08PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 589,
@@ -4141,7 +4667,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE10PCA1001"
+    "IP-PC": "TE10PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 590,
@@ -4149,7 +4676,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE14PCA1001"
+    "IP-PC": "TE14PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 591,
@@ -4157,7 +4685,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE15PCA1001"
+    "IP-PC": "TE15PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 592,
@@ -4165,7 +4694,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "EPSON",
     "MODELO": "TM-T20II",
-    "IP-PC": "TE18PCA1001"
+    "IP-PC": "TE18PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 593,
@@ -4173,7 +4703,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE20PCA0101"
+    "IP-PC": "TE20PCA0101",
+    "SERIAL": null
   },
   {
     "ID": 594,
@@ -4181,7 +4712,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE22PCA1001"
+    "IP-PC": "TE22PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 595,
@@ -4189,7 +4721,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE23PCA0101"
+    "IP-PC": "TE23PCA0101",
+    "SERIAL": null
   },
   {
     "ID": 596,
@@ -4197,7 +4730,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE25PCA0101"
+    "IP-PC": "TE25PCA0101",
+    "SERIAL": null
   },
   {
     "ID": 597,
@@ -4205,7 +4739,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE25PCA0102"
+    "IP-PC": "TE25PCA0102",
+    "SERIAL": null
   },
   {
     "ID": 598,
@@ -4213,7 +4748,8 @@ const impresoras = [
     "UBICACION": "VILLEL",
     "MARCA": "EPSON",
     "MODELO": "TM-T88IV",
-    "IP-PC": "TE27PCA1001"
+    "IP-PC": "TE27PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 600,
@@ -4221,7 +4757,8 @@ const impresoras = [
     "UBICACION": "SINDICATO",
     "MARCA": "CANON",
     "MODELO": "LPB613",
-    "IP-PC": "10.35.20.53"
+    "IP-PC": "10.35.20.53",
+    "SERIAL": null
   },
   {
     "ID": 603,
@@ -4229,7 +4766,8 @@ const impresoras = [
     "UBICACION": "HOSPITAL DE DÍA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.239.175"
+    "IP-PC": "10.35.239.175",
+    "SERIAL": "CNB1R793N5"
   },
   {
     "ID": 606,
@@ -4237,7 +4775,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN MÉDICA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.233.156"
+    "IP-PC": "10.35.233.156",
+    "SERIAL": "RZR27173"
   },
   {
     "ID": 614,
@@ -4245,7 +4784,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN SAN JOSÉ",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.239.189"
+    "IP-PC": "10.35.239.189",
+    "SERIAL": "ZDGSB8GKAA008AX"
   },
   {
     "ID": 615,
@@ -4253,7 +4793,8 @@ const impresoras = [
     "UBICACION": "REHABILITACIÓN SAN JOSÉ",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TEAEPSJAD04"
+    "IP-PC": "TEAEPSJAD04",
+    "SERIAL": null
   },
   {
     "ID": 617,
@@ -4261,7 +4802,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS - H. DIA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.108"
+    "IP-PC": "10.35.232.108",
+    "SERIAL": null
   },
   {
     "ID": 618,
@@ -4269,7 +4811,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS - CONTROL",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.109"
+    "IP-PC": "10.35.232.109",
+    "SERIAL": null
   },
   {
     "ID": 624,
@@ -4277,7 +4820,8 @@ const impresoras = [
     "UBICACION": "CONTROL PRIMERA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPSJCO01"
+    "IP-PC": "TEAEPSJCO01",
+    "SERIAL": "ZDGSB8GKAA008BY"
   },
   {
     "ID": 625,
@@ -4285,7 +4829,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1003"
+    "IP-PC": "TE10PCS1003",
+    "SERIAL": "CNB3N5GJDJ "
   },
   {
     "ID": 626,
@@ -4293,7 +4838,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1004"
+    "IP-PC": "TE10PCS1004",
+    "SERIAL": "CNB3N5GJDC "
   },
   {
     "ID": 627,
@@ -4301,7 +4847,8 @@ const impresoras = [
     "UBICACION": "ALIAGA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE06PCS1002"
+    "IP-PC": "TE06PCS1002",
+    "SERIAL": "CNB2N58GY3"
   },
   {
     "ID": 628,
@@ -4309,7 +4856,8 @@ const impresoras = [
     "UBICACION": "BAGUENA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE08PCS1002"
+    "IP-PC": "TE08PCS1002",
+    "SERIAL": "CNB1PBK16Z"
   },
   {
     "ID": 629,
@@ -4317,7 +4865,8 @@ const impresoras = [
     "UBICACION": "RESIDENCIA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE08MCS1003"
+    "IP-PC": "TE08MCS1003",
+    "SERIAL": null
   },
   {
     "ID": 630,
@@ -4325,7 +4874,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE14PCS1005"
+    "IP-PC": "TE14PCS1005",
+    "SERIAL": "CNB1P1X0VB"
   },
   {
     "ID": 631,
@@ -4333,7 +4883,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE15PCS1002"
+    "IP-PC": "TE15PCS1002",
+    "SERIAL": "CNB1Q7Q1BW"
   },
   {
     "ID": 632,
@@ -4341,7 +4892,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE15PCS1003"
+    "IP-PC": "TE15PCS1003",
+    "SERIAL": "CNB1Q7Q18H"
   },
   {
     "ID": 633,
@@ -4349,7 +4901,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS0003"
+    "IP-PC": "TE18PCS0003",
+    "SERIAL": "CNB3N5GJG7 "
   },
   {
     "ID": 634,
@@ -4357,7 +4910,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS0004"
+    "IP-PC": "TE18PCS0004",
+    "SERIAL": "CNB3N5GJG1 "
   },
   {
     "ID": 635,
@@ -4365,7 +4919,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1002"
+    "IP-PC": "TE10PCS1002",
+    "SERIAL": "CNB3N4RBGW "
   },
   {
     "ID": 636,
@@ -4373,7 +4928,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE20PCS1099"
+    "IP-PC": "TE20PCS1099",
+    "SERIAL": "CNB1Q7Q1Q0"
   },
   {
     "ID": 638,
@@ -4381,7 +4937,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1007"
+    "IP-PC": "TE25PCS1007",
+    "SERIAL": "CNB3N5GJ8H "
   },
   {
     "ID": 639,
@@ -4389,7 +4946,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1006"
+    "IP-PC": "TE25PCS1006",
+    "SERIAL": "CNB3N5GJ89 "
   },
   {
     "ID": 640,
@@ -4397,7 +4955,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1005"
+    "IP-PC": "TE25PCS1005",
+    "SERIAL": "CNB3N5GJ8Q "
   },
   {
     "ID": 642,
@@ -4405,7 +4964,8 @@ const impresoras = [
     "UBICACION": "VILLEL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE27PCS1003"
+    "IP-PC": "TE27PCS1003",
+    "SERIAL": "CNB1Q7Q1CN"
   },
   {
     "ID": 643,
@@ -4413,7 +4973,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.102"
+    "IP-PC": "10.35.20.102",
+    "SERIAL": null
   },
   {
     "ID": 644,
@@ -4421,7 +4982,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.142"
+    "IP-PC": "10.35.20.142",
+    "SERIAL": null
   },
   {
     "ID": 646,
@@ -4429,7 +4991,8 @@ const impresoras = [
     "UBICACION": "INSPECCION DE FARMACIA",
     "MARCA": "CANON",
     "MODELO": "iR2018",
-    "IP-PC": "10.35.124.222"
+    "IP-PC": "10.35.124.222",
+    "SERIAL": null
   },
   {
     "ID": 647,
@@ -4437,7 +5000,8 @@ const impresoras = [
     "UBICACION": "ATS TORRELACARCEL",
     "MARCA": "HP",
     "MODELO": "OFFICEJET 7730",
-    "IP-PC": "TE22PCS0603"
+    "IP-PC": "TE22PCS0603",
+    "SERIAL": null
   },
   {
     "ID": 648,
@@ -4445,7 +5009,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS BOX 1",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPURGN03"
+    "IP-PC": "TEAEPURGN03",
+    "SERIAL": null
   },
   {
     "ID": 650,
@@ -4453,7 +5018,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS BOX 4",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPURGN05"
+    "IP-PC": "TEAEPURGN05",
+    "SERIAL": null
   },
   {
     "ID": 651,
@@ -4461,7 +5027,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS BOX 2",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPURGN08"
+    "IP-PC": "TEAEPURGN08",
+    "SERIAL": null
   },
   {
     "ID": 652,
@@ -4469,7 +5036,8 @@ const impresoras = [
     "UBICACION": "SALA DE JUNTAS - URGENCIAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPURGN09"
+    "IP-PC": "TEAEPURGN09",
+    "SERIAL": null
   },
   {
     "ID": 653,
@@ -4477,7 +5045,8 @@ const impresoras = [
     "UBICACION": "PREVENTIVA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPPREV03"
+    "IP-PC": "TEAEPPREV03",
+    "SERIAL": "ZDGSB8GKAA00BJR"
   },
   {
     "ID": 657,
@@ -4485,7 +5054,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN DE ENFERMERÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-L8360CDW",
-    "IP-PC": "TEAEPSJDE01"
+    "IP-PC": "TEAEPSJDE01",
+    "SERIAL": null
   },
   {
     "ID": 664,
@@ -4493,7 +5063,8 @@ const impresoras = [
     "UBICACION": "INFORMÁTICA",
     "MARCA": "LEXMARK",
     "MODELO": "CS720",
-    "IP-PC": "10.35.232.89"
+    "IP-PC": "10.35.232.89",
+    "SERIAL": null
   },
   {
     "ID": 665,
@@ -4501,7 +5072,8 @@ const impresoras = [
     "UBICACION": "POLANCO",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "10.35.233.186"
+    "IP-PC": "10.35.233.186",
+    "SERIAL": null
   },
   {
     "ID": 666,
@@ -4509,7 +5081,8 @@ const impresoras = [
     "UBICACION": "CITACIONES",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.233.73"
+    "IP-PC": "10.35.233.73",
+    "SERIAL": "RZR17041"
   },
   {
     "ID": 667,
@@ -4517,7 +5090,8 @@ const impresoras = [
     "UBICACION": "BAGUENA",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.236.162"
+    "IP-PC": "10.35.236.162",
+    "SERIAL": null
   },
   {
     "ID": 669,
@@ -4525,7 +5099,8 @@ const impresoras = [
     "UBICACION": "ALCALA",
     "MARCA": "SAMSUNG",
     "MODELO": "SL-19",
-    "IP-PC": "TE19MCS1004"
+    "IP-PC": "TE19MCS1004",
+    "SERIAL": null
   },
   {
     "ID": 672,
@@ -4533,7 +5108,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.239.152"
+    "IP-PC": "10.35.239.152",
+    "SERIAL": "ZDGSB8GKAA008PH"
   },
   {
     "ID": 673,
@@ -4541,7 +5117,8 @@ const impresoras = [
     "UBICACION": "TRABAJO SOCIAL PLANTA CERO",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1021"
+    "IP-PC": "TE13PCS1021",
+    "SERIAL": "ZDGSB8GKAA00CCE "
   },
   {
     "ID": 674,
@@ -4549,7 +5126,8 @@ const impresoras = [
     "UBICACION": "MATRONA PLANTA CERO",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1019"
+    "IP-PC": "TE13PCS1019",
+    "SERIAL": "ZDGSB8GKAA0094P "
   },
   {
     "ID": 675,
@@ -4557,7 +5135,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 5 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1020"
+    "IP-PC": "TE13PCS1020",
+    "SERIAL": "ZDGSB8GKAA0097H "
   },
   {
     "ID": 676,
@@ -4565,15 +5144,17 @@ const impresoras = [
     "UBICACION": "CONSULTA 8",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1021"
+    "IP-PC": "TE13PCS1021",
+    "SERIAL": "ZDGSB8GKAA0095K "
   },
   {
     "ID": 677,
     "EDIFICIO": "TERUEL CENTRO",
-    "UBICACION": "CONSULTA 35",
+    "UBICACION": "CONSULTA 35 ",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1022"
+    "IP-PC": "TE13PCS1022",
+    "SERIAL": "ZDGSB8GKAA008WX "
   },
   {
     "ID": 678,
@@ -4581,15 +5162,17 @@ const impresoras = [
     "UBICACION": "CONSULTA 34",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1023"
+    "IP-PC": "TE13PCS1023",
+    "SERIAL": "ZDGSB8GKAA0096V "
   },
   {
     "ID": 679,
     "EDIFICIO": "TERUEL CENTRO",
-    "UBICACION": "CONSULTA 23",
+    "UBICACION": "CONSULTA 23 ",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1024"
+    "IP-PC": "TE13PCS1024",
+    "SERIAL": "ZDGSB8GKAA0098N "
   },
   {
     "ID": 680,
@@ -4597,7 +5180,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 33",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1025"
+    "IP-PC": "TE13PCS1025",
+    "SERIAL": "ZDGSB8GKAA008QN "
   },
   {
     "ID": 681,
@@ -4605,7 +5189,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 31",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1026"
+    "IP-PC": "TE13PCS1026",
+    "SERIAL": "ZDGSB8GKAA0019Y "
   },
   {
     "ID": 682,
@@ -4613,7 +5198,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 25A",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1027"
+    "IP-PC": "TE13PCS1027",
+    "SERIAL": "ZDGSB8GKAA008YT "
   },
   {
     "ID": 683,
@@ -4621,7 +5207,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 27",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1028"
+    "IP-PC": "TE13PCS1028",
+    "SERIAL": "ZDGSB8GKAA007KV "
   },
   {
     "ID": 684,
@@ -4629,7 +5216,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 28",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1029"
+    "IP-PC": "TE13PCS1029",
+    "SERIAL": "ZDGSB8GKAA008ZM "
   },
   {
     "ID": 685,
@@ -4637,7 +5225,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 26",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1030"
+    "IP-PC": "TE13PCS1030",
+    "SERIAL": "ZDGSB8GKAA008VR "
   },
   {
     "ID": 686,
@@ -4645,7 +5234,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 14",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1531"
+    "IP-PC": "TE28PCS1531",
+    "SERIAL": "ZDGSB8GKAA004ZA "
   },
   {
     "ID": 687,
@@ -4653,7 +5243,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 12",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1532"
+    "IP-PC": "TE28PCS1532",
+    "SERIAL": "ZDGSB8GKAA00ANZ "
   },
   {
     "ID": 688,
@@ -4661,7 +5252,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 10",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1533"
+    "IP-PC": "TE28PCS1533",
+    "SERIAL": "ZDGSB8GKAA00APL "
   },
   {
     "ID": 689,
@@ -4669,7 +5261,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 18",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1534"
+    "IP-PC": "TE28PCS1534",
+    "SERIAL": "ZDGSB8GKAA0048P "
   },
   {
     "ID": 690,
@@ -4677,7 +5270,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 2",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1535"
+    "IP-PC": "TE28PCS1535",
+    "SERIAL": "ZDGSB8GKAA004KT "
   },
   {
     "ID": 691,
@@ -4685,7 +5279,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 8",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1536"
+    "IP-PC": "TE28PCS1536",
+    "SERIAL": "ZDGSB8GKAA0054M "
   },
   {
     "ID": 692,
@@ -4693,7 +5288,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 16",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1537"
+    "IP-PC": "TE28PCS1537",
+    "SERIAL": "ZDGSB8GKAA0041M "
   },
   {
     "ID": 693,
@@ -4701,7 +5297,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 20",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1538"
+    "IP-PC": "TE28PCS1538",
+    "SERIAL": "ZDGSB8GKAA004CN "
   },
   {
     "ID": 694,
@@ -4709,7 +5306,8 @@ const impresoras = [
     "UBICACION": "CONSULTA ODONTOLOGÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1544"
+    "IP-PC": "TE28PCS1544",
+    "SERIAL": "ZDGSB8GKAA004XH "
   },
   {
     "ID": 695,
@@ -4717,7 +5315,8 @@ const impresoras = [
     "UBICACION": "ESAD ENSANCHE",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1553"
+    "IP-PC": "TE28PCS1553",
+    "SERIAL": "ZDGSB8GKAA004SE "
   },
   {
     "ID": 696,
@@ -4725,7 +5324,8 @@ const impresoras = [
     "UBICACION": "CONSULTA EXTRACCIONES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1554"
+    "IP-PC": "TE28PCS1554",
+    "SERIAL": "ZDGSB8GKAA0039N "
   },
   {
     "ID": 697,
@@ -4733,7 +5333,8 @@ const impresoras = [
     "UBICACION": "ESAD ENSANCHE",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1556"
+    "IP-PC": "TE28PCS1556",
+    "SERIAL": "ZDGSB8GKAA004MF "
   },
   {
     "ID": 698,
@@ -4741,7 +5342,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MATRONA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1557"
+    "IP-PC": "TE28PCS1557",
+    "SERIAL": "ZDGSB8GKAA004GR "
   },
   {
     "ID": 699,
@@ -4749,7 +5351,8 @@ const impresoras = [
     "UBICACION": "CONSULTA ODONTOLOGÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE28PCS1558"
+    "IP-PC": "TE28PCS1558",
+    "SERIAL": "ZDGSB8GKAA004FW "
   },
   {
     "ID": 700,
@@ -4757,7 +5360,8 @@ const impresoras = [
     "UBICACION": "TORRES",
     "MARCA": "CANON",
     "MODELO": "LPB1710",
-    "IP-PC": "TE01MCS1005"
+    "IP-PC": "TE01MCS1005",
+    "SERIAL": null
   },
   {
     "ID": 701,
@@ -4765,7 +5369,8 @@ const impresoras = [
     "UBICACION": "NOGUERA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TE01PCS1007"
+    "IP-PC": "TE01PCS1007",
+    "SERIAL": null
   },
   {
     "ID": 702,
@@ -4773,7 +5378,8 @@ const impresoras = [
     "UBICACION": "TRAMACASTILLA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE01PCS0116"
+    "IP-PC": "TE01PCS0116",
+    "SERIAL": null
   },
   {
     "ID": 703,
@@ -4781,7 +5387,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPREHC01"
+    "IP-PC": "TEAEPREHC01",
+    "SERIAL": "ZDGSB8GKAA008CT"
   },
   {
     "ID": 712,
@@ -4789,7 +5396,8 @@ const impresoras = [
     "UBICACION": "CARDIOLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1300",
-    "IP-PC": "CARP-8"
+    "IP-PC": "CARP-8",
+    "SERIAL": null
   },
   {
     "ID": 715,
@@ -4797,7 +5405,8 @@ const impresoras = [
     "UBICACION": "GEA DE ALBARRACÍN",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "TE15PCS0605"
+    "IP-PC": "TE15PCS0605",
+    "SERIAL": null
   },
   {
     "ID": 716,
@@ -4805,7 +5414,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "HP",
     "MODELO": "DESKJET D4200",
-    "IP-PC": "RRXX-12"
+    "IP-PC": "RRXX-12",
+    "SERIAL": null
   },
   {
     "ID": 717,
@@ -4813,7 +5423,8 @@ const impresoras = [
     "UBICACION": "ESCUELA ENFERMERÍA",
     "MARCA": "KONICA MINOLTA",
     "MODELO": "BIZHUB C227",
-    "IP-PC": "10.35.120.14"
+    "IP-PC": "10.35.120.14",
+    "SERIAL": null
   },
   {
     "ID": 719,
@@ -4821,7 +5432,8 @@ const impresoras = [
     "UBICACION": "ESCUELA ENFERMERÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "ESCE-5"
+    "IP-PC": "ESCE-5",
+    "SERIAL": null
   },
   {
     "ID": 720,
@@ -4829,7 +5441,8 @@ const impresoras = [
     "UBICACION": "ESCUELA ENFERMERÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "ESCE-6"
+    "IP-PC": "ESCE-6",
+    "SERIAL": null
   },
   {
     "ID": 721,
@@ -4837,7 +5450,8 @@ const impresoras = [
     "UBICACION": "ESCUELA ENFERMERÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "ESCE-7"
+    "IP-PC": "ESCE-7",
+    "SERIAL": null
   },
   {
     "ID": 722,
@@ -4845,7 +5459,8 @@ const impresoras = [
     "UBICACION": "ESCUELA ENFERMERÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "ESCE-8"
+    "IP-PC": "ESCE-8",
+    "SERIAL": null
   },
   {
     "ID": 723,
@@ -4853,7 +5468,8 @@ const impresoras = [
     "UBICACION": "NOMINAS",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "10.35.125.62"
+    "IP-PC": "10.35.125.62",
+    "SERIAL": "ZDGSB8GKAA007VT"
   },
   {
     "ID": 724,
@@ -4861,7 +5477,8 @@ const impresoras = [
     "UBICACION": "ESCUELA ENFERMERÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "ESCE-9"
+    "IP-PC": "ESCE-9",
+    "SERIAL": null
   },
   {
     "ID": 734,
@@ -4869,7 +5486,8 @@ const impresoras = [
     "UBICACION": "PRUEBAS FUNCIONALES",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "ENDP-1"
+    "IP-PC": "ENDP-1",
+    "SERIAL": "ZDGSB8GKAA008NV"
   },
   {
     "ID": 735,
@@ -4877,7 +5495,8 @@ const impresoras = [
     "UBICACION": "PRUEBAS FUNCIONALES",
     "MARCA": "HP",
     "MODELO": "DESKJET 5540",
-    "IP-PC": "ENDP-1"
+    "IP-PC": "ENDP-1",
+    "SERIAL": null
   },
   {
     "ID": 738,
@@ -4885,7 +5504,8 @@ const impresoras = [
     "UBICACION": "PSIQUIATRIA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPPSQH01"
+    "IP-PC": "TEAEPPSQH01",
+    "SERIAL": "ZDGSB8GKAA008GZ"
   },
   {
     "ID": 739,
@@ -4893,7 +5513,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO25"
+    "IP-PC": "TEAEPLABO25",
+    "SERIAL": null
   },
   {
     "ID": 740,
@@ -4901,7 +5522,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2035",
-    "IP-PC": "TEAEPLABO25"
+    "IP-PC": "TEAEPLABO25",
+    "SERIAL": null
   },
   {
     "ID": 741,
@@ -4909,7 +5531,8 @@ const impresoras = [
     "UBICACION": "SINDICATO",
     "MARCA": "KONICA MINOLTA",
     "MODELO": "KONICA MINOLTA 3350",
-    "IP-PC": "10.35.20.55"
+    "IP-PC": "10.35.20.55",
+    "SERIAL": null
   },
   {
     "ID": 745,
@@ -4917,7 +5540,8 @@ const impresoras = [
     "UBICACION": "SUPERVISORA SEGUNDA PLANTA",
     "MARCA": "LEXMARK",
     "MODELO": "MS312DN",
-    "IP-PC": "TEAEPSJSU02"
+    "IP-PC": "TEAEPSJSU02",
+    "SERIAL": null
   },
   {
     "ID": 747,
@@ -4925,7 +5549,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MÉDICA SEGUNDA PLANTA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "10.35.21.198"
+    "IP-PC": "10.35.21.198",
+    "SERIAL": null
   },
   {
     "ID": 749,
@@ -4933,7 +5558,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS CONSULTA 1",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPURGN09"
+    "IP-PC": "TEAEPURGN09",
+    "SERIAL": null
   },
   {
     "ID": 750,
@@ -4941,7 +5567,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS CONSULTA 2",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPURGN22"
+    "IP-PC": "TEAEPURGN22",
+    "SERIAL": null
   },
   {
     "ID": 751,
@@ -4949,7 +5576,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS CONSULTA 3",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPURGN23"
+    "IP-PC": "TEAEPURGN23",
+    "SERIAL": null
   },
   {
     "ID": 753,
@@ -4957,7 +5585,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TEAEPLABO19"
+    "IP-PC": "TEAEPLABO19",
+    "SERIAL": null
   },
   {
     "ID": 754,
@@ -4965,7 +5594,8 @@ const impresoras = [
     "UBICACION": "RAYOS",
     "MARCA": "CANON",
     "MODELO": "iR1435",
-    "IP-PC": "10.35.232.80"
+    "IP-PC": "10.35.232.80",
+    "SERIAL": "RZR27181"
   },
   {
     "ID": 756,
@@ -4973,7 +5603,8 @@ const impresoras = [
     "UBICACION": "CANCER DE MAMA",
     "MARCA": "KYOCERA",
     "MODELO": "ECOSYS P3055DN",
-    "IP-PC": "10.35.232.20"
+    "IP-PC": "10.35.232.20",
+    "SERIAL": null
   },
   {
     "ID": 757,
@@ -4981,7 +5612,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - DIRECCIÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "TE00PCS3839"
+    "IP-PC": "TE00PCS3839",
+    "SERIAL": null
   },
   {
     "ID": 760,
@@ -4989,7 +5621,8 @@ const impresoras = [
     "UBICACION": "PSIQUIO GERATRÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPJDLI02"
+    "IP-PC": "TEAEPJDLI02",
+    "SERIAL": null
   },
   {
     "ID": 761,
@@ -4997,7 +5630,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPMINC02"
+    "IP-PC": "TEAEPMINC02",
+    "SERIAL": null
   },
   {
     "ID": 762,
@@ -5005,7 +5639,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2014",
-    "IP-PC": "TEAEPLABO07"
+    "IP-PC": "TEAEPLABO07",
+    "SERIAL": null
   },
   {
     "ID": 763,
@@ -5013,7 +5648,8 @@ const impresoras = [
     "UBICACION": "ESAD ENSANCHE",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.21.64"
+    "IP-PC": "10.35.21.64",
+    "SERIAL": "CNB1R5LH8T"
   },
   {
     "ID": 765,
@@ -5021,7 +5657,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - COORDINADOR",
     "MARCA": "HP",
     "MODELO": "LASERJET 600 M605",
-    "IP-PC": "TE00PCS3815"
+    "IP-PC": "TE00PCS3815",
+    "SERIAL": null
   },
   {
     "ID": 766,
@@ -5029,7 +5666,8 @@ const impresoras = [
     "UBICACION": "PSIQUIATRIA",
     "MARCA": "BROTHER",
     "MODELO": "HL-7050DN",
-    "IP-PC": "TEAEPPSQH02"
+    "IP-PC": "TEAEPPSQH02",
+    "SERIAL": null
   },
   {
     "ID": 768,
@@ -5037,7 +5675,8 @@ const impresoras = [
     "UBICACION": "CONSULTA FISIO",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1539"
+    "IP-PC": "TE28PCS1539",
+    "SERIAL": "CNB1R5LH8M"
   },
   {
     "ID": 769,
@@ -5045,7 +5684,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - SECRETARÍA DIRECCIÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TE00PCS1009"
+    "IP-PC": "TE00PCS1009",
+    "SERIAL": null
   },
   {
     "ID": 770,
@@ -5053,7 +5693,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - DIR. ENFERMERÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TE00PCS1012"
+    "IP-PC": "TE00PCS1012",
+    "SERIAL": null
   },
   {
     "ID": 771,
@@ -5061,7 +5702,8 @@ const impresoras = [
     "UBICACION": "CONSULTA TRABAJO SOCIAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1524"
+    "IP-PC": "TE28PCS1524",
+    "SERIAL": "CNB1R5LH9B"
   },
   {
     "ID": 773,
@@ -5069,7 +5711,8 @@ const impresoras = [
     "UBICACION": "VILLARROYA DE LOS PINARES",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS LBP3250",
-    "IP-PC": "TE14PCS0104"
+    "IP-PC": "TE14PCS0104",
+    "SERIAL": null
   },
   {
     "ID": 775,
@@ -5077,7 +5720,8 @@ const impresoras = [
     "UBICACION": "ALLEPUZ",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS LBP3250",
-    "IP-PC": "TE14PCS0101"
+    "IP-PC": "TE14PCS0101",
+    "SERIAL": null
   },
   {
     "ID": 779,
@@ -5085,7 +5729,8 @@ const impresoras = [
     "UBICACION": "QUIRÓFANOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPQUIE01"
+    "IP-PC": "TEAEPQUIE01",
+    "SERIAL": null
   },
   {
     "ID": 780,
@@ -5093,7 +5738,8 @@ const impresoras = [
     "UBICACION": "RESIDENCIA ALFAMBRA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TE05PCS0002"
+    "IP-PC": "TE05PCS0002",
+    "SERIAL": null
   },
   {
     "ID": 782,
@@ -5101,7 +5747,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 13",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS0110"
+    "IP-PC": "TE28PCS0110",
+    "SERIAL": "CNB1R5LHWL"
   },
   {
     "ID": 786,
@@ -5109,7 +5756,8 @@ const impresoras = [
     "UBICACION": "SUPERVISORA UCC",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPUCCE02"
+    "IP-PC": "TEAEPUCCE02",
+    "SERIAL": null
   },
   {
     "ID": 789,
@@ -5117,7 +5765,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO24"
+    "IP-PC": "TEAEPLABO24",
+    "SERIAL": null
   },
   {
     "ID": 790,
@@ -5125,7 +5774,8 @@ const impresoras = [
     "UBICACION": "EXTRACCIONES PLANTA CERO",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE13PCS1032"
+    "IP-PC": "TE13PCS1032",
+    "SERIAL": "CNB1R5LHWV"
   },
   {
     "ID": 794,
@@ -5133,7 +5783,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "MFC-L2710DW",
-    "IP-PC": "TEAEPUDOC01"
+    "IP-PC": "TEAEPUDOC01",
+    "SERIAL": "A3N383664"
   },
   {
     "ID": 795,
@@ -5141,7 +5792,8 @@ const impresoras = [
     "UBICACION": "SUPERVISORA UCC",
     "MARCA": "HP",
     "MODELO": "DESKJET F4100 PLUS",
-    "IP-PC": "TEAEPUCCE02"
+    "IP-PC": "TEAEPUCCE02",
+    "SERIAL": null
   },
   {
     "ID": 797,
@@ -5149,7 +5801,8 @@ const impresoras = [
     "UBICACION": "ANATOMÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M402",
-    "IP-PC": "APAT"
+    "IP-PC": "APAT",
+    "SERIAL": null
   },
   {
     "ID": 799,
@@ -5157,7 +5810,8 @@ const impresoras = [
     "UBICACION": "GINECOLOGÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TOCH-2"
+    "IP-PC": "TOCH-2",
+    "SERIAL": null
   },
   {
     "ID": 800,
@@ -5165,7 +5819,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET P4515N",
-    "IP-PC": "10.35.128.185"
+    "IP-PC": "10.35.128.185",
+    "SERIAL": null
   },
   {
     "ID": 801,
@@ -5173,7 +5828,8 @@ const impresoras = [
     "UBICACION": "RASTREADORES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE00PCS1001"
+    "IP-PC": "TE00PCS1001",
+    "SERIAL": null
   },
   {
     "ID": 802,
@@ -5181,7 +5837,8 @@ const impresoras = [
     "UBICACION": "PLANTA 2",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M404",
-    "IP-PC": "TEAEPSJSD01"
+    "IP-PC": "TEAEPSJSD01",
+    "SERIAL": null
   },
   {
     "ID": 803,
@@ -5189,7 +5846,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1010"
+    "IP-PC": "TE25PCS1010",
+    "SERIAL": "CNB3N5GJ8D "
   },
   {
     "ID": 804,
@@ -5197,7 +5855,8 @@ const impresoras = [
     "UBICACION": "SECRETARÍA DE LABORATORIO",
     "MARCA": "RICOH",
     "MODELO": "IM-C300",
-    "IP-PC": "10.35.232.201"
+    "IP-PC": "10.35.232.201",
+    "SERIAL": null
   },
   {
     "ID": 805,
@@ -5205,7 +5864,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPMINC01"
+    "IP-PC": "TEAEPMINC01",
+    "SERIAL": null
   },
   {
     "ID": 806,
@@ -5213,7 +5873,8 @@ const impresoras = [
     "UBICACION": "SECRETARÍA LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO21"
+    "IP-PC": "TEAEPLABO21",
+    "SERIAL": null
   },
   {
     "ID": 807,
@@ -5221,7 +5882,8 @@ const impresoras = [
     "UBICACION": "EXTRACCIONES",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO29"
+    "IP-PC": "TEAEPLABO29",
+    "SERIAL": null
   },
   {
     "ID": 808,
@@ -5229,7 +5891,8 @@ const impresoras = [
     "UBICACION": "EXTRACCIONES",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO30"
+    "IP-PC": "TEAEPLABO30",
+    "SERIAL": null
   },
   {
     "ID": 809,
@@ -5237,7 +5900,8 @@ const impresoras = [
     "UBICACION": "EXTRACCIONES",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO31"
+    "IP-PC": "TEAEPLABO31",
+    "SERIAL": null
   },
   {
     "ID": 811,
@@ -5245,7 +5909,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS CUARTA PLANTA ESPECIALIDADES",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.74"
+    "IP-PC": "10.35.20.74",
+    "SERIAL": null
   },
   {
     "ID": 812,
@@ -5253,7 +5918,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1004"
+    "IP-PC": "TE19PCS1004",
+    "SERIAL": "CNB3N5GJ0Y "
   },
   {
     "ID": 813,
@@ -5261,7 +5927,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1005"
+    "IP-PC": "TE19PCS1005",
+    "SERIAL": "CNB3N5GJ17 "
   },
   {
     "ID": 814,
@@ -5269,7 +5936,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1008"
+    "IP-PC": "TE19PCS1008",
+    "SERIAL": "CNB3N4RBHQ "
   },
   {
     "ID": 815,
@@ -5277,7 +5945,8 @@ const impresoras = [
     "UBICACION": "MORA RUBIELOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE19PCS1009"
+    "IP-PC": "TE19PCS1009",
+    "SERIAL": "CNB3N5GJ2R "
   },
   {
     "ID": 816,
@@ -5285,7 +5954,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS NEFRO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.202"
+    "IP-PC": "10.35.232.202",
+    "SERIAL": null
   },
   {
     "ID": 817,
@@ -5293,7 +5963,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.22.186"
+    "IP-PC": "10.35.22.186",
+    "SERIAL": "CNB3N5GJ8M "
   },
   {
     "ID": 818,
@@ -5301,7 +5972,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1011"
+    "IP-PC": "TE25PCS1011",
+    "SERIAL": "CNB3N5GJ8K "
   },
   {
     "ID": 819,
@@ -5309,7 +5981,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPUCCC01"
+    "IP-PC": "TEAEPUCCC01",
+    "SERIAL": null
   },
   {
     "ID": 820,
@@ -5317,7 +5990,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCA1001"
+    "IP-PC": "TE18PCA1001",
+    "SERIAL": "CNB3N5GJ2F "
   },
   {
     "ID": 821,
@@ -5325,7 +5999,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS1009"
+    "IP-PC": "TE18PCS1009",
+    "SERIAL": "CNB3N5GJG9 "
   },
   {
     "ID": 822,
@@ -5333,7 +6008,8 @@ const impresoras = [
     "UBICACION": "CAMARENA",
     "MARCA": "HP",
     "MODELO": "DESKJET F4100 PLUS",
-    "IP-PC": "TE27MCS1003"
+    "IP-PC": "TE27MCS1003",
+    "SERIAL": null
   },
   {
     "ID": 823,
@@ -5341,7 +6017,8 @@ const impresoras = [
     "UBICACION": "MONREAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE18PCS1007"
+    "IP-PC": "TE18PCS1007",
+    "SERIAL": "CNB3N5GJ29 "
   },
   {
     "ID": 824,
@@ -5349,7 +6026,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCA1001"
+    "IP-PC": "TE10PCA1001",
+    "SERIAL": "CNB3N5GJDK "
   },
   {
     "ID": 825,
@@ -5357,7 +6035,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1008"
+    "IP-PC": "TE10PCS1008",
+    "SERIAL": "CNB3N5GJDR "
   },
   {
     "ID": 826,
@@ -5365,7 +6044,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10PCS1009"
+    "IP-PC": "TE10PCS1009",
+    "SERIAL": "CNB3N5GJDH "
   },
   {
     "ID": 827,
@@ -5373,7 +6053,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE10MCS1005"
+    "IP-PC": "TE10MCS1005",
+    "SERIAL": "CNB3N5GJDQ "
   },
   {
     "ID": 828,
@@ -5381,7 +6062,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MÉDICA SEGUNDA PLANTA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.21.202"
+    "IP-PC": "10.35.21.202",
+    "SERIAL": null
   },
   {
     "ID": 829,
@@ -5389,7 +6071,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S621-II",
-    "IP-PC": "TEAEPSJFA01"
+    "IP-PC": "TEAEPSJFA01",
+    "SERIAL": "JM622081300"
   },
   {
     "ID": 831,
@@ -5397,7 +6080,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE10PCS1010"
+    "IP-PC": "TE10PCS1010",
+    "SERIAL": "RJ8Q359622"
   },
   {
     "ID": 832,
@@ -5405,7 +6089,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS CIRUGÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.204"
+    "IP-PC": "10.35.232.204",
+    "SERIAL": null
   },
   {
     "ID": 833,
@@ -5413,7 +6098,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "CITIZEN",
     "MODELO": "CL-S621-II",
-    "IP-PC": "FARM-3"
+    "IP-PC": "FARM-3",
+    "SERIAL": "JM622071241"
   },
   {
     "ID": 834,
@@ -5421,7 +6107,8 @@ const impresoras = [
     "UBICACION": "GINECOLOGÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPTOCH03"
+    "IP-PC": "TEAEPTOCH03",
+    "SERIAL": null
   },
   {
     "ID": 835,
@@ -5429,7 +6116,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "DIGC-2"
+    "IP-PC": "DIGC-2",
+    "SERIAL": "CNB3N5GJHN"
   },
   {
     "ID": 836,
@@ -5437,7 +6125,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS DIGESTIVO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "DIGH-1"
+    "IP-PC": "DIGH-1",
+    "SERIAL": null
   },
   {
     "ID": 837,
@@ -5445,7 +6134,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.116"
+    "IP-PC": "10.35.232.116",
+    "SERIAL": null
   },
   {
     "ID": 838,
@@ -5453,7 +6143,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS PEDIATRÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPPEDH03"
+    "IP-PC": "TEAEPPEDH03",
+    "SERIAL": null
   },
   {
     "ID": 840,
@@ -5461,7 +6152,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.103"
+    "IP-PC": "10.35.20.103",
+    "SERIAL": null
   },
   {
     "ID": 841,
@@ -5469,7 +6161,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS TRAUMA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.200"
+    "IP-PC": "10.35.232.200",
+    "SERIAL": null
   },
   {
     "ID": 844,
@@ -5477,7 +6170,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO DE URGENCIAS",
     "MARCA": "LEXMARK",
     "MODELO": "MS810",
-    "IP-PC": "10.35.233.33"
+    "IP-PC": "10.35.233.33",
+    "SERIAL": null
   },
   {
     "ID": 845,
@@ -5485,7 +6179,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS TERCERA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.89"
+    "IP-PC": "10.35.20.89",
+    "SERIAL": null
   },
   {
     "ID": 847,
@@ -5493,7 +6188,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA TRAUMA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPTRAE03"
+    "IP-PC": "TEAEPTRAE03",
+    "SERIAL": null
   },
   {
     "ID": 848,
@@ -5501,7 +6197,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA INTERNA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPMINE01"
+    "IP-PC": "TEAEPMINE01",
+    "SERIAL": null
   },
   {
     "ID": 849,
@@ -5509,7 +6206,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA DE TOCO",
     "MARCA": "EPSON",
     "MODELO": "ACULASER AL-M2000",
-    "IP-PC": "TEAEPTOCE01"
+    "IP-PC": "TEAEPTOCE01",
+    "SERIAL": null
   },
   {
     "ID": 850,
@@ -5517,7 +6215,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA DE PEDIATRÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPPEDE01"
+    "IP-PC": "TEAEPPEDE01",
+    "SERIAL": null
   },
   {
     "ID": 851,
@@ -5525,7 +6224,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA DE UCC",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPUCCE01"
+    "IP-PC": "TEAEPUCCE01",
+    "SERIAL": "CNB1R5KZT9"
   },
   {
     "ID": 852,
@@ -5533,7 +6233,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA DE PSIQUIATRÍA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "10.35.20.14"
+    "IP-PC": "10.35.20.14",
+    "SERIAL": "D7J910689"
   },
   {
     "ID": 853,
@@ -5541,7 +6242,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA DE NEFRO",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "NEFE-3"
+    "IP-PC": "NEFE-3",
+    "SERIAL": null
   },
   {
     "ID": 854,
@@ -5549,7 +6251,8 @@ const impresoras = [
     "UBICACION": "CIRUGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPCIRH05"
+    "IP-PC": "TEAEPCIRH05",
+    "SERIAL": null
   },
   {
     "ID": 855,
@@ -5557,7 +6260,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS UCC",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.73"
+    "IP-PC": "10.35.20.73",
+    "SERIAL": null
   },
   {
     "ID": 856,
@@ -5565,7 +6269,8 @@ const impresoras = [
     "UBICACION": "MANTENIMIENTO ENSANCHE",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "10.35.21.45"
+    "IP-PC": "10.35.21.45",
+    "SERIAL": null
   },
   {
     "ID": 857,
@@ -5573,7 +6278,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPENDC01"
+    "IP-PC": "TEAEPENDC01",
+    "SERIAL": null
   },
   {
     "ID": 858,
@@ -5581,7 +6287,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPNEUC01"
+    "IP-PC": "TEAEPNEUC01",
+    "SERIAL": null
   },
   {
     "ID": 859,
@@ -5589,7 +6296,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPREUC01"
+    "IP-PC": "TEAEPREUC01",
+    "SERIAL": null
   },
   {
     "ID": 860,
@@ -5597,7 +6305,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "CIRC-2"
+    "IP-PC": "CIRC-2",
+    "SERIAL": null
   },
   {
     "ID": 861,
@@ -5605,7 +6314,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPNEFC01"
+    "IP-PC": "TEAEPNEFC01",
+    "SERIAL": null
   },
   {
     "ID": 862,
@@ -5613,7 +6323,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "PEDC-1"
+    "IP-PC": "PEDC-1",
+    "SERIAL": null
   },
   {
     "ID": 863,
@@ -5621,7 +6332,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MÉDICA PRIMERA PLANTA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.21.203"
+    "IP-PC": "10.35.21.203",
+    "SERIAL": null
   },
   {
     "ID": 865,
@@ -5629,7 +6341,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "DIGC-1"
+    "IP-PC": "DIGC-1",
+    "SERIAL": null
   },
   {
     "ID": 866,
@@ -5637,7 +6350,8 @@ const impresoras = [
     "UBICACION": "CONSULTA REHABILITACIÓN - CURAS - ENFERMERÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.21.205"
+    "IP-PC": "10.35.21.205",
+    "SERIAL": null
   },
   {
     "ID": 867,
@@ -5645,7 +6359,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 24",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE13PCS1034"
+    "IP-PC": "TE13PCS1034",
+    "SERIAL": "CNB1R5LH8H"
   },
   {
     "ID": 868,
@@ -5653,7 +6368,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "GINC-2"
+    "IP-PC": "GINC-2",
+    "SERIAL": null
   },
   {
     "ID": 870,
@@ -5661,7 +6377,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "CARC-1"
+    "IP-PC": "CARC-1",
+    "SERIAL": null
   },
   {
     "ID": 871,
@@ -5669,7 +6386,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPPSQH02"
+    "IP-PC": "TEAEPPSQH02",
+    "SERIAL": null
   },
   {
     "ID": 872,
@@ -5677,7 +6395,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "ONCH-3"
+    "IP-PC": "ONCH-3",
+    "SERIAL": null
   },
   {
     "ID": 873,
@@ -5685,7 +6404,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPCIRC01"
+    "IP-PC": "TEAEPCIRC01",
+    "SERIAL": null
   },
   {
     "ID": 874,
@@ -5693,7 +6413,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPALEC02"
+    "IP-PC": "TEAEPALEC02",
+    "SERIAL": null
   },
   {
     "ID": 875,
@@ -5701,7 +6422,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA RIESGOS LABORALES",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "PRLH-3"
+    "IP-PC": "PRLH-3",
+    "SERIAL": null
   },
   {
     "ID": 876,
@@ -5709,7 +6431,8 @@ const impresoras = [
     "UBICACION": "PASILLO QUIRÓFANOS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.203"
+    "IP-PC": "10.35.232.203",
+    "SERIAL": null
   },
   {
     "ID": 877,
@@ -5717,7 +6440,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPUROC01"
+    "IP-PC": "TEAEPUROC01",
+    "SERIAL": null
   },
   {
     "ID": 878,
@@ -5725,7 +6449,8 @@ const impresoras = [
     "UBICACION": "BEA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE08MCS1001"
+    "IP-PC": "TE08MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 879,
@@ -5733,7 +6458,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL5250DN",
-    "IP-PC": "10.35.20.154"
+    "IP-PC": "10.35.20.154",
+    "SERIAL": null
   },
   {
     "ID": 880,
@@ -5741,7 +6467,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN DE PACIENTES",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.232.117"
+    "IP-PC": "10.35.232.117",
+    "SERIAL": "CNB2Q8PRLL"
   },
   {
     "ID": 881,
@@ -5749,7 +6476,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA RIESGOS LABORALES 2",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "PRLH-6"
+    "IP-PC": "PRLH-6",
+    "SERIAL": null
   },
   {
     "ID": 882,
@@ -5757,7 +6485,8 @@ const impresoras = [
     "UBICACION": "SECRETARÍA DE FARMACIA",
     "MARCA": "CANON",
     "MODELO": "iR1643i",
-    "IP-PC": "10.35.232.122"
+    "IP-PC": "10.35.232.122",
+    "SERIAL": "2TU23132"
   },
   {
     "ID": 883,
@@ -5765,7 +6494,8 @@ const impresoras = [
     "UBICACION": "SECRETARÍA LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO32"
+    "IP-PC": "TEAEPLABO32",
+    "SERIAL": null
   },
   {
     "ID": 884,
@@ -5773,7 +6503,8 @@ const impresoras = [
     "UBICACION": "LAVANDERIA",
     "MARCA": "EPSON",
     "MODELO": "LQ-590",
-    "IP-PC": "TEAEPLAVA01"
+    "IP-PC": "TEAEPLAVA01",
+    "SERIAL": null
   },
   {
     "ID": 885,
@@ -5781,7 +6512,8 @@ const impresoras = [
     "UBICACION": "VILLARQUEMADO",
     "MARCA": "HP",
     "MODELO": "DESKJET 4100",
-    "IP-PC": "TE15PCS1005"
+    "IP-PC": "TE15PCS1005",
+    "SERIAL": null
   },
   {
     "ID": 886,
@@ -5789,7 +6521,8 @@ const impresoras = [
     "UBICACION": "RESERVA URGENCIAS",
     "MARCA": "CANON",
     "MODELO": "iR1643i",
-    "IP-PC": "10.35.232.91-93"
+    "IP-PC": "10.35.232.91-93",
+    "SERIAL": "2TU20570"
   },
   {
     "ID": 887,
@@ -5797,7 +6530,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPRESC01"
+    "IP-PC": "TEAEPRESC01",
+    "SERIAL": null
   },
   {
     "ID": 888,
@@ -5805,7 +6539,8 @@ const impresoras = [
     "UBICACION": "DESPACHO NEUMO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "RESP-1"
+    "IP-PC": "RESP-1",
+    "SERIAL": null
   },
   {
     "ID": 890,
@@ -5813,7 +6548,8 @@ const impresoras = [
     "UBICACION": "CONSULTA ULE",
     "MARCA": "HP",
     "MODELO": "COLOR LASER 150",
-    "IP-PC": "TEAEPJDPS01"
+    "IP-PC": "TEAEPJDPS01",
+    "SERIAL": null
   },
   {
     "ID": 893,
@@ -5821,7 +6557,8 @@ const impresoras = [
     "UBICACION": "PREVENTIVA",
     "MARCA": "ZEBRA",
     "MODELO": "GX430T",
-    "IP-PC": "TEAEPPREV04"
+    "IP-PC": "TEAEPPREV04",
+    "SERIAL": null
   },
   {
     "ID": 894,
@@ -5829,7 +6566,8 @@ const impresoras = [
     "UBICACION": "DESPACHO MÉDICO OTORRINOS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPORLH01"
+    "IP-PC": "TEAEPORLH01",
+    "SERIAL": null
   },
   {
     "ID": 895,
@@ -5837,7 +6575,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPMINC02"
+    "IP-PC": "TEAEPMINC02",
+    "SERIAL": null
   },
   {
     "ID": 896,
@@ -5845,7 +6584,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPORLC01"
+    "IP-PC": "TEAEPORLC01",
+    "SERIAL": null
   },
   {
     "ID": 897,
@@ -5853,7 +6593,8 @@ const impresoras = [
     "UBICACION": "ALMACÉN GENRAL",
     "MARCA": "CANON",
     "MODELO": "iR1643i",
-    "IP-PC": "10.35.232.92"
+    "IP-PC": "10.35.232.92",
+    "SERIAL": "2TU24532"
   },
   {
     "ID": 898,
@@ -5861,7 +6602,8 @@ const impresoras = [
     "UBICACION": "VALBONA - ATS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE10MCS1001"
+    "IP-PC": "TE10MCS1001",
+    "SERIAL": null
   },
   {
     "ID": 899,
@@ -5869,7 +6611,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPALEC03"
+    "IP-PC": "TEAEPALEC03",
+    "SERIAL": null
   },
   {
     "ID": 900,
@@ -5877,7 +6620,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - SECRETARÍA DIRECCIÓN",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS X 1440i",
-    "IP-PC": "10.35.21.16"
+    "IP-PC": "10.35.21.16",
+    "SERIAL": "4UX64796"
   },
   {
     "ID": 901,
@@ -5885,7 +6629,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS BOX 5",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPURGN04"
+    "IP-PC": "TEAEPURGN04",
+    "SERIAL": null
   },
   {
     "ID": 902,
@@ -5893,7 +6638,8 @@ const impresoras = [
     "UBICACION": "SINDICATO",
     "MARCA": "BROTHER",
     "MODELO": "MFC-7820N",
-    "IP-PC": "JPER-5"
+    "IP-PC": "JPER-5",
+    "SERIAL": null
   },
   {
     "ID": 903,
@@ -5901,7 +6647,8 @@ const impresoras = [
     "UBICACION": "SINDICATO",
     "MARCA": "HP",
     "MODELO": "DESKJET 1512",
-    "IP-PC": "JPER-9"
+    "IP-PC": "JPER-9",
+    "SERIAL": null
   },
   {
     "ID": 904,
@@ -5909,7 +6656,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - SECRETARÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GK420T",
-    "IP-PC": "TE00PCS1008"
+    "IP-PC": "TE00PCS1008",
+    "SERIAL": null
   },
   {
     "ID": 905,
@@ -5917,7 +6665,8 @@ const impresoras = [
     "UBICACION": "REGISTRO",
     "MARCA": "ZEBRA",
     "MODELO": "GK420T",
-    "IP-PC": "TEAEPREGI01"
+    "IP-PC": "TEAEPREGI01",
+    "SERIAL": null
   },
   {
     "ID": 906,
@@ -5925,7 +6674,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "ZEBRA",
     "MODELO": "GK420T",
-    "IP-PC": "TEAEPSJAD03"
+    "IP-PC": "TEAEPSJAD03",
+    "SERIAL": null
   },
   {
     "ID": 907,
@@ -5933,7 +6683,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "ZEBRA",
     "MODELO": "GK420T",
-    "IP-PC": "TEAEPJDAD01"
+    "IP-PC": "TEAEPJDAD01",
+    "SERIAL": null
   },
   {
     "ID": 908,
@@ -5941,7 +6692,8 @@ const impresoras = [
     "UBICACION": "SECRETARÍA",
     "MARCA": "ZEBRA",
     "MODELO": "GK420T",
-    "IP-PC": "TEAEPDIRM03"
+    "IP-PC": "TEAEPDIRM03",
+    "SERIAL": null
   },
   {
     "ID": 909,
@@ -5949,7 +6701,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M401",
-    "IP-PC": "10.35.232.96"
+    "IP-PC": "10.35.232.96",
+    "SERIAL": null
   },
   {
     "ID": 910,
@@ -5957,7 +6710,8 @@ const impresoras = [
     "UBICACION": "MANTENIMIENTO",
     "MARCA": "DATACARD",
     "MODELO": "XPS CARD PRINTER",
-    "IP-PC": "TEAEPMANT17"
+    "IP-PC": "TEAEPMANT17",
+    "SERIAL": null
   },
   {
     "ID": 911,
@@ -5965,7 +6719,8 @@ const impresoras = [
     "UBICACION": "GERIATRÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TEAEPSJGE01"
+    "IP-PC": "TEAEPSJGE01",
+    "SERIAL": null
   },
   {
     "ID": 912,
@@ -5973,7 +6728,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE23PCS1004"
+    "IP-PC": "TE23PCS1004",
+    "SERIAL": "CNB1PBK16H"
   },
   {
     "ID": 914,
@@ -5981,7 +6737,8 @@ const impresoras = [
     "UBICACION": "JEFE ANATOMÍA",
     "MARCA": "HP",
     "MODELO": "COLOR LASERJET MFP M182N",
-    "IP-PC": "TEAEPAPAT02"
+    "IP-PC": "TEAEPAPAT02",
+    "SERIAL": null
   },
   {
     "ID": 915,
@@ -5989,7 +6746,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPORLC02"
+    "IP-PC": "TEAEPORLC02",
+    "SERIAL": null
   },
   {
     "ID": 916,
@@ -5997,7 +6755,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN ENFERMERÍA",
     "MARCA": "EPSON",
     "MODELO": "ACULASER AL-M2000",
-    "IP-PC": "TEAEPJDDE01"
+    "IP-PC": "TEAEPJDDE01",
+    "SERIAL": null
   },
   {
     "ID": 917,
@@ -6005,7 +6764,8 @@ const impresoras = [
     "UBICACION": "ENFERMERÍA UME",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPJDCM03"
+    "IP-PC": "TEAEPJDCM03",
+    "SERIAL": null
   },
   {
     "ID": 918,
@@ -6013,7 +6773,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 30",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1508"
+    "IP-PC": "TE28PCS1508",
+    "SERIAL": "CNB1R5LHWY"
   },
   {
     "ID": 919,
@@ -6021,7 +6782,8 @@ const impresoras = [
     "UBICACION": "CONSULTA PSICOGERIATRÍA",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TEAEPJDPM01"
+    "IP-PC": "TEAEPJDPM01",
+    "SERIAL": null
   },
   {
     "ID": 920,
@@ -6029,7 +6791,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 1 PLANTA 3 ULE",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPJDLC04"
+    "IP-PC": "TEAEPJDLC04",
+    "SERIAL": null
   },
   {
     "ID": 921,
@@ -6037,7 +6800,8 @@ const impresoras = [
     "UBICACION": "TERAPIA PSICOGERIATRÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPJDPT01"
+    "IP-PC": "TEAEPJDPT01",
+    "SERIAL": null
   },
   {
     "ID": 922,
@@ -6045,7 +6809,8 @@ const impresoras = [
     "UBICACION": "MANTENIMIENTO",
     "MARCA": "EVOLIS",
     "MODELO": "PRIMACY II",
-    "IP-PC": "TEAEPMANT17"
+    "IP-PC": "TEAEPMANT17",
+    "SERIAL": null
   },
   {
     "ID": 923,
@@ -6053,7 +6818,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPHEMH03"
+    "IP-PC": "TEAEPHEMH03",
+    "SERIAL": null
   },
   {
     "ID": 925,
@@ -6061,7 +6827,8 @@ const impresoras = [
     "UBICACION": "MÉDICA DE PREVENCIÓN",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.156"
+    "IP-PC": "10.35.20.156",
+    "SERIAL": null
   },
   {
     "ID": 926,
@@ -6069,7 +6836,8 @@ const impresoras = [
     "UBICACION": "CIRUGÍA - ENFERMERÍA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPCIRE03"
+    "IP-PC": "TEAEPCIRE03",
+    "SERIAL": "CNB1R793N7"
   },
   {
     "ID": 927,
@@ -6077,7 +6845,8 @@ const impresoras = [
     "UBICACION": "UCI",
     "MARCA": "BROTHER",
     "MODELO": "HL-L3230CDW",
-    "IP-PC": "TEAEPUCIH03"
+    "IP-PC": "TEAEPUCIH03",
+    "SERIAL": "E79010J2N844941"
   },
   {
     "ID": 930,
@@ -6085,7 +6854,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MÉDICA UME",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPJDCM01"
+    "IP-PC": "TEAEPJDCM01",
+    "SERIAL": null
   },
   {
     "ID": 931,
@@ -6093,7 +6863,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE28PCS1541"
+    "IP-PC": "TE28PCS1541",
+    "SERIAL": null
   },
   {
     "ID": 932,
@@ -6101,7 +6872,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "HP",
     "MODELO": "COLOR LASERJET PRO M255",
-    "IP-PC": "CONTEC91099-08"
+    "IP-PC": "CONTEC91099-08",
+    "SERIAL": null
   },
   {
     "ID": 933,
@@ -6109,7 +6881,8 @@ const impresoras = [
     "UBICACION": "DESPACHO NEUROLOGÍA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPNEUH01"
+    "IP-PC": "TEAEPNEUH01",
+    "SERIAL": "CNB1SBB7XH"
   },
   {
     "ID": 935,
@@ -6117,7 +6890,8 @@ const impresoras = [
     "UBICACION": "SACRISTÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET M234SDWE",
-    "IP-PC": "CURA"
+    "IP-PC": "CURA",
+    "SERIAL": null
   },
   {
     "ID": 937,
@@ -6125,7 +6899,8 @@ const impresoras = [
     "UBICACION": "SUMINISTROS",
     "MARCA": "CANON",
     "MODELO": "iR1643i",
-    "IP-PC": "10.35.125.108"
+    "IP-PC": "10.35.125.108",
+    "SERIAL": null
   },
   {
     "ID": 938,
@@ -6133,7 +6908,8 @@ const impresoras = [
     "UBICACION": "SALA MÉDICOS - RESIDENTES - MEDICINA INTERNA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.20.130"
+    "IP-PC": "10.35.20.130",
+    "SERIAL": null
   },
   {
     "ID": 939,
@@ -6141,7 +6917,8 @@ const impresoras = [
     "UBICACION": "CELADORES PLANTA CERO",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TE13PCA1005"
+    "IP-PC": "TE13PCA1005",
+    "SERIAL": null
   },
   {
     "ID": 940,
@@ -6149,7 +6926,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TRAC-3"
+    "IP-PC": "TRAC-3",
+    "SERIAL": null
   },
   {
     "ID": 941,
@@ -6157,7 +6935,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 1 - PLANTA -1",
     "MARCA": "SAMSUNG",
     "MODELO": "M4020DN",
-    "IP-PC": "TE13PCS1035"
+    "IP-PC": "TE13PCS1035",
+    "SERIAL": "IDENTIFICAR O COMPROBAR"
   },
   {
     "ID": 942,
@@ -6165,7 +6944,8 @@ const impresoras = [
     "UBICACION": "AMDISIÓN DE PACIENTES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPADMP09"
+    "IP-PC": "TEAEPADMP09",
+    "SERIAL": "CNBW7437RF"
   },
   {
     "ID": 945,
@@ -6173,7 +6953,8 @@ const impresoras = [
     "UBICACION": "RUBIELOS DE MORA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE19MCS1000"
+    "IP-PC": "TE19MCS1000",
+    "SERIAL": null
   },
   {
     "ID": 946,
@@ -6181,7 +6962,8 @@ const impresoras = [
     "UBICACION": "NOGUERUELAS - ATS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE19MCS1000"
+    "IP-PC": "TE19MCS1000",
+    "SERIAL": null
   },
   {
     "ID": 947,
@@ -6189,7 +6971,8 @@ const impresoras = [
     "UBICACION": "SUBDIRECCIÓN MÉDICA",
     "MARCA": "HP",
     "MODELO": "LASERJET 2300",
-    "IP-PC": "TEAEPDIRM04"
+    "IP-PC": "TEAEPDIRM04",
+    "SERIAL": null
   },
   {
     "ID": 948,
@@ -6197,7 +6980,8 @@ const impresoras = [
     "UBICACION": "PERALES DEL ALFAMBRA - ATS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE05PCS0017"
+    "IP-PC": "TE05PCS0017",
+    "SERIAL": null
   },
   {
     "ID": 949,
@@ -6205,7 +6989,8 @@ const impresoras = [
     "UBICACION": "ORIHUELA",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS LBP223DW",
-    "IP-PC": "TE01MCS1006"
+    "IP-PC": "TE01MCS1006",
+    "SERIAL": null
   },
   {
     "ID": 950,
@@ -6213,7 +6998,8 @@ const impresoras = [
     "UBICACION": "HEMATOLOGÍA",
     "MARCA": "EPSON",
     "MODELO": "EPL-6200",
-    "IP-PC": "TEAEPHEMH12"
+    "IP-PC": "TEAEPHEMH12",
+    "SERIAL": null
   },
   {
     "ID": 951,
@@ -6221,7 +7007,8 @@ const impresoras = [
     "UBICACION": "MANTENIMIENTO - PRIMARIA",
     "MARCA": "BROTHER",
     "MODELO": "P-TOUCH 2730",
-    "IP-PC": "MANT-2"
+    "IP-PC": "MANT-2",
+    "SERIAL": "E1G371438"
   },
   {
     "ID": 953,
@@ -6229,7 +7016,8 @@ const impresoras = [
     "UBICACION": "CONTROL CUARTA ICTUS",
     "MARCA": "HP",
     "MODELO": "LASERJET 500 M506",
-    "IP-PC": "172.18.43.209"
+    "IP-PC": "172.18.43.209",
+    "SERIAL": null
   },
   {
     "ID": 954,
@@ -6237,7 +7025,8 @@ const impresoras = [
     "UBICACION": "VALDELINARES",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE20MCS1003"
+    "IP-PC": "TE20MCS1003",
+    "SERIAL": null
   },
   {
     "ID": 955,
@@ -6245,7 +7034,8 @@ const impresoras = [
     "UBICACION": "REHABILITACIÓN",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "10.35.239.182"
+    "IP-PC": "10.35.239.182",
+    "SERIAL": "CNB2Q8PRL7"
   },
   {
     "ID": 956,
@@ -6253,7 +7043,8 @@ const impresoras = [
     "UBICACION": "REHABILITACIÓN 3",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPREHC03"
+    "IP-PC": "TEAEPREHC03",
+    "SERIAL": null
   },
   {
     "ID": 958,
@@ -6261,7 +7052,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 1 DE URGENCIAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPURGN17"
+    "IP-PC": "TEAEPURGN17",
+    "SERIAL": "E63664E7J252516"
   },
   {
     "ID": 959,
@@ -6269,7 +7061,8 @@ const impresoras = [
     "UBICACION": "CONTROL PRIMERA PLANTA ULE",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPJDCO01"
+    "IP-PC": "TEAEPJDCO01",
+    "SERIAL": null
   },
   {
     "ID": 960,
@@ -6277,7 +7070,8 @@ const impresoras = [
     "UBICACION": "CONSULTA PSICOGERIATRÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPJDCM03"
+    "IP-PC": "TEAEPJDCM03",
+    "SERIAL": null
   },
   {
     "ID": 962,
@@ -6285,7 +7079,8 @@ const impresoras = [
     "UBICACION": "MONTALBAN - ATS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE25PCS0017"
+    "IP-PC": "TE25PCS0017",
+    "SERIAL": null
   },
   {
     "ID": 963,
@@ -6293,7 +7088,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPOFTH05"
+    "IP-PC": "TEAEPOFTH05",
+    "SERIAL": "CNB1R5KZV2"
   },
   {
     "ID": 964,
@@ -6301,7 +7097,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MIR PLANTA 2",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE13PCS1018"
+    "IP-PC": "TE13PCS1018",
+    "SERIAL": "CNB1R5LHWB"
   },
   {
     "ID": 965,
@@ -6309,7 +7106,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 10 - MIR PLANTA -1",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE13PCS1031"
+    "IP-PC": "TE13PCS1031",
+    "SERIAL": "CNB1R5LH9C"
   },
   {
     "ID": 966,
@@ -6317,7 +7115,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN MÉDICA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TEAEPSJDM01"
+    "IP-PC": "TEAEPSJDM01",
+    "SERIAL": null
   },
   {
     "ID": 967,
@@ -6325,7 +7124,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M402",
-    "IP-PC": "LABO"
+    "IP-PC": "LABO",
+    "SERIAL": null
   },
   {
     "ID": 968,
@@ -6333,7 +7133,8 @@ const impresoras = [
     "UBICACION": "MANZANERA",
     "MARCA": "PANTUM",
     "MODELO": "P2500W",
-    "IP-PC": "TE23MCS1003"
+    "IP-PC": "TE23MCS1003",
+    "SERIAL": null
   },
   {
     "ID": 969,
@@ -6341,7 +7142,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "CARC-G2"
+    "IP-PC": "CARC-G2",
+    "SERIAL": "CNB1R5KZV5"
   },
   {
     "ID": 970,
@@ -6349,7 +7151,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPPFUC02"
+    "IP-PC": "TEAEPPFUC02",
+    "SERIAL": null
   },
   {
     "ID": 971,
@@ -6357,7 +7160,8 @@ const impresoras = [
     "UBICACION": "DESPACHO PLANTA BAJA ULE",
     "MARCA": "HP",
     "MODELO": "COLOR LASERJET E45028DN",
-    "IP-PC": "10.35.22.9"
+    "IP-PC": "10.35.22.9",
+    "SERIAL": "VNF3619038"
   },
   {
     "ID": 972,
@@ -6365,7 +7169,8 @@ const impresoras = [
     "UBICACION": "LECHAGO",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TE10PCS0006"
+    "IP-PC": "TE10PCS0006",
+    "SERIAL": null
   },
   {
     "ID": 973,
@@ -6373,7 +7178,8 @@ const impresoras = [
     "UBICACION": "CAMAÑAS",
     "MARCA": "HP",
     "MODELO": "DESKJET 2700",
-    "IP-PC": "TE05PCS0005"
+    "IP-PC": "TE05PCS0005",
+    "SERIAL": null
   },
   {
     "ID": 974,
@@ -6381,7 +7187,8 @@ const impresoras = [
     "UBICACION": "LOGOPEDA",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPSJLO01"
+    "IP-PC": "TEAEPSJLO01",
+    "SERIAL": null
   },
   {
     "ID": 975,
@@ -6389,7 +7196,8 @@ const impresoras = [
     "UBICACION": "SALA EXPLORACIÓN CIRUGÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPCIRH05"
+    "IP-PC": "TEAEPCIRH05",
+    "SERIAL": null
   },
   {
     "ID": 977,
@@ -6397,7 +7205,8 @@ const impresoras = [
     "UBICACION": "CONTROL CARDILOGÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M404",
-    "IP-PC": "192.168.10.20"
+    "IP-PC": "192.168.10.20",
+    "SERIAL": null
   },
   {
     "ID": 982,
@@ -6405,7 +7214,8 @@ const impresoras = [
     "UBICACION": "SALA DE MÉDICOS DE UROLOGÍA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.133"
+    "IP-PC": "10.35.232.133",
+    "SERIAL": null
   },
   {
     "ID": 983,
@@ -6413,7 +7223,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TE20PCA1001"
+    "IP-PC": "TE20PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 984,
@@ -6421,7 +7232,8 @@ const impresoras = [
     "UBICACION": "DESPACHO UCI",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPUCIH01"
+    "IP-PC": "TEAEPUCIH01",
+    "SERIAL": null
   },
   {
     "ID": 985,
@@ -6429,7 +7241,8 @@ const impresoras = [
     "UBICACION": "ARCHIVOS - HISTORIAS",
     "MARCA": "BROTHER",
     "MODELO": "QL-700",
-    "IP-PC": "TEAEPAHCL04"
+    "IP-PC": "TEAEPAHCL04",
+    "SERIAL": null
   },
   {
     "ID": 986,
@@ -6437,7 +7250,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.232.212"
+    "IP-PC": "10.35.232.212",
+    "SERIAL": null
   },
   {
     "ID": 987,
@@ -6445,7 +7259,8 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPLABO33"
+    "IP-PC": "TEAEPLABO33",
+    "SERIAL": null
   },
   {
     "ID": 990,
@@ -6453,7 +7268,8 @@ const impresoras = [
     "UBICACION": "CONSULTA PSICOLOGÍA",
     "MARCA": "LEXMARK",
     "MODELO": "MS312DN",
-    "IP-PC": "TEAEPSJPS01"
+    "IP-PC": "TEAEPSJPS01",
+    "SERIAL": null
   },
   {
     "ID": 991,
@@ -6461,7 +7277,8 @@ const impresoras = [
     "UBICACION": "CONTROL PSICOGERIATRÍA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPJDPC01"
+    "IP-PC": "TEAEPJDPC01",
+    "SERIAL": "CNB1R5LH98"
   },
   {
     "ID": 992,
@@ -6469,7 +7286,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN MÉDICA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPJDDM01"
+    "IP-PC": "TEAEPJDDM01",
+    "SERIAL": "CNB1R5LHX1"
   },
   {
     "ID": 993,
@@ -6477,7 +7295,8 @@ const impresoras = [
     "UBICACION": "ADMINISTRACIÓN",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPJDDA04"
+    "IP-PC": "TEAEPJDDA04",
+    "SERIAL": "CNB1R5LH9J"
   },
   {
     "ID": 995,
@@ -6485,7 +7304,8 @@ const impresoras = [
     "UBICACION": "FACTURACIÓN",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TEAEPFACT03"
+    "IP-PC": "TEAEPFACT03",
+    "SERIAL": null
   },
   {
     "ID": 996,
@@ -6493,7 +7313,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "ONCH-4"
+    "IP-PC": "ONCH-4",
+    "SERIAL": null
   },
   {
     "ID": 997,
@@ -6501,7 +7322,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN URGENCIAS ENSANCHE",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS X 1440i",
-    "IP-PC": "10.35.21.110"
+    "IP-PC": "10.35.21.110",
+    "SERIAL": "4UX64687"
   },
   {
     "ID": 998,
@@ -6509,7 +7331,8 @@ const impresoras = [
     "UBICACION": "CONSULTA SEGUNDA PLANTA ULE",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPJDLC06"
+    "IP-PC": "TEAEPJDLC06",
+    "SERIAL": null
   },
   {
     "ID": 999,
@@ -6517,7 +7340,8 @@ const impresoras = [
     "UBICACION": "CELADAS - ATS",
     "MARCA": "HP",
     "MODELO": "LASERJET 4250",
-    "IP-PC": "TE24PCS0009"
+    "IP-PC": "TE24PCS0009",
+    "SERIAL": null
   },
   {
     "ID": 1000,
@@ -6525,7 +7349,8 @@ const impresoras = [
     "UBICACION": "TALLER",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "ROTA"
+    "IP-PC": "ROTA",
+    "SERIAL": "RJ8Q359181"
   },
   {
     "ID": 1001,
@@ -6533,7 +7358,8 @@ const impresoras = [
     "UBICACION": "DESPACHO UCC",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TEAEPUCCH04"
+    "IP-PC": "TEAEPUCCH04",
+    "SERIAL": null
   },
   {
     "ID": 1002,
@@ -6541,7 +7367,8 @@ const impresoras = [
     "UBICACION": "JEFE TRAUMA",
     "MARCA": "KYOCERA",
     "MODELO": "FS-1016MFP",
-    "IP-PC": "TRAH-3"
+    "IP-PC": "TRAH-3",
+    "SERIAL": null
   },
   {
     "ID": 1003,
@@ -6549,7 +7376,8 @@ const impresoras = [
     "UBICACION": "FARMACIA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "FARM-9"
+    "IP-PC": "FARM-9",
+    "SERIAL": null
   },
   {
     "ID": 1004,
@@ -6557,7 +7385,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - INFORMÁTICA",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "10.35.21.74"
+    "IP-PC": "10.35.21.74",
+    "SERIAL": "RJ8Q367658"
   },
   {
     "ID": 1005,
@@ -6565,7 +7394,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - SALA JUNTAS",
     "MARCA": "EPSON",
     "MODELO": "EPL-6200",
-    "IP-PC": "TE28PCS1549"
+    "IP-PC": "TE28PCS1549",
+    "SERIAL": null
   },
   {
     "ID": 1007,
@@ -6573,7 +7403,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - SECRETARÍA DOCENCIA",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE00PCS1010"
+    "IP-PC": "TE00PCS1010",
+    "SERIAL": "CNB1S6M83Z"
   },
   {
     "ID": 1009,
@@ -6581,7 +7412,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - CALIDAD",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TE00PCS1006"
+    "IP-PC": "TE00PCS1006",
+    "SERIAL": null
   },
   {
     "ID": 1010,
@@ -6589,7 +7421,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - SUBDIRECTORA",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TE00PCS1005"
+    "IP-PC": "TE00PCS1005",
+    "SERIAL": null
   },
   {
     "ID": 1011,
@@ -6597,7 +7430,8 @@ const impresoras = [
     "UBICACION": "MARTIN DEL RIO - ATS",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE25MCS1002"
+    "IP-PC": "TE25MCS1002",
+    "SERIAL": null
   },
   {
     "ID": 1012,
@@ -6605,7 +7439,8 @@ const impresoras = [
     "UBICACION": "LECHAGO",
     "MARCA": "HP",
     "MODELO": "LASERJET P3015",
-    "IP-PC": "TE10PCS0006"
+    "IP-PC": "TE10PCS0006",
+    "SERIAL": null
   },
   {
     "ID": 1014,
@@ -6613,7 +7448,8 @@ const impresoras = [
     "UBICACION": "CONSULTA MATRONA 2",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TE00PCS1036"
+    "IP-PC": "TE00PCS1036",
+    "SERIAL": null
   },
   {
     "ID": 1015,
@@ -6621,7 +7457,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 28",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE28PCS1546"
+    "IP-PC": "TE28PCS1546",
+    "SERIAL": "RJ8Q367666"
   },
   {
     "ID": 1018,
@@ -6629,7 +7466,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 16",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "TE13MCS1000"
+    "IP-PC": "TE13MCS1000",
+    "SERIAL": null
   },
   {
     "ID": 1019,
@@ -6637,7 +7475,8 @@ const impresoras = [
     "UBICACION": "VILLAFRANCA DEL CAMPO",
     "MARCA": "HP",
     "MODELO": "LASERJET 1320",
-    "IP-PC": "TE18MCS1006"
+    "IP-PC": "TE18MCS1006",
+    "SERIAL": null
   },
   {
     "ID": 1020,
@@ -6645,7 +7484,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1013"
+    "IP-PC": "TE25PCS1013",
+    "SERIAL": "CNB1S365TZ"
   },
   {
     "ID": 1021,
@@ -6653,7 +7493,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE25PCS1024"
+    "IP-PC": "TE25PCS1024",
+    "SERIAL": "CNB1S365WH"
   },
   {
     "ID": 1022,
@@ -6661,7 +7502,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL INFANTO JUVENIL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1560"
+    "IP-PC": "TE28PCS1560",
+    "SERIAL": "CNB1S6M83Y"
   },
   {
     "ID": 1023,
@@ -6669,7 +7511,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1541"
+    "IP-PC": "TE28PCS1541",
+    "SERIAL": "CNB1S6M816"
   },
   {
     "ID": 1024,
@@ -6677,7 +7520,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1550"
+    "IP-PC": "TE28PCS1550",
+    "SERIAL": "CNB1S6M845"
   },
   {
     "ID": 1025,
@@ -6685,7 +7529,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL INFANTO JUVENIL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1548"
+    "IP-PC": "TE28PCS1548",
+    "SERIAL": "CNB1S6M844"
   },
   {
     "ID": 1026,
@@ -6693,7 +7538,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1561"
+    "IP-PC": "TE28PCS1561",
+    "SERIAL": "CNB1S365W4"
   },
   {
     "ID": 1027,
@@ -6701,7 +7547,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1543"
+    "IP-PC": "TE28PCS1543",
+    "SERIAL": "CNB1S6M81F"
   },
   {
     "ID": 1028,
@@ -6709,7 +7556,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1562"
+    "IP-PC": "TE28PCS1562",
+    "SERIAL": "CNB1S6M817"
   },
   {
     "ID": 1029,
@@ -6717,7 +7565,8 @@ const impresoras = [
     "UBICACION": "SALUD MENTAL ADULTOS",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TE28PCS1540"
+    "IP-PC": "TE28PCS1540",
+    "SERIAL": "CNB1S365V0"
   },
   {
     "ID": 1030,
@@ -6725,7 +7574,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "HP",
     "MODELO": "LASERJET 1200",
-    "IP-PC": "BIOMEDICS-2"
+    "IP-PC": "BIOMEDICS-2",
+    "SERIAL": null
   },
   {
     "ID": 1031,
@@ -6733,7 +7583,8 @@ const impresoras = [
     "UBICACION": "NEFROLOGÍA",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS X 1440i",
-    "IP-PC": "10.35.232.107"
+    "IP-PC": "10.35.232.107",
+    "SERIAL": "4UX27886"
   },
   {
     "ID": 1032,
@@ -6741,7 +7592,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 29 ENF. PEDIATRÍA",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE13PCS1038"
+    "IP-PC": "TE13PCS1038",
+    "SERIAL": null
   },
   {
     "ID": 1033,
@@ -6749,7 +7601,8 @@ const impresoras = [
     "UBICACION": "ALBARRACIN",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE01PCS1003"
+    "IP-PC": "TE01PCS1003",
+    "SERIAL": null
   },
   {
     "ID": 1034,
@@ -6757,7 +7610,8 @@ const impresoras = [
     "UBICACION": "ALFAMBRA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE05PCS1006"
+    "IP-PC": "TE05PCS1006",
+    "SERIAL": null
   },
   {
     "ID": 1035,
@@ -6765,7 +7619,8 @@ const impresoras = [
     "UBICACION": "ALIAGA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE06PCS1002"
+    "IP-PC": "TE06PCS1002",
+    "SERIAL": null
   },
   {
     "ID": 1036,
@@ -6773,7 +7628,8 @@ const impresoras = [
     "UBICACION": "BAGUENA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE08PCS1002"
+    "IP-PC": "TE08PCS1002",
+    "SERIAL": null
   },
   {
     "ID": 1037,
@@ -6781,7 +7637,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE10PCS1003"
+    "IP-PC": "TE10PCS1003",
+    "SERIAL": null
   },
   {
     "ID": 1038,
@@ -6789,7 +7646,8 @@ const impresoras = [
     "UBICACION": "CEDRILLAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE14PCS1005"
+    "IP-PC": "TE14PCS1005",
+    "SERIAL": null
   },
   {
     "ID": 1039,
@@ -6797,7 +7655,8 @@ const impresoras = [
     "UBICACION": "CELLA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE15PCS1002"
+    "IP-PC": "TE15PCS1002",
+    "SERIAL": null
   },
   {
     "ID": 1040,
@@ -6805,7 +7664,8 @@ const impresoras = [
     "UBICACION": "MONREAL DEL CAMPO",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE18PCS1003"
+    "IP-PC": "TE18PCS1003",
+    "SERIAL": null
   },
   {
     "ID": 1041,
@@ -6813,7 +7673,8 @@ const impresoras = [
     "UBICACION": "MORA DE RUBIELOS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE19PCS1002"
+    "IP-PC": "TE19PCS1002",
+    "SERIAL": null
   },
   {
     "ID": 1042,
@@ -6821,7 +7682,8 @@ const impresoras = [
     "UBICACION": "MOSQUERUELA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE20PCS1002"
+    "IP-PC": "TE20PCS1002",
+    "SERIAL": null
   },
   {
     "ID": 1043,
@@ -6829,7 +7691,8 @@ const impresoras = [
     "UBICACION": "SANTA EULALIA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE22PCS1003"
+    "IP-PC": "TE22PCS1003",
+    "SERIAL": null
   },
   {
     "ID": 1044,
@@ -6837,7 +7700,8 @@ const impresoras = [
     "UBICACION": "SARRION",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE23PCS1002"
+    "IP-PC": "TE23PCS1002",
+    "SERIAL": null
   },
   {
     "ID": 1045,
@@ -6845,7 +7709,8 @@ const impresoras = [
     "UBICACION": "UTRILLAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE25PCS1012"
+    "IP-PC": "TE25PCS1012",
+    "SERIAL": null
   },
   {
     "ID": 1046,
@@ -6853,7 +7718,8 @@ const impresoras = [
     "UBICACION": "VILLEL",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE27PCS1003"
+    "IP-PC": "TE27PCS1003",
+    "SERIAL": null
   },
   {
     "ID": 1047,
@@ -6861,7 +7727,8 @@ const impresoras = [
     "UBICACION": "FORMICHE BAJO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2015D",
-    "IP-PC": "TE24PCS0010"
+    "IP-PC": "TE24PCS0010",
+    "SERIAL": null
   },
   {
     "ID": 1048,
@@ -6869,7 +7736,8 @@ const impresoras = [
     "UBICACION": "PRIMARIA - DIRECCIÓN",
     "MARCA": "HP",
     "MODELO": "COLOR LASERJET M452DN",
-    "IP-PC": "10.35.21.73"
+    "IP-PC": "10.35.21.73",
+    "SERIAL": null
   },
   {
     "ID": 1049,
@@ -6877,7 +7745,8 @@ const impresoras = [
     "UBICACION": "MORA DE RUBIELOS",
     "MARCA": "EPSON",
     "MODELO": "TM-T20II",
-    "IP-PC": "TE19PCA1001"
+    "IP-PC": "TE19PCA1001",
+    "SERIAL": null
   },
   {
     "ID": 1050,
@@ -6885,7 +7754,8 @@ const impresoras = [
     "UBICACION": "EXTRACCIONES",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE13PCS1032"
+    "IP-PC": "TE13PCS1032",
+    "SERIAL": null
   },
   {
     "ID": 1051,
@@ -6893,7 +7763,8 @@ const impresoras = [
     "UBICACION": "EXTRACCIONES",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE28PCS1554"
+    "IP-PC": "TE28PCS1554",
+    "SERIAL": null
   },
   {
     "ID": 1052,
@@ -6901,7 +7772,8 @@ const impresoras = [
     "UBICACION": "ALBENTOSA - ATS",
     "MARCA": "CANON",
     "MODELO": "i-SENSYS MF272DW",
-    "IP-PC": "TE23PCS1014"
+    "IP-PC": "TE23PCS1014",
+    "SERIAL": null
   },
   {
     "ID": 1054,
@@ -6909,7 +7781,8 @@ const impresoras = [
     "UBICACION": "CARDIOLOGÍA",
     "MARCA": "CANON",
     "MODELO": "NP6512",
-    "IP-PC": "-"
+    "IP-PC": "-",
+    "SERIAL": "TWA58925"
   },
   {
     "ID": 1055,
@@ -6917,7 +7790,8 @@ const impresoras = [
     "UBICACION": "CONSULTAS EXTERNAS",
     "MARCA": "CANON",
     "MODELO": "IR2018",
-    "IP-PC": "-"
+    "IP-PC": "-",
+    "SERIAL": "MWM62751"
   },
   {
     "ID": 1056,
@@ -6925,7 +7799,8 @@ const impresoras = [
     "UBICACION": "CONTROL ACCESOS",
     "MARCA": "CANON",
     "MODELO": "iR-ADV DX529i",
-    "IP-PC": "-"
+    "IP-PC": "-",
+    "SERIAL": "JWF59800"
   },
   {
     "ID": 1057,
@@ -6933,7 +7808,8 @@ const impresoras = [
     "UBICACION": "DIRECCIÓN",
     "MARCA": "CANON",
     "MODELO": "IR2520",
-    "IP-PC": "-"
+    "IP-PC": "-",
+    "SERIAL": "FQQ83611"
   },
   {
     "ID": 1058,
@@ -6941,7 +7817,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS",
     "MARCA": "CANON",
     "MODELO": "iR-ADV DX529i",
-    "IP-PC": "10.35.232.91"
+    "IP-PC": "10.35.232.91",
+    "SERIAL": "4GK20012"
   },
   {
     "ID": 1059,
@@ -6949,7 +7826,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.21.145"
+    "IP-PC": "10.35.21.145",
+    "SERIAL": null
   },
   {
     "ID": 1060,
@@ -6957,7 +7835,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN ETIQUETAS",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "10.35.21.145"
+    "IP-PC": "10.35.21.145",
+    "SERIAL": null
   },
   {
     "ID": 1061,
@@ -6965,7 +7844,8 @@ const impresoras = [
     "UBICACION": "URGENCIAS - SALA CURAS",
     "MARCA": "HP",
     "MODELO": "LASERJET 4350N",
-    "IP-PC": "10.35.232.168"
+    "IP-PC": "10.35.232.168",
+    "SERIAL": null
   },
   {
     "ID": 1065,
@@ -6973,7 +7853,8 @@ const impresoras = [
     "UBICACION": "COCINA - JEFATURA",
     "MARCA": "HP",
     "MODELO": "LASERJET P4515N",
-    "IP-PC": "COCI-2"
+    "IP-PC": "COCI-2",
+    "SERIAL": null
   },
   {
     "ID": 1066,
@@ -6981,7 +7862,8 @@ const impresoras = [
     "UBICACION": "TALLER",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "ROTA"
+    "IP-PC": "ROTA",
+    "SERIAL": "RJ8Q367760"
   },
   {
     "ID": 1067,
@@ -6989,7 +7871,8 @@ const impresoras = [
     "UBICACION": "FISIO",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TEAEPSJFI01"
+    "IP-PC": "TEAEPSJFI01",
+    "SERIAL": null
   },
   {
     "ID": 1068,
@@ -6997,7 +7880,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE28PCA1005"
+    "IP-PC": "TE28PCA1005",
+    "SERIAL": null
   },
   {
     "ID": 1069,
@@ -7005,7 +7889,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 22",
     "MARCA": "EPSON",
     "MODELO": "AL-M300",
-    "IP-PC": "TE28PCS1507"
+    "IP-PC": "TE28PCS1507",
+    "SERIAL": "RJ8Q359614"
   },
   {
     "ID": 1070,
@@ -7013,15 +7898,17 @@ const impresoras = [
     "UBICACION": "LABORATORIO",
     "MARCA": "HP",
     "MODELO": "LASERJET 400 M401",
-    "IP-PC": "10.35.232.9"
+    "IP-PC": "10.35.232.9",
+    "SERIAL": null
   },
   {
     "ID": 1071,
     "EDIFICIO": "TERUEL ENSANCHE",
-    "UBICACION": "61",
+    "UBICACION": 61,
     "MARCA": "HP",
     "MODELO": "LASERJET MFP M527",
-    "IP-PC": "10.35.128.191"
+    "IP-PC": "10.35.128.191",
+    "SERIAL": null
   },
   {
     "ID": 1072,
@@ -7029,7 +7916,8 @@ const impresoras = [
     "UBICACION": "CONSULTA 4",
     "MARCA": "HP",
     "MODELO": "LASERJET P2055D",
-    "IP-PC": "TE28PCS1506"
+    "IP-PC": "TE28PCS1506",
+    "SERIAL": null
   },
   {
     "ID": 1073,
@@ -7037,7 +7925,8 @@ const impresoras = [
     "UBICACION": "ADMISIÓN",
     "MARCA": "KYOCERA",
     "MODELO": "KM-2050",
-    "IP-PC": "10.35.128.161"
+    "IP-PC": "10.35.128.161",
+    "SERIAL": null
   },
   {
     "ID": 1074,
@@ -7045,7 +7934,8 @@ const impresoras = [
     "UBICACION": "PERSONAL",
     "MARCA": "HP",
     "MODELO": "LASER 408DN",
-    "IP-PC": "TEAEPPERS10"
+    "IP-PC": "TEAEPPERS10",
+    "SERIAL": "CNB1T8C5ZL"
   },
   {
     "ID": 1075,
@@ -7053,7 +7943,8 @@ const impresoras = [
     "UBICACION": "REGISTRO",
     "MARCA": "BROTHER",
     "MODELO": "HL-5250DN",
-    "IP-PC": "TEAEPREGI01"
+    "IP-PC": "TEAEPREGI01",
+    "SERIAL": null
   },
   {
     "ID": 1076,
@@ -7061,7 +7952,8 @@ const impresoras = [
     "UBICACION": "CALAMOCHA",
     "MARCA": "EPSON",
     "MODELO": "TM-L90",
-    "IP-PC": "TE10PCS1005"
+    "IP-PC": "TE10PCS1005",
+    "SERIAL": null
   },
   {
     "ID": 1077,
@@ -7069,6 +7961,7 @@ const impresoras = [
     "UBICACION": "TORRIJAS",
     "MARCA": "HP",
     "MODELO": "PHOTOSMART C5280",
-    "IP-PC": "TE23PCS0104"
+    "IP-PC": "TE23PCS0104",
+    "SERIAL": null
   }
 ];
