@@ -3,93 +3,391 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Gestión de Impresoras</title>
-
     <style>
+        :root {
+            --bg: #eef2f7;
+            --card: #ffffff;
+            --card-2: #f8fbfd;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --border: #d7dee6;
+            --primary: rgb(50, 115, 117);
+            --primary-dark: rgb(35, 85, 86);
+            --success: #15803d;
+            --danger: #b91c1c;
+            --warning: #b45309;
+            --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        body.dark {
+            --bg: #0f172a;
+            --card: #111827;
+            --card-2: #162033;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --border: #263246;
+            --primary: #4db3b6;
+            --primary-dark: #36888a;
+            --success: #22c55e;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            background: #eef2f7;
             margin: 0;
+            font-family: Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
         }
 
         header {
-            background: rgb(50, 115, 117);
-            color: black;
-            padding: 20px;
-            text-align: center;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 22px;
+            box-shadow: var(--shadow);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .header-top h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .header-top p {
+            margin: 6px 0 0;
+            opacity: 0.95;
         }
 
         .container {
-            width: 95%;
-            margin: auto;
-            margin-top: 30px;
+            width: min(96%, 1500px);
+            margin: 24px auto;
         }
 
-        .filtros {
+        .toolbar,
+        .stats-grid,
+        .layout,
+        .admin-grid {
+            margin-bottom: 20px;
+        }
+
+        .toolbar,
+        .panel,
+        .stat-card,
+        .admin-card,
+        .tabla-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+        }
+
+        .toolbar {
+            padding: 18px;
+        }
+
+        .toolbar-actions {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 14px;
+        }
+
+        .filtros {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 10px;
             align-items: center;
         }
 
         input,
-        select {
-            padding: 10px;
-            min-width: 220px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
+        select,
+        textarea {
+            width: 100%;
+            padding: 11px 12px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: var(--card-2);
+            color: var(--text);
+        }
+
+        textarea {
+            min-height: 90px;
+            resize: vertical;
+        }
+
+        .btn {
+            padding: 10px 14px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            opacity: 0.95;
+        }
+
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-secondary { background: #64748b; color: white; }
+        .btn-success { background: var(--success); color: white; }
+        .btn-danger { background: var(--danger); color: white; }
+        .btn-warning { background: var(--warning); color: white; }
+        .btn-light { background: var(--card-2); color: var(--text); border: 1px solid var(--border); }
+
+        .info {
+            color: var(--muted);
+            font-size: 14px;
+            margin: 12px 0 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+        }
+
+        .stat-card {
+            padding: 18px;
+        }
+
+        .stat-label {
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .stat-extra {
+            margin-top: 10px;
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 290px 1fr;
+            gap: 20px;
+        }
+
+        .panel {
+            padding: 16px;
+        }
+
+        .panel h3,
+        .tabla-header h3,
+        .admin-card h3 {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        .mini-map {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-height: 650px;
+            overflow: auto;
+        }
+
+        .map-item {
+            background: var(--card-2);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 12px;
+            cursor: pointer;
+        }
+
+        .map-item:hover {
+            border-color: var(--primary);
+        }
+
+        .map-title {
+            font-weight: 700;
+        }
+
+        .map-sub {
+            color: var(--muted);
+            font-size: 13px;
+            margin-top: 4px;
+        }
+
+        .tabla-card {
+            overflow: hidden;
+        }
+
+        .tabla-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 16px 18px 0;
+        }
+
+        .contador {
+            font-weight: bold;
+            color: var(--text);
+        }
+
+        .table-wrap {
+            overflow: auto;
+            padding: 14px 18px 18px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            background: white;
+            background: var(--card);
+            min-width: 1180px;
         }
 
         th,
         td {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
+            padding: 11px 10px;
+            border-bottom: 1px solid var(--border);
             text-align: left;
+            vertical-align: middle;
         }
 
         th {
-            background: rgb(50, 115, 117);
-            color: black;
-        }
-
-        tr:hover {
-            background: #f5f5f5;
-        }
-
-        button {
-            padding: 6px 10px;
-            background: green;
-            font-weight: bolder;
+            background: var(--primary);
             color: white;
-            margin: 2px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        tr:hover td {
+            background: rgba(50, 115, 117, 0.07);
+        }
+
+        .acciones {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .mini-btn {
+            padding: 7px 10px;
+            border-radius: 8px;
             border: none;
+            font-size: 12px;
             cursor: pointer;
-            border-radius: 4px;
+            font-weight: 700;
         }
 
-        .info {
-            color: #555;
-            font-size: 14px;
-            margin-bottom: 15px;
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            border-radius: 999px;
+            padding: 6px 10px;
+            font-size: 12px;
+            font-weight: 700;
         }
 
-        .contador {
-            margin-bottom: 15px;
-            font-weight: bold;
-            color: #333;
+        .estado-desconocido { background: rgba(180, 83, 9, 0.16); color: var(--warning); }
+        .estado-online { background: rgba(21, 128, 61, 0.16); color: var(--success); }
+        .estado-offline { background: rgba(185, 28, 28, 0.16); color: var(--danger); }
+
+        .favorito-activo {
+            color: #eab308;
+            font-size: 18px;
+        }
+
+        .favorito-inactivo {
+            color: var(--muted);
+            font-size: 18px;
         }
 
         .sin-resultados {
             text-align: center;
-            padding: 20px;
-            color: #666;
+            padding: 28px;
+            color: var(--muted);
+        }
+
+        .admin-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .admin-card {
+            padding: 18px;
+        }
+
+        .admin-form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .admin-form .full {
+            grid-column: 1 / -1;
+        }
+
+        .nota {
+            font-size: 13px;
+            color: var(--muted);
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .chip {
+            background: var(--card-2);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 7px 11px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .chip:hover {
+            border-color: var(--primary);
+        }
+
+        @media (max-width: 1100px) {
+            .layout,
+            .admin-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .admin-form {
+                grid-template-columns: 1fr;
+            }
+
+            .header-top h1 {
+                font-size: 24px;
+            }
         }
     </style>
 </head>
@@ -97,96 +395,263 @@
 <body>
 
     <header>
-        <h1>Panel de Gestión de Impresoras de Red</h1>
+        <div class="header-top">
+            <div>
+                <h1>Panel de Gestión de Impresoras de Red</h1>
+                <p>Inventario, búsqueda, favoritos, exportación, estado y gestión local</p>
+            </div>
+            <button class="btn btn-light" onclick="toggleDarkMode()" id="modoBtn">🌙 Modo oscuro</button>
+        </div>
     </header>
 
     <div class="container">
 
-        <div class="filtros">
-            <input type="text" id="buscar" placeholder="Buscar impresora..." onkeyup="aplicarFiltros()">
+        <div class="toolbar">
+            <div class="toolbar-actions">
+                <button class="btn btn-primary" onclick="verificarTodosLosEstados()">Comprobar estados</button>
+                <button class="btn btn-success" onclick="exportarCSV()">Exportar CSV</button>
+                <button class="btn btn-secondary" onclick="mostrarSoloFavoritos()">Ver favoritos</button>
+                <button class="btn btn-light" onclick="reiniciarFiltros()">Limpiar filtros</button>
+            </div>
 
-            <select id="filtroEdificio" onchange="aplicarFiltros()">
-                <option value="">Todos los edificios</option>
-            </select>
+            <div class="filtros">
+                <input type="text" id="buscar" list="listaBusquedaGeneral" placeholder="Buscar impresora, IP, edificio, ubicación o modelo..." oninput="aplicarFiltros()">
+                <datalist id="listaBusquedaGeneral"></datalist>
 
-            <select id="filtroUbicacion" onchange="aplicarFiltros()">
-                <option value="">Todas las ubicaciones</option>
-            </select>
+                <input type="text" id="buscarSerie" list="listaSeries" placeholder="Buscar por número de serie..." oninput="aplicarFiltros()">
+                <datalist id="listaSeries"></datalist>
 
-            <select id="filtroMarca" onchange="aplicarFiltros()">
-                <option value="">Todas las marcas</option>
-            </select>
+                <select id="filtroEdificio" onchange="aplicarFiltros()">
+                    <option value="">Todos los edificios</option>
+                </select>
 
-            <select id="ordenar" onchange="aplicarFiltros()">
-                <option value="">Sin ordenar</option>
-                <option value="ubicacion-asc">Ubicación A-Z</option>
-                <option value="ubicacion-desc">Ubicación Z-A</option>
-                <option value="modelo-asc">Modelo A-Z</option>
-                <option value="modelo-desc">Modelo Z-A</option>
-                <option value="edificio-asc">Edificio A-Z</option>
-                <option value="edificio-desc">Edificio Z-A</option>
-                <option value="marca-asc">Marca A-Z</option>
-                <option value="marca-desc">Marca Z-A</option>
-            </select>
+                <select id="filtroUbicacion" onchange="aplicarFiltros()">
+                    <option value="">Todas las ubicaciones</option>
+                </select>
 
-            <select id="soloIP" onchange="aplicarFiltros()">
-                <option value="">Todas</option>
-                <option value="con-ip">Solo con IP</option>
-                <option value="sin-ip">Solo sin IP</option>
-            </select>
+                <select id="filtroMarca" onchange="aplicarFiltros()">
+                    <option value="">Todas las marcas</option>
+                </select>
+
+                <select id="ordenar" onchange="aplicarFiltros()">
+                    <option value="">Sin ordenar</option>
+                    <option value="ubicacion-asc">Ubicación A-Z</option>
+                    <option value="ubicacion-desc">Ubicación Z-A</option>
+                    <option value="modelo-asc">Modelo A-Z</option>
+                    <option value="modelo-desc">Modelo Z-A</option>
+                    <option value="edificio-asc">Edificio A-Z</option>
+                    <option value="edificio-desc">Edificio Z-A</option>
+                    <option value="marca-asc">Marca A-Z</option>
+                    <option value="marca-desc">Marca Z-A</option>
+                </select>
+
+                <select id="soloIP" onchange="aplicarFiltros()">
+                    <option value="">Todas</option>
+                    <option value="con-ip">Solo con IP</option>
+                    <option value="sin-ip">Solo sin IP</option>
+                </select>
+            </div>
+
+            <p class="info">
+                Puedes buscar por <b>edificio</b>, <b>ubicación</b>, <b>marca</b>, <b>modelo</b>, <b>IP</b> o <b>número de serie</b>. También puedes marcar favoritas, copiar IP, exportar y gestionar impresoras localmente.
+            </p>
         </div>
 
-        <p class="info">
-            Puedes buscar por <b>edificio</b>, <b>ubicación</b>, <b>marca</b> o <b>modelo</b>.
-            Para elegir un lugar exacto como <b>Teruel centro</b>, usa el desplegable de <b>ubicación</b>.
-        </p>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total de impresoras</div>
+                <div class="stat-value" id="statTotal">0</div>
+                <div class="stat-extra" id="statTopMarcas">Cargando estadísticas...</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Con IP registrada</div>
+                <div class="stat-value" id="statConIP">0</div>
+                <div class="stat-extra">Impresoras con acceso o dirección configurada</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Sin IP registrada</div>
+                <div class="stat-value" id="statSinIP">0</div>
+                <div class="stat-extra">Equipos pendientes de completar o revisar</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Favoritas</div>
+                <div class="stat-value" id="statFavoritas">0</div>
+                <div class="stat-extra">Se guardan en tu navegador con localStorage</div>
+            </div>
+        </div>
 
-        <div class="contador" id="contador">Resultados: 0</div>
+        <div class="layout">
+            <aside class="panel">
+                <h3>Mapa rápido / zonas</h3>
+                <div class="mini-map" id="miniMapa"></div>
+            </aside>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Edificio</th>
-                    <th>Ubicación</th>
-                    <th>Marca</th>
-                    <th>Modelo</th>
-                    <th>IP</th>
-                    <th>Acción</th>
-                </tr>
-            </thead>
-            <tbody id="tabla"></tbody>
-        </table>
+            <section class="tabla-card">
+                <div class="tabla-header">
+                    <h3>Listado de impresoras</h3>
+                    <div class="contador" id="contador">Resultados: 0</div>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>★</th>
+                                <th>Estado</th>
+                                <th>ID</th>
+                                <th>Edificio</th>
+                                <th>Ubicación</th>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>IP</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla"></tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <div class="admin-grid">
+            <div class="admin-card">
+                <h3>Gestión local de impresoras</h3>
+                <div class="admin-form">
+                    <input id="adminId" placeholder="ID (obligatorio para editar/eliminar)">
+                    <input id="adminEdificio" placeholder="Edificio">
+                    <input id="adminUbicacion" placeholder="Ubicación">
+                    <input id="adminMarca" placeholder="Marca">
+                    <input id="adminModelo" placeholder="Modelo">
+                    <input id="adminIP" placeholder="IP o nombre de equipo">
+                    <input id="adminSerial" placeholder="Número de serie">
+                    <div class="full" style="display:flex; gap:10px; flex-wrap:wrap;">
+                        <button class="btn btn-success" onclick="guardarImpresora()">Añadir / actualizar</button>
+                        <button class="btn btn-warning" onclick="cargarEnFormulario()">Cargar por ID</button>
+                        <button class="btn btn-danger" onclick="eliminarImpresora()">Eliminar</button>
+                        <button class="btn btn-light" onclick="limpiarFormulario()">Vaciar formulario</button>
+                    </div>
+                </div>
+                <div class="nota">
+                    Esta parte funciona en tu navegador. Los cambios se guardan en <b>localStorage</b> y no modifican el archivo original automáticamente.
+                </div>
+            </div>
+
+            <div class="admin-card">
+                <h3>Accesos rápidos</h3>
+                <div class="chips" id="chipsMarcas"></div>
+                <div class="nota">
+                    Consejo: puedes pulsar una marca para filtrar rápido, usar <b>Comprobar estados</b> para intentar detectar paneles activos, y <b>Exportar CSV</b> para llevarte el resultado filtrado a Excel.
+                </div>
+            </div>
+        </div>
 
     </div>
 
-    <script src="impresoras.js"></script>
+    <script src="impresoras_con_serial.js"></script>
 
     <script>
+        const STORAGE_KEYS = {
+            favoritos: "panel_impresoras_favoritos",
+            impresorasLocal: "panel_impresoras_local",
+            modo: "panel_impresoras_modo"
+        };
+
+        const estadoIPs = {};
+        let soloFavoritos = false;
+        let impresorasBase = [];
+        let impresorasFinales = [];
+        let ultimoResultado = [];
+
+        function obtenerFavoritos() {
+            try {
+                return JSON.parse(localStorage.getItem(STORAGE_KEYS.favoritos)) || [];
+            } catch {
+                return [];
+            }
+        }
+
+        function guardarFavoritos(lista) {
+            localStorage.setItem(STORAGE_KEYS.favoritos, JSON.stringify(lista));
+        }
+
+        function obtenerLocales() {
+            try {
+                return JSON.parse(localStorage.getItem(STORAGE_KEYS.impresorasLocal)) || [];
+            } catch {
+                return [];
+            }
+        }
+
+        function guardarLocales(lista) {
+            localStorage.setItem(STORAGE_KEYS.impresorasLocal, JSON.stringify(lista));
+        }
+
+        function normalizarImpresora(p) {
+            return {
+                ID: p.ID ?? "",
+                EDIFICIO: p.EDIFICIO ?? "",
+                UBICACION: p.UBICACION ?? "",
+                MARCA: p.MARCA ?? "",
+                MODELO: p.MODELO ?? "",
+                "IP-PC": p["IP-PC"] ?? "",
+                SERIAL: p.SERIAL ?? ""
+            };
+        }
+
+        function reconstruirDatos() {
+            impresorasBase = Array.isArray(impresoras) ? impresoras.map(normalizarImpresora) : [];
+            const locales = obtenerLocales().map(normalizarImpresora);
+            const mapa = new Map();
+
+            impresorasBase.forEach(p => mapa.set(String(p.ID), p));
+            locales.forEach(p => mapa.set(String(p.ID), p));
+
+            impresorasFinales = Array.from(mapa.values());
+        }
+
         function renderizarTabla(lista) {
             const tabla = document.getElementById("tabla");
             const contador = document.getElementById("contador");
+            const favoritos = obtenerFavoritos();
 
             tabla.innerHTML = "";
+            ultimoResultado = lista.slice();
 
             if (lista.length === 0) {
                 tabla.innerHTML = `
                     <tr>
-                        <td colspan="7" class="sin-resultados">No se encontraron impresoras.</td>
+                        <td colspan="9" class="sin-resultados">No se encontraron impresoras.</td>
                     </tr>
                 `;
             } else {
                 lista.forEach(p => {
+                    const ip = String(p["IP-PC"] ?? "").trim();
+                    const favorito = favoritos.includes(String(p.ID));
+                    const estadoClase = obtenerClaseEstado(ip);
+                    const estadoTexto = obtenerTextoEstado(ip);
+                    const ipEscapada = ip.replace(/'/g, "\\'");
+
                     tabla.innerHTML += `
                         <tr>
+                            <td>
+                                <button class="mini-btn btn-light" onclick="toggleFavorito('${String(p.ID)}')" title="Favorito">
+                                    <span class="${favorito ? 'favorito-activo' : 'favorito-inactivo'}">${favorito ? '★' : '☆'}</span>
+                                </button>
+                            </td>
+                            <td><span class="pill ${estadoClase}">${estadoTexto}</span></td>
                             <td>${p.ID ?? ""}</td>
                             <td>${p.EDIFICIO ?? ""}</td>
                             <td>${p.UBICACION ?? ""}</td>
                             <td>${p.MARCA ?? ""}</td>
                             <td>${p.MODELO ?? ""}</td>
-                            <td>${p["IP-PC"] ?? ""}</td>
+                            <td>${ip}</td>
                             <td>
-                                <button onclick="abrir('${p["IP-PC"] ?? ""}')">Abrir</button>
+                                <div class="acciones">
+                                    <button class="mini-btn" style="background:var(--primary);color:white;" onclick="abrir('${ipEscapada}')">Abrir</button>
+                                    <button class="mini-btn" style="background:#0f766e;color:white;" onclick="abrirPanel('${ipEscapada}')">Panel</button>
+                                    <button class="mini-btn" style="background:#9333ea;color:white;" onclick="comprobarEstadoIndividual('${ipEscapada}')">Ping</button>
+                                    <button class="mini-btn" style="background:#475569;color:white;" onclick="copiarIP('${ipEscapada}')">Copiar IP</button>
+                                    <button class="mini-btn" style="background:#f59e0b;color:white;" onclick="cargarEnFormulario('${String(p.ID)}')">Editar</button>
+                                </div>
                             </td>
                         </tr>
                     `;
@@ -197,11 +662,104 @@
         }
 
         function abrir(ip) {
-            if (ip && ip.trim() !== "") {
+            if (ip && ip.trim() !== "" && ip !== "-") {
                 window.open("http://" + ip, "_blank");
             } else {
                 alert("Esta impresora no tiene IP registrada");
             }
+        }
+
+        function abrirPanel(ip) {
+            if (ip && ip.trim() !== "" && ip !== "-") {
+                window.open("http://" + ip, "_blank");
+            } else {
+                alert("No hay una IP registrada para abrir el panel");
+            }
+        }
+
+        async function copiarIP(ip) {
+            if (!ip || ip === "-") {
+                alert("Esta impresora no tiene IP registrada");
+                return;
+            }
+            try {
+                await navigator.clipboard.writeText(ip);
+                alert("IP copiada: " + ip);
+            } catch {
+                alert("No se pudo copiar la IP");
+            }
+        }
+
+        function obtenerClaseEstado(ip) {
+            if (!ip || ip === "-") return "estado-offline";
+            const estado = estadoIPs[ip];
+            if (estado === true) return "estado-online";
+            if (estado === false) return "estado-offline";
+            return "estado-desconocido";
+        }
+
+        function obtenerTextoEstado(ip) {
+            if (!ip || ip === "-") return "Sin IP";
+            const estado = estadoIPs[ip];
+            if (estado === true) return "🟢 Online";
+            if (estado === false) return "🔴 Offline";
+            return "🟠 Sin comprobar";
+        }
+
+        function comprobarURL(ip) {
+            return new Promise(resolve => {
+                if (!ip || ip === "-") {
+                    resolve(false);
+                    return;
+                }
+
+                const img = new Image();
+                let terminado = false;
+
+                const finalizar = (valor) => {
+                    if (terminado) return;
+                    terminado = true;
+                    resolve(valor);
+                };
+
+                const timeout = setTimeout(() => finalizar(false), 2200);
+
+                img.onload = () => {
+                    clearTimeout(timeout);
+                    finalizar(true);
+                };
+
+                img.onerror = () => {
+                    clearTimeout(timeout);
+                    finalizar(false);
+                };
+
+                img.src = "http://" + ip + "/favicon.ico?_=" + Date.now();
+            });
+        }
+
+        async function comprobarEstadoIndividual(ip) {
+            if (!ip || ip === "-") {
+                alert("Esta impresora no tiene IP registrada");
+                return;
+            }
+            estadoIPs[ip] = undefined;
+            renderizarTabla(ultimoResultado);
+            const ok = await comprobarURL(ip);
+            estadoIPs[ip] = ok;
+            renderizarTabla(ultimoResultado);
+        }
+
+        async function verificarTodosLosEstados() {
+            const lista = ultimoResultado.slice(0, 25);
+            for (const p of lista) {
+                const ip = String(p["IP-PC"] ?? "").trim();
+                if (ip && ip !== "-") {
+                    const ok = await comprobarURL(ip);
+                    estadoIPs[ip] = ok;
+                }
+            }
+            renderizarTabla(ultimoResultado);
         }
 
         function cargarFiltros() {
@@ -209,9 +767,13 @@
             const selectUbicacion = document.getElementById("filtroUbicacion");
             const selectMarca = document.getElementById("filtroMarca");
 
-            const edificios = [...new Set(impresoras.map(p => p.EDIFICIO).filter(Boolean))].sort();
-            const ubicaciones = [...new Set(impresoras.map(p => p.UBICACION).filter(Boolean))].sort();
-            const marcas = [...new Set(impresoras.map(p => p.MARCA).filter(Boolean))].sort();
+            selectEdificio.innerHTML = '<option value="">Todos los edificios</option>';
+            selectUbicacion.innerHTML = '<option value="">Todas las ubicaciones</option>';
+            selectMarca.innerHTML = '<option value="">Todas las marcas</option>';
+
+            const edificios = [...new Set(impresorasFinales.map(p => p.EDIFICIO).filter(Boolean))].sort();
+            const ubicaciones = [...new Set(impresorasFinales.map(p => p.UBICACION).filter(Boolean))].sort();
+            const marcas = [...new Set(impresorasFinales.map(p => p.MARCA).filter(Boolean))].sort();
 
             edificios.forEach(edificio => {
                 selectEdificio.innerHTML += `<option value="${edificio}">${edificio}</option>`;
@@ -226,27 +788,176 @@
             });
         }
 
+        function cargarSugerenciasSerie() {
+            const listaSeries = document.getElementById("listaSeries");
+            const series = [...new Set(
+                impresorasFinales
+                    .map(p => String(p.SERIAL ?? "").trim())
+                    .filter(s => s !== "")
+            )].sort();
+
+            listaSeries.innerHTML = "";
+            series.forEach(serie => {
+                listaSeries.innerHTML += `<option value="${serie}">`;
+            });
+        }
+
+        function cargarSugerenciasBusquedaGeneral() {
+            const lista = document.getElementById("listaBusquedaGeneral");
+            const sugerencias = [...new Set(
+                impresorasFinales.flatMap(p => [
+                    String(p.EDIFICIO ?? "").trim(),
+                    String(p.UBICACION ?? "").trim(),
+                    String(p.MARCA ?? "").trim(),
+                    String(p.MODELO ?? "").trim(),
+                    String(p["IP-PC"] ?? "").trim()
+                ]).filter(Boolean)
+            )].sort();
+
+            lista.innerHTML = "";
+            sugerencias.forEach(item => {
+                lista.innerHTML += `<option value="${item}">`;
+            });
+        }
+
+        function actualizarEstadisticas() {
+            const total = impresorasFinales.length;
+            const conIP = impresorasFinales.filter(p => String(p["IP-PC"] ?? "").trim() !== "" && String(p["IP-PC"] ?? "").trim() !== "-").length;
+            const sinIP = total - conIP;
+            const favoritas = obtenerFavoritos().length;
+            const marcas = {};
+
+            impresorasFinales.forEach(p => {
+                const marca = String(p.MARCA ?? "Sin marca").trim() || "Sin marca";
+                marcas[marca] = (marcas[marca] || 0) + 1;
+            });
+
+            const topMarcas = Object.entries(marcas)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 4)
+                .map(([marca, cantidad]) => `${marca}: ${cantidad}`)
+                .join(" · ");
+
+            document.getElementById("statTotal").textContent = total;
+            document.getElementById("statConIP").textContent = conIP;
+            document.getElementById("statSinIP").textContent = sinIP;
+            document.getElementById("statFavoritas").textContent = favoritas;
+            document.getElementById("statTopMarcas").textContent = topMarcas || "Sin estadísticas";
+
+            const chips = document.getElementById("chipsMarcas");
+            chips.innerHTML = "";
+            Object.entries(marcas)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10)
+                .forEach(([marca, cantidad]) => {
+                    chips.innerHTML += `<button class="chip" onclick="filtrarMarcaRapida('${marca.replace(/'/g, "\\'")}')">${marca} (${cantidad})</button>`;
+                });
+        }
+
+        function renderizarMiniMapa() {
+            const contenedor = document.getElementById("miniMapa");
+            const edificios = {};
+
+            impresorasFinales.forEach(p => {
+                const edificio = String(p.EDIFICIO ?? "Sin edificio");
+                const ubicacion = String(p.UBICACION ?? "Sin ubicación");
+                if (!edificios[edificio]) edificios[edificio] = {};
+                edificios[edificio][ubicacion] = (edificios[edificio][ubicacion] || 0) + 1;
+            });
+
+            contenedor.innerHTML = "";
+            Object.entries(edificios).sort().forEach(([edificio, ubicaciones]) => {
+                const total = Object.values(ubicaciones).reduce((a, b) => a + b, 0);
+                const topUbicaciones = Object.entries(ubicaciones)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 4)
+                    .map(([u, c]) => `${u} (${c})`)
+                    .join(" · ");
+
+                contenedor.innerHTML += `
+                    <div class="map-item" onclick="filtrarEdificioRapido('${edificio.replace(/'/g, "\\'")}')">
+                        <div class="map-title">📍 ${edificio}</div>
+                        <div class="map-sub">${total} impresoras</div>
+                        <div class="map-sub">${topUbicaciones}</div>
+                    </div>
+                `;
+            });
+        }
+
+        function toggleFavorito(id) {
+            const favoritos = obtenerFavoritos();
+            const idTexto = String(id);
+            const index = favoritos.indexOf(idTexto);
+
+            if (index >= 0) {
+                favoritos.splice(index, 1);
+            } else {
+                favoritos.push(idTexto);
+            }
+
+            guardarFavoritos(favoritos);
+            actualizarEstadisticas();
+            renderizarTabla(ultimoResultado);
+        }
+
+        function mostrarSoloFavoritos() {
+            soloFavoritos = !soloFavoritos;
+            aplicarFiltros();
+        }
+
+        function filtrarMarcaRapida(marca) {
+            document.getElementById("filtroMarca").value = marca;
+            aplicarFiltros();
+        }
+
+        function filtrarEdificioRapido(edificio) {
+            document.getElementById("filtroEdificio").value = edificio;
+            aplicarFiltros();
+        }
+
+        function reiniciarFiltros() {
+            document.getElementById("buscar").value = "";
+            document.getElementById("buscarSerie").value = "";
+            document.getElementById("filtroEdificio").value = "";
+            document.getElementById("filtroUbicacion").value = "";
+            document.getElementById("filtroMarca").value = "";
+            document.getElementById("ordenar").value = "";
+            document.getElementById("soloIP").value = "";
+            soloFavoritos = false;
+            aplicarFiltros();
+        }
+
         function aplicarFiltros() {
             const texto = document.getElementById("buscar").value.toLowerCase().trim();
+            const textoSerie = document.getElementById("buscarSerie").value.toLowerCase().trim();
             const edificioSeleccionado = document.getElementById("filtroEdificio").value;
             const ubicacionSeleccionada = document.getElementById("filtroUbicacion").value;
             const marcaSeleccionada = document.getElementById("filtroMarca").value;
             const orden = document.getElementById("ordenar").value;
             const soloIP = document.getElementById("soloIP").value;
+            const favoritos = obtenerFavoritos();
 
-            let resultado = impresoras.filter(p => {
+            let resultado = impresorasFinales.filter(p => {
                 const ubicacion = String(p.UBICACION ?? "");
                 const edificio = String(p.EDIFICIO ?? "");
                 const modelo = String(p.MODELO ?? "");
                 const marca = String(p.MARCA ?? "");
                 const ip = String(p["IP-PC"] ?? "").trim();
+                const serial = String(p.SERIAL ?? "").trim();
+                const id = String(p.ID ?? "");
 
                 const coincideTexto =
                     texto === "" ||
                     ubicacion.toLowerCase().includes(texto) ||
                     edificio.toLowerCase().includes(texto) ||
                     modelo.toLowerCase().includes(texto) ||
-                    marca.toLowerCase().includes(texto);
+                    marca.toLowerCase().includes(texto) ||
+                    ip.toLowerCase().includes(texto) ||
+                    id.toLowerCase().includes(texto);
+
+                const coincideSerie =
+                    textoSerie === "" ||
+                    serial.toLowerCase().includes(textoSerie);
 
                 const coincideEdificio =
                     edificioSeleccionado === "" || edificio === edificioSeleccionado;
@@ -257,14 +968,15 @@
                 const coincideMarca =
                     marcaSeleccionada === "" || marca === marcaSeleccionada;
 
-                const tieneIP = ip !== "";
-
+                const tieneIP = ip !== "" && ip !== "-";
                 const coincideIP =
                     soloIP === "" ||
                     (soloIP === "con-ip" && tieneIP) ||
                     (soloIP === "sin-ip" && !tieneIP);
 
-                return coincideTexto && coincideEdificio && coincideUbicacion && coincideMarca && coincideIP;
+                const coincideFavorito = !soloFavoritos || favoritos.includes(id);
+
+                return coincideTexto && coincideSerie && coincideEdificio && coincideUbicacion && coincideMarca && coincideIP && coincideFavorito;
             });
 
             if (orden === "ubicacion-asc") {
@@ -288,8 +1000,149 @@
             renderizarTabla(resultado);
         }
 
-        cargarFiltros();
-        renderizarTabla(impresoras);
+        function exportarCSV() {
+            if (!ultimoResultado.length) {
+                alert("No hay datos para exportar");
+                return;
+            }
+
+            const cabecera = ["ID", "EDIFICIO", "UBICACION", "MARCA", "MODELO", "IP-PC", "SERIAL"];
+            const filas = ultimoResultado.map(p => [
+                p.ID ?? "",
+                p.EDIFICIO ?? "",
+                p.UBICACION ?? "",
+                p.MARCA ?? "",
+                p.MODELO ?? "",
+                p["IP-PC"] ?? "",
+                p.SERIAL ?? ""
+            ]);
+
+            const csv = [cabecera, ...filas]
+                .map(fila => fila.map(valor => `"${String(valor).replace(/"/g, '""')}"`).join(";"))
+                .join("\n");
+
+            const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+            const url = URL.createObjectURL(blob);
+            const enlace = document.createElement("a");
+            enlace.href = url;
+            enlace.download = "impresoras_filtradas.csv";
+            enlace.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function obtenerDatosFormulario() {
+            return {
+                ID: document.getElementById("adminId").value.trim(),
+                EDIFICIO: document.getElementById("adminEdificio").value.trim(),
+                UBICACION: document.getElementById("adminUbicacion").value.trim(),
+                MARCA: document.getElementById("adminMarca").value.trim(),
+                MODELO: document.getElementById("adminModelo").value.trim(),
+                "IP-PC": document.getElementById("adminIP").value.trim(),
+                SERIAL: document.getElementById("adminSerial").value.trim()
+            };
+        }
+
+        function guardarImpresora() {
+            const nueva = obtenerDatosFormulario();
+            if (!nueva.ID) {
+                alert("El ID es obligatorio");
+                return;
+            }
+
+            const locales = obtenerLocales();
+            const index = locales.findIndex(p => String(p.ID) === String(nueva.ID));
+            if (index >= 0) {
+                locales[index] = nueva;
+            } else {
+                locales.push(nueva);
+            }
+
+            guardarLocales(locales);
+            reconstruirDatos();
+            refrescarTodo();
+            alert("Impresora guardada o actualizada correctamente");
+        }
+
+        function cargarEnFormulario(idParam) {
+            const id = (idParam ?? document.getElementById("adminId").value).toString().trim();
+            if (!id) {
+                alert("Pon un ID para cargar la impresora");
+                return;
+            }
+
+            const p = impresorasFinales.find(item => String(item.ID) === String(id));
+            if (!p) {
+                alert("No se encontró una impresora con ese ID");
+                return;
+            }
+
+            document.getElementById("adminId").value = p.ID ?? "";
+            document.getElementById("adminEdificio").value = p.EDIFICIO ?? "";
+            document.getElementById("adminUbicacion").value = p.UBICACION ?? "";
+            document.getElementById("adminMarca").value = p.MARCA ?? "";
+            document.getElementById("adminModelo").value = p.MODELO ?? "";
+            document.getElementById("adminIP").value = p["IP-PC"] ?? "";
+            document.getElementById("adminSerial").value = p.SERIAL ?? "";
+        }
+
+        function eliminarImpresora() {
+            const id = document.getElementById("adminId").value.trim();
+            if (!id) {
+                alert("Indica el ID que quieres eliminar");
+                return;
+            }
+
+            let locales = obtenerLocales();
+            const existeLocal = locales.some(p => String(p.ID) === String(id));
+            if (existeLocal) {
+                locales = locales.filter(p => String(p.ID) !== String(id));
+                guardarLocales(locales);
+                reconstruirDatos();
+                refrescarTodo();
+                alert("Impresora local eliminada");
+                return;
+            }
+
+            alert("Solo se pueden eliminar directamente las impresoras añadidas o modificadas en localStorage");
+        }
+
+        function limpiarFormulario() {
+            document.getElementById("adminId").value = "";
+            document.getElementById("adminEdificio").value = "";
+            document.getElementById("adminUbicacion").value = "";
+            document.getElementById("adminMarca").value = "";
+            document.getElementById("adminModelo").value = "";
+            document.getElementById("adminIP").value = "";
+            document.getElementById("adminSerial").value = "";
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark");
+            const oscuro = document.body.classList.contains("dark");
+            localStorage.setItem(STORAGE_KEYS.modo, oscuro ? "dark" : "light");
+            document.getElementById("modoBtn").textContent = oscuro ? "☀️ Modo claro" : "🌙 Modo oscuro";
+        }
+
+        function aplicarModoGuardado() {
+            const modo = localStorage.getItem(STORAGE_KEYS.modo);
+            if (modo === "dark") {
+                document.body.classList.add("dark");
+                document.getElementById("modoBtn").textContent = "☀️ Modo claro";
+            }
+        }
+
+        function refrescarTodo() {
+            cargarFiltros();
+            cargarSugerenciasSerie();
+            cargarSugerenciasBusquedaGeneral();
+            actualizarEstadisticas();
+            renderizarMiniMapa();
+            aplicarFiltros();
+        }
+
+        reconstruirDatos();
+        aplicarModoGuardado();
+        refrescarTodo();
     </script>
 
 </body>
