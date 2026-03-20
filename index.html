@@ -143,12 +143,36 @@
             opacity: 0.95;
         }
 
-        .btn-primary { background: var(--primary); color: white; }
-        .btn-secondary { background: #64748b; color: white; }
-        .btn-success { background: var(--success); color: white; }
-        .btn-danger { background: var(--danger); color: white; }
-        .btn-warning { background: var(--warning); color: white; }
-        .btn-light { background: var(--card-2); color: var(--text); border: 1px solid var(--border); }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #64748b;
+            color: white;
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        .btn-warning {
+            background: var(--warning);
+            color: white;
+        }
+
+        .btn-light {
+            background: var(--card-2);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
 
         .info {
             color: var(--muted);
@@ -306,9 +330,20 @@
             font-weight: 700;
         }
 
-        .estado-desconocido { background: rgba(180, 83, 9, 0.16); color: var(--warning); }
-        .estado-online { background: rgba(21, 128, 61, 0.16); color: var(--success); }
-        .estado-offline { background: rgba(185, 28, 28, 0.16); color: var(--danger); }
+        .estado-desconocido {
+            background: rgba(180, 83, 9, 0.16);
+            color: var(--warning);
+        }
+
+        .estado-online {
+            background: rgba(21, 128, 61, 0.16);
+            color: var(--success);
+        }
+
+        .estado-offline {
+            background: rgba(185, 28, 28, 0.16);
+            color: var(--danger);
+        }
 
         .favorito-activo {
             color: #eab308;
@@ -374,6 +409,7 @@
         }
 
         @media (max-width: 1100px) {
+
             .layout,
             .admin-grid {
                 grid-template-columns: 1fr;
@@ -400,7 +436,7 @@
                 <h1>Panel de Gestión de Impresoras de Red</h1>
                 <p>Inventario, búsqueda, favoritos, exportación, estado y gestión local</p>
             </div>
-            <button class="btn btn-light" onclick="toggleDarkMode()" id="modoBtn">🌙 Modo oscuro</button>
+            <button class="btn btn-light" onclick="toggleDarkMode()" id="modoBtn">Modo oscuro</button>
         </div>
     </header>
 
@@ -415,10 +451,12 @@
             </div>
 
             <div class="filtros">
-                <input type="text" id="buscar" list="listaBusquedaGeneral" placeholder="Buscar impresora, IP, edificio, ubicación o modelo..." oninput="aplicarFiltros()">
+                <input type="text" id="buscar" list="listaBusquedaGeneral"
+                    placeholder="Buscar impresora, IP, edificio, ubicación o modelo..." oninput="aplicarFiltros()">
                 <datalist id="listaBusquedaGeneral"></datalist>
 
-                <input type="text" id="buscarSerie" list="listaSeries" placeholder="Buscar por número de serie..." oninput="aplicarFiltros()">
+                <input type="text" id="buscarSerie" list="listaSeries" placeholder="Buscar por número de serie..."
+                    oninput="aplicarFiltros()">
                 <datalist id="listaSeries"></datalist>
 
                 <select id="filtroEdificio" onchange="aplicarFiltros()">
@@ -453,7 +491,9 @@
             </div>
 
             <p class="info">
-                Puedes buscar por <b>edificio</b>, <b>ubicación</b>, <b>marca</b>, <b>modelo</b>, <b>IP</b> o <b>número de serie</b>. También puedes marcar favoritas, copiar IP, exportar y gestionar impresoras localmente.
+                Puedes buscar por <b>edificio</b>, <b>ubicación</b>, <b>marca</b>, <b>modelo</b>, <b>IP</b> o <b>número
+                    de serie</b>. También puedes marcar favoritas, copiar IP, exportar y gestionar impresoras
+                localmente.
             </p>
         </div>
 
@@ -531,16 +571,15 @@
                     </div>
                 </div>
                 <div class="nota">
-                    Esta parte funciona en tu navegador. Los cambios se guardan en <b>localStorage</b> y no modifican el archivo original automáticamente.
+                    Esta parte funciona en tu navegador. Los cambios se guardan en <b>localStorage</b> y no modifican el
+                    archivo original automáticamente.
                 </div>
             </div>
 
             <div class="admin-card">
                 <h3>Accesos rápidos</h3>
                 <div class="chips" id="chipsMarcas"></div>
-                <div class="nota">
-                    Consejo: puedes pulsar una marca para filtrar rápido, usar <b>Comprobar estados</b> para intentar detectar paneles activos, y <b>Exportar CSV</b> para llevarte el resultado filtrado a Excel.
-                </div>
+
             </div>
         </div>
 
@@ -1120,14 +1159,14 @@
             document.body.classList.toggle("dark");
             const oscuro = document.body.classList.contains("dark");
             localStorage.setItem(STORAGE_KEYS.modo, oscuro ? "dark" : "light");
-            document.getElementById("modoBtn").textContent = oscuro ? "☀️ Modo claro" : "🌙 Modo oscuro";
+            document.getElementById("modoBtn").textContent = oscuro ? "Modo claro" : "Modo oscuro";
         }
 
         function aplicarModoGuardado() {
             const modo = localStorage.getItem(STORAGE_KEYS.modo);
             if (modo === "dark") {
                 document.body.classList.add("dark");
-                document.getElementById("modoBtn").textContent = "☀️ Modo claro";
+                document.getElementById("modoBtn").textContent = "Modo claro";
             }
         }
 
