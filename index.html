@@ -15,9 +15,9 @@
             --border: #d7dee6;
             --primary: rgb(50, 115, 117);
             --primary-dark: rgb(35, 85, 86);
-            --success: #15803d;
-            --danger: #b91c1c;
-            --warning: #b45309;
+            --success: #2d9754;
+            --danger: #ff0000;
+            --warning: #ff6f00;
             --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
         }
 
@@ -282,7 +282,7 @@
             width: 100%;
             border-collapse: collapse;
             background: var(--card);
-            min-width: 1180px;
+            min-width: 1220px;
         }
 
         th,
@@ -345,6 +345,11 @@
             color: var(--danger);
         }
 
+        .estado-web {
+            background: rgba(37, 99, 235, 0.16);
+            color: #2563eb;
+        }
+
         .favorito-activo {
             color: #eab308;
             font-size: 18px;
@@ -401,11 +406,15 @@
             border-radius: 999px;
             padding: 7px 11px;
             font-size: 13px;
-            cursor: pointer;
+            cursor: grab;
+            color: var(--text);
+            transition: 0.2s ease;
         }
 
         .chip:hover {
             border-color: var(--primary);
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
         }
 
         @media (max-width: 1100px) {
@@ -429,19 +438,17 @@
 </head>
 
 <body>
-
     <header>
         <div class="header-top">
             <div>
                 <h1>Panel de Gestión de Impresoras de Red</h1>
                 <p>Inventario, búsqueda, favoritos, exportación, estado y gestión local</p>
             </div>
-            <button class="btn btn-light" onclick="toggleDarkMode()" id="modoBtn">Modo oscuro</button>
+            <button class="btn btn-light" onclick="toggleDarkMode()" id="modoBtn">Modo oscuro 🌚</button>
         </div>
     </header>
 
     <div class="container">
-
         <div class="toolbar">
             <div class="toolbar-actions">
                 <button class="btn btn-primary" onclick="verificarTodosLosEstados()">Comprobar estados</button>
@@ -486,14 +493,12 @@
                 <select id="soloIP" onchange="aplicarFiltros()">
                     <option value="">Todas</option>
                     <option value="con-ip">Solo con IP</option>
-                    <option value="sin-ip">Solo sin IP</option>
                 </select>
             </div>
 
             <p class="info">
-                Puedes buscar por <b>edificio</b>, <b>ubicación</b>, <b>marca</b>, <b>modelo</b>, <b>IP</b> o <b>número
-                    de serie</b>. También puedes marcar favoritas, copiar IP, exportar y gestionar impresoras
-                localmente.
+                El estado se comprueba mediante un servidor local que hace ping real.
+                Si una impresora no responde a ICMP, puede salir offline aunque esté encendida.
             </p>
         </div>
 
@@ -543,6 +548,7 @@
                                 <th>Marca</th>
                                 <th>Modelo</th>
                                 <th>IP</th>
+                                <th>Nota</th>
                                 <th>Acciones</th>
                             </tr>
                         </thead>
@@ -579,10 +585,8 @@
             <div class="admin-card">
                 <h3>Accesos rápidos</h3>
                 <div class="chips" id="chipsMarcas"></div>
-
             </div>
         </div>
-
     </div>
 
     <script src="impresoras_con_serial.js"></script>
@@ -591,8 +595,12 @@
         const STORAGE_KEYS = {
             favoritos: "panel_impresoras_favoritos",
             impresorasLocal: "panel_impresoras_local",
-            modo: "panel_impresoras_modo"
+            modo: "panel_impresoras_modo",
+            notas: "panel_impresoras_notas"
         };
+
+        // Cambia esta IP si el servidor Node no corre en el mismo equipo
+        const API_BASE = "http://localhost:3000";
 
         const estadoIPs = {};
         let soloFavoritos = false;
@@ -622,6 +630,42 @@
 
         function guardarLocales(lista) {
             localStorage.setItem(STORAGE_KEYS.impresorasLocal, JSON.stringify(lista));
+        }
+
+        function obtenerNotas() {
+            try {
+                return JSON.parse(localStorage.getItem(STORAGE_KEYS.notas)) || {};
+            } catch {
+                return {};
+            }
+        }
+
+        function guardarNotas(notas) {
+            localStorage.setItem(STORAGE_KEYS.notas, JSON.stringify(notas));
+        }
+
+        function obtenerNotaDeImpresora(id) {
+            const notas = obtenerNotas();
+            return notas[String(id)] || "";
+        }
+
+        function editarNota(id) {
+            const notaActual = obtenerNotaDeImpresora(id);
+            const nuevaNota = prompt("Escribe una nota para esta impresora:", notaActual);
+
+            if (nuevaNota === null) return;
+
+            const notas = obtenerNotas();
+            const texto = nuevaNota.trim();
+
+            if (texto === "") {
+                delete notas[String(id)];
+            } else {
+                notas[String(id)] = texto;
+            }
+
+            guardarNotas(notas);
+            renderizarTabla(ultimoResultado);
         }
 
         function normalizarImpresora(p) {
@@ -658,7 +702,7 @@
             if (lista.length === 0) {
                 tabla.innerHTML = `
                     <tr>
-                        <td colspan="9" class="sin-resultados">No se encontraron impresoras.</td>
+                        <td colspan="10" class="sin-resultados">No se encontraron impresoras.</td>
                     </tr>
                 `;
             } else {
@@ -668,6 +712,9 @@
                     const estadoClase = obtenerClaseEstado(ip);
                     const estadoTexto = obtenerTextoEstado(ip);
                     const ipEscapada = ip.replace(/'/g, "\\'");
+                    const nota = obtenerNotaDeImpresora(p.ID);
+                    const tieneNota = nota.trim() !== "";
+                    const notaEscapada = nota.replace(/"/g, '&quot;');
 
                     tabla.innerHTML += `
                         <tr>
@@ -683,12 +730,16 @@
                             <td>${p.MARCA ?? ""}</td>
                             <td>${p.MODELO ?? ""}</td>
                             <td>${ip}</td>
+                            <td title="${notaEscapada}">
+                                ${tieneNota ? nota.slice(0, 25) + (nota.length > 25 ? "..." : "") : "—"}
+                            </td>
                             <td>
                                 <div class="acciones">
                                     <button class="mini-btn" style="background:var(--primary);color:white;" onclick="abrir('${ipEscapada}')">Abrir</button>
                                     <button class="mini-btn" style="background:#0f766e;color:white;" onclick="abrirPanel('${ipEscapada}')">Panel</button>
                                     <button class="mini-btn" style="background:#9333ea;color:white;" onclick="comprobarEstadoIndividual('${ipEscapada}')">Ping</button>
                                     <button class="mini-btn" style="background:#475569;color:white;" onclick="copiarIP('${ipEscapada}')">Copiar IP</button>
+                                    <button class="mini-btn" style="background:#ea580c;color:white;" onclick="editarNota('${String(p.ID)}')">Nota</button>
                                     <button class="mini-btn" style="background:#f59e0b;color:white;" onclick="cargarEnFormulario('${String(p.ID)}')">Editar</button>
                                 </div>
                             </td>
@@ -732,49 +783,38 @@
         function obtenerClaseEstado(ip) {
             if (!ip || ip === "-") return "estado-offline";
             const estado = estadoIPs[ip];
-            if (estado === true) return "estado-online";
-            if (estado === false) return "estado-offline";
+
+            if (!estado) return "estado-desconocido";
+            if (estado.estado === "online") return "estado-online";
+            if (estado.estado === "web") return "estado-web";
+            if (estado.estado === "offline") return "estado-offline";
+
             return "estado-desconocido";
         }
 
         function obtenerTextoEstado(ip) {
             if (!ip || ip === "-") return "Sin IP";
             const estado = estadoIPs[ip];
-            if (estado === true) return "🟢 Online";
-            if (estado === false) return "🔴 Offline";
+
+            if (!estado) return "🟠 Sin comprobar";
+            if (estado.estado === "online") return "🟢 Online";
+            if (estado.estado === "web") return "🔵 Web";
+            if (estado.estado === "offline") return "🔴 Offline";
+
             return "🟠 Sin comprobar";
         }
 
-        function comprobarURL(ip) {
-            return new Promise(resolve => {
-                if (!ip || ip === "-") {
-                    resolve(false);
-                    return;
-                }
+        async function comprobarPingReal(ip) {
+            if (!ip || ip === "-") return { estado: "offline" };
 
-                const img = new Image();
-                let terminado = false;
-
-                const finalizar = (valor) => {
-                    if (terminado) return;
-                    terminado = true;
-                    resolve(valor);
-                };
-
-                const timeout = setTimeout(() => finalizar(false), 2200);
-
-                img.onload = () => {
-                    clearTimeout(timeout);
-                    finalizar(true);
-                };
-
-                img.onerror = () => {
-                    clearTimeout(timeout);
-                    finalizar(false);
-                };
-
-                img.src = "http://" + ip + "/favicon.ico?_=" + Date.now();
-            });
+            try {
+                const respuesta = await fetch(API_BASE + "/ping?ip=" + encodeURIComponent(ip));
+                const datos = await respuesta.json();
+                return datos;
+            } catch (error) {
+                console.error("Error al comprobar:", error);
+                return { estado: "offline", error: "No se pudo contactar con el servidor de ping" };
+            }
         }
 
         async function comprobarEstadoIndividual(ip) {
@@ -782,22 +822,29 @@
                 alert("Esta impresora no tiene IP registrada");
                 return;
             }
-            estadoIPs[ip] = undefined;
+
+            estadoIPs[ip] = null;
             renderizarTabla(ultimoResultado);
-            const ok = await comprobarURL(ip);
-            estadoIPs[ip] = ok;
+
+            const resultado = await comprobarPingReal(ip);
+            estadoIPs[ip] = resultado;
             renderizarTabla(ultimoResultado);
         }
 
         async function verificarTodosLosEstados() {
             const lista = ultimoResultado.slice(0, 25);
+
             for (const p of lista) {
                 const ip = String(p["IP-PC"] ?? "").trim();
                 if (ip && ip !== "-") {
-                    const ok = await comprobarURL(ip);
-                    estadoIPs[ip] = ok;
+                    estadoIPs[ip] = null;
+                    renderizarTabla(ultimoResultado);
+
+                    const resultado = await comprobarPingReal(ip);
+                    estadoIPs[ip] = resultado;
                 }
             }
+
             renderizarTabla(ultimoResultado);
         }
 
@@ -1010,8 +1057,7 @@
                 const tieneIP = ip !== "" && ip !== "-";
                 const coincideIP =
                     soloIP === "" ||
-                    (soloIP === "con-ip" && tieneIP) ||
-                    (soloIP === "sin-ip" && !tieneIP);
+                    (soloIP === "con-ip" && tieneIP);
 
                 const coincideFavorito = !soloFavoritos || favoritos.includes(id);
 
@@ -1166,7 +1212,7 @@
             const modo = localStorage.getItem(STORAGE_KEYS.modo);
             if (modo === "dark") {
                 document.body.classList.add("dark");
-                document.getElementById("modoBtn").textContent = "Modo claro";
+                document.getElementById("modoBtn").textContent = "Modo claro 🌞";
             }
         }
 
@@ -1183,7 +1229,6 @@
         aplicarModoGuardado();
         refrescarTodo();
     </script>
-
 </body>
 
 </html>
