@@ -1,3 +1,4 @@
+/*Fichero con las impresoras conectadas a la red unicamente mediante IP*/
 const impresoras = [
   {
     "ID": 330,
@@ -719,15 +720,7 @@ const impresoras = [
     "IP-PC": "10.35.20.55",
     "SERIAL": null
   },
-  {
-    "ID": 1000,
-    "EDIFICIO": "POLANCO",
-    "UBICACION": "TALLER",
-    "MARCA": "EPSON",
-    "MODELO": "AL-M300",
-    "IP-PC": "ROTA",
-    "SERIAL": "RJ8Q359181"
-  },
+
   {
     "ID": 53,
     "EDIFICIO": "POLANCO",
@@ -773,24 +766,8 @@ const impresoras = [
     "IP-PC": "10.35.20.102",
     "SERIAL": null
   },
-  {
-    "ID": 165,
-    "EDIFICIO": "POLANCO",
-    "UBICACION": "UCI",
-    "MARCA": "EPSON",
-    "MODELO": "M313A",
-    "IP-PC": "IZASA",
-    "SERIAL": null
-  },
-  {
-    "ID": 166,
-    "EDIFICIO": "POLANCO",
-    "UBICACION": "UCI",
-    "MARCA": "EPSON",
-    "MODELO": "M313A",
-    "IP-PC": "IZASA",
-    "SERIAL": null
-  },
+
+
   {
     "ID": 167,
     "EDIFICIO": "POLANCO",
