@@ -758,6 +758,64 @@
         ::-webkit-scrollbar-track { background: var(--card-2); }
         ::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 6px; }
         ::-webkit-scrollbar-thumb:hover { background: var(--primary-dark); }
+
+        /* ============================================ */
+        /* EASTER EGG STYLES                            */
+        /* ============================================ */
+        @keyframes easterEggPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+        }
+        @keyframes easterEggGlow {
+            0% { box-shadow: 0 0 20px rgba(251, 191, 36, 0.3); }
+            50% { box-shadow: 0 0 60px rgba(251, 191, 36, 0.9); }
+            100% { box-shadow: 0 0 20px rgba(251, 191, 36, 0.3); }
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        @keyframes slideInEasterEgg {
+            0% { opacity: 0; transform: scale(0.3) translateY(-100px) rotateX(90deg); }
+            100% { opacity: 1; transform: scale(1) translateY(0) rotateX(0); }
+        }
+        @keyframes slideOutEasterEgg {
+            0% { opacity: 1; transform: scale(1); }
+            100% { opacity: 0; transform: scale(0.3) translateY(100px); }
+        }
+        .easter-egg-container {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            display: flex; justify-content: center; align-items: center;
+            z-index: 99999; pointer-events: auto;
+            backdrop-filter: blur(5px);
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .easter-egg-content {
+            background: linear-gradient(135deg, #fbbf24 0%, #ef4444 100%);
+            color: white;
+            padding: 60px 80px;
+            border-radius: 40px;
+            text-align: center;
+            box-shadow: 0 50px 120px rgba(0, 0, 0, 0.7);
+            font-weight: 900;
+            letter-spacing: 2px;
+            animation: easterEggGlow 1.2s ease-in-out infinite;
+            cursor: pointer;
+            transform: scale(0.3);
+            opacity: 0;
+            transition: all 0.3s ease;
+            max-width: 90vw;
+            max-height: 90vh;
+        }
+        .easter-egg-content.active {
+            animation: easterEggGlow 1.2s ease-in-out infinite, slideInEasterEgg 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+        .easter-egg-content:hover { transform: scale(1.05); }
+        .easter-egg-emoji {
+            font-size: 60px;
+            margin-bottom: 15px;
+            animation: easterEggPulse 0.6s ease-in-out infinite;
+        }
     </style>
 </head>
 
@@ -2511,6 +2569,119 @@
                     .catch(err => console.log('Service Worker error:', err));
             });
         }
+
+        // ============================================
+        // EASTER EGG: HECHO POR IVÁN 🎉
+        // ============================================
+        (function() {
+            console.log("🔧 Cargando easter egg...");
+            
+            let easterEggClicks = 0;
+            let easterEggTimer = null;
+            
+            const titulo = document.querySelector(".header-top h1");
+            
+            if (!titulo) {
+                console.error("❌ No se encontró el título .header-top h1");
+                return;
+            }
+            
+            // Hacer el título "clickable" visualmente
+            titulo.style.cursor = "pointer";
+            titulo.style.userSelect = "none";
+            
+            console.log("✅ Easter egg listo. Haz 5 clics rápidos en el título.");
+            
+            titulo.addEventListener("click", function(e) {
+                easterEggClicks++;
+                console.log("Click " + easterEggClicks + "/5");
+                
+                clearTimeout(easterEggTimer);
+                easterEggTimer = setTimeout(() => {
+                    easterEggClicks = 0;
+                }, 800);
+                
+                if (easterEggClicks >= 5) {
+                    easterEggClicks = 0;
+                    activarEasterEgg();
+                }
+            });
+            
+            function activarEasterEgg() {
+                console.log("🎉 ¡EASTER EGG ACTIVADO!");
+                
+                const container = document.createElement("div");
+                container.className = "easter-egg-container";
+                
+                const content = document.createElement("div");
+                content.className = "easter-egg-content";
+                content.innerHTML = `
+                    <div class="easter-egg-emoji">✨</div>
+                    <div style="margin: 15px 0; font-size: 90px; animation: spin 2s linear infinite;">
+                        💻
+                    </div>
+                    <div style="font-size: 42px; margin-bottom: 15px;">HECHO POR</div>
+                    <div style="font-size: 72px; font-weight: 900; letter-spacing: 4px; margin: 15px 0;">
+                        IVÁN
+                    </div>
+                    <div style="font-size: 22px; margin-top: 15px; opacity: 0.95; letter-spacing: 1px;">
+                        🚀 SMR2 IES CHOMÓN 🚀
+                    </div>
+                    <div style="font-size: 18px; margin-top: 15px; opacity: 0.9;">
+                        Panel de Gestión PRO v2.0
+                    </div>
+                `;
+                
+                container.appendChild(content);
+                document.body.appendChild(container);
+                
+                setTimeout(() => content.classList.add("active"), 10);
+                
+                reproducirSonido();
+                
+                // Cerrar al hacer clic
+                content.addEventListener("click", () => {
+                    content.style.animation = "slideOutEasterEgg 0.4s ease-in forwards";
+                    setTimeout(() => container.remove(), 400);
+                });
+                
+                // Auto-cerrar a los 5s
+                setTimeout(() => {
+                    if (container.parentElement) {
+                        content.style.animation = "slideOutEasterEgg 0.4s ease-in forwards";
+                        setTimeout(() => container.remove(), 400);
+                    }
+                }, 5000);
+                
+                // Log opcional
+                if (typeof agregarLog === "function") {
+                    agregarLog("🎉 Easter egg: HECHO POR IVÁN", "success");
+                }
+            }
+            
+            function reproducirSonido() {
+                try {
+                    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                    const now = audioContext.currentTime;
+                    const gain = audioContext.createGain();
+                    
+                    const frecuencias = [523, 659, 784]; // Do-Mi-Sol
+                    frecuencias.forEach((freq, i) => {
+                        const osc = audioContext.createOscillator();
+                        osc.frequency.value = freq;
+                        osc.connect(gain);
+                        gain.connect(audioContext.destination);
+                        osc.start(now + i * 0.1);
+                        osc.stop(now + i * 0.1 + 0.2);
+                    });
+                    
+                    gain.gain.setValueAtTime(0.3, now);
+                    gain.gain.exponentialRampToValueAtTime(0.01, now + 0.6);
+                } catch (e) {
+                    console.log("Sonido no disponible:", e);
+                }
+            }
+        })();
     </script>
 </body>
 </html>
